@@ -1,5 +1,6 @@
 import React from "react";
 import { Button, Card, CardBody } from "react-bootstrap";
+import ImageRow from "./ImageRow";
 
 type DisplayCardProps = {
   title: string;
@@ -27,6 +28,7 @@ export default function DisplayCard(props: DisplayCardProps) {
           )}
         </div>
         <Card.Text className="text-pretty">{props.text}</Card.Text>
+        <ImageRow imageUrls={["https://picsum.photos/200", "https://picsum.photos/200", "https://picsum.photos/200", "https://picsum.photos/200"]}></ImageRow>
       </Card.Body>
     </Card>
   );

@@ -1,4 +1,4 @@
-import { assert } from "console";
+
 import OpenAI from "openai";
 
 export default class DalleHandle {
@@ -25,10 +25,9 @@ export default class DalleHandle {
     });
 
     const url = response.data[0]?.url;
-    
+
     if (!url) {
       alert("HOLY FUCK THE IMAGE GENERATION ISNT WORKING");
-      assert(false);
     }
 
     return url!;

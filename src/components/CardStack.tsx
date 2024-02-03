@@ -12,8 +12,6 @@ import DalleHandle from "~/util/DALLE";
 ////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////
 
-export interface CardStackProps {}
-
 interface CardData {
   title: string;
   text: string;
@@ -22,15 +20,20 @@ interface CardData {
 }
 
 const DEFAULT_CARD_DATA: CardData = {
-  title: "",
-  text: "",
+  title: "wdwaaws",
+  text: "dwswsadadwwwwww",
   imagePrompts: [],
   imageUrls: [],
 };
 
 function CardStack() {
   const [currentCard, setCurrentCard] = useState(0);
-  const [cardData, setCardData] = useState<CardData[]>([DEFAULT_CARD_DATA]);
+  const [cardData, setCardData] = useState<CardData[]>([
+    DEFAULT_CARD_DATA,
+    DEFAULT_CARD_DATA,
+    DEFAULT_CARD_DATA,
+    DEFAULT_CARD_DATA,
+  ]);
 
   function handleCardTextUpdate(newText: string, cardIndex: number) {
     assert(0 <= cardIndex && cardIndex < cardData.length);
@@ -90,7 +93,7 @@ function CardStack() {
   return (
     <div className="h-[90vh] w-screen flex-row">
       <div className="w-screen px-32 ">
-        <div className="border-1 my-4 h-[32rem] gap-3 overflow-y-auto rounded-md bg-slate-50 p-1"></div>
+        <div className="border-1 my-4 h-[32rem] flex flex-col gap-3 overflow-y-auto rounded-md bg-slate-50 p-1"></div>
         {cardData.map((data, i) => (
           <div key={i} onClick={(_) => setCurrentCard(i)}>
             <DisplayCard

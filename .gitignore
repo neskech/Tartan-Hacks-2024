@@ -40,3 +40,7 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
+
+# models
+src/util/theo_music/model2.pkl
+src/util/theo_music/model.pkl

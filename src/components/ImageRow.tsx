@@ -6,7 +6,7 @@ export interface ImageRowProps {
 
 function ImageRow(props: ImageRowProps) {
   return (
-    <div className="flex flex-row justify-between h-full w-full p-5">
+    <div className="flex flex-row justify-between h-full w-full p-1">
       {props.imageUrls.map((url, i) => (
         <ImageElement url={url} key={i} />
       ))}
@@ -19,7 +19,7 @@ interface ImageProps {
 }
 function ImageElement(props: ImageProps) {
   return (
-    <Image className="rounded-md h-full" src={props.url} alt={"Generated Image"} />
+    <Image className="rounded-md h-full" width={100} height={100} src={props.url} alt={"Generated Image"} />
   );
 }
 
