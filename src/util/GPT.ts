@@ -17,6 +17,8 @@ export default class GPTHandle {
     this.handle = new ChatOpenAI({
       openAIApiKey: env.NEXT_PUBLIC_OPENAI_API_KEY,
     });
+    this.handle.temperature = 0.7;
+    this.handle.maxTokens = 400
   }
 
   static get instance(): GPTHandle {
@@ -24,7 +26,9 @@ export default class GPTHandle {
     return this.instance_;
   }
 
-  async makeStoryBlock(history: StoryBlock[]): Promise<IterableReadableStream<string>> {
+  async makeStoryBlock(
+    history: StoryBlock[],
+  ): Promise<IterableReadableStream<string>> {
     const prompt = ChatPromptTemplate.fromMessages([
       [
         "system",
@@ -32,7 +36,7 @@ export default class GPTHandle {
          is seperated in chunks. Each chunk has some text and associated AI generated images
          for that chunk. Your task is to write the next chunk of the story, 
          given the previous chunks. Each previous chunk will include its respective
-         text and the prompts used to generate the images.`,
+         text and the prompts used to generate the images`,
       ],
       [
         "user",
@@ -41,7 +45,8 @@ export default class GPTHandle {
       [
         "user",
         `Use the history given to you to generate a new story section. 
-         Do NOT include image prompts`,
+         Do NOT include image prompts or the story block index. Keep your 
+         response brief please`,
       ],
     ]);
 
@@ -56,16 +61,18 @@ export default class GPTHandle {
 
   async makeImagePrompts(
     history: StoryBlock[],
-    current: StoryBlock
+    current: StoryBlock,
+    numImages: number,
+    previousPrompts: string[],
   ): Promise<string[]> {
     const prompt = ChatPromptTemplate.fromMessages([
       [
         "system",
         `You are helping a human write a story, where each part of the story 
          is seperated in chunks. Each chunk has some text and associated AI generated images
-         for that chunk. Your task is to write the next chunk of the story, 
-         given the previous chunks. Each previous chunk will include its respective
-         text and the prompts used to generate the images.`,
+         for that chunk. Your task is to make an image that captures the current chunk of the story.
+         You will do this by making a DALLE-2 image generation prompt so you can tell it exactly what
+         you want.`,
       ],
       [
         "user",
@@ -79,7 +86,11 @@ export default class GPTHandle {
       [
         "user",
         `Use the history given to you, along with the contents of the current story block,
-         to generate a DALLE-3 prompt to generate a relevant image`,
+         to generate a DALLE AI Image prompt to generate a relevant image. Please make this content
+         appropiate so that you do not get rejected by the DALLE-3 API, while still making
+         your prompt relevant to the story. DO NOT make meta references to the 'previous' or 'next' story blocks, 
+         as DALLE has no knowledge of your task here. Make sure the resulting image is not tiled up into
+         tinier images. Make your prompt CLEAR and most importantly CONCISE, as DALLE needs it.`,
       ],
     ]);
 
@@ -89,11 +100,10 @@ export default class GPTHandle {
     const historyText = makeStoryBlockString(history);
     const currentBlockText = makeStoryBlockString([current]);
 
-    const numImages = randomRange(0, 2);
     const imagePrompts: string[] = [];
 
     for (let i = 0; i < numImages; i++) {
-      const lastPrompts = imagePrompts.reduce((acc, curr, index) => {
+      const lastPrompts = (previousPrompts.concat(imagePrompts)).reduce((acc, curr, index) => {
         const header = `Image prompt #${index + 1} `;
         const newLine = index == imagePrompts.length - 1 ? "" : "\n";
         return acc + header + curr + newLine;
@@ -113,7 +123,7 @@ export default class GPTHandle {
 
   async makeMusicLMPrompt(
     history: StoryBlock[],
-    current: StoryBlock
+    current: StoryBlock,
   ): Promise<string> {
     const prompt = ChatPromptTemplate.fromMessages([
       [
@@ -146,7 +156,7 @@ export default class GPTHandle {
 
     return await chain.invoke({
       prevChunk: historyText,
-      currChunk: currentBlockText
+      currChunk: currentBlockText,
     });
   }
 }
@@ -164,7 +174,7 @@ function makeStoryBlockString(history: StoryBlock[]): string {
         const newLine = index == curr.imagePrompts.length - 1 ? "" : "\n";
         return acc + content + newLine;
       },
-      ""
+      "",
     );
 
     const story = storyHeader + newStory;
@@ -177,7 +187,7 @@ function makeStoryBlockString(history: StoryBlock[]): string {
   return historyText;
 }
 
-function randomRange(low: number, high: number): number {
+export function randomRange(low: number, high: number): number {
   const range = high - low;
   const rand = Math.random() * range + low;
   return Math.floor(rand);

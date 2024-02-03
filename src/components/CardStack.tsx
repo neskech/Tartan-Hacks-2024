@@ -1,10 +1,10 @@
 import { MouseEventHandler, useState } from "react";
 import DisplayCard from "./DisplayCard";
 import assert from "assert";
-import GPTHandle, { StoryBlock } from "~/util/GPT";
+import GPTHandle, { StoryBlock, randomRange } from "~/util/GPT";
 import DalleHandle from "~/util/DALLE";
 import { Button, Form } from "react-bootstrap";
-import { motion, AnimatePresence} from 'framer-motion';
+import { motion, AnimatePresence } from "framer-motion";
 
 ////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////
@@ -18,7 +18,7 @@ interface CardData {
   title: string;
   text: string;
   imagePrompts: string[];
-  imageUrls: string[];
+  imageUrls: string[] | number;
 }
 
 const DEFAULT_CARD_DATA: CardData = {
@@ -42,7 +42,7 @@ function CardStack() {
     assert(0 <= cardIndex && cardIndex < cardData.length);
     setCardData((data) =>
       data.map((d, i) => {
-        if (i != cardIndex) return d;
+        if (i != cardIndex) return JSON.parse(JSON.stringify(d)) as CardData;
         return {
           title: d.title,
           text: newText,
@@ -62,6 +62,23 @@ function CardStack() {
     const history = cardData.map(makeStoryBlock);
     if (isStreaming) return false;
     setIsStreaming(true);
+    const currentBlock = makeStoryBlock(cardData.at(-1)!);
+
+    /* allow images to play loading animation */
+    const numImages = randomRange(1, 4);
+    setCardData((data) =>
+      data.map((d, i) => {
+        if (i != cardIndex) return JSON.parse(JSON.stringify(d)) as CardData;
+
+        return {
+          title: d.title,
+          text: d.text,
+          imagePrompts: d.imagePrompts,
+          imageUrls: numImages,
+        };
+      }),
+    );
+
     const stream = await GPTHandle.instance.makeStoryBlock(history);
     let fullText = "";
     for await (const chunk of stream) {
@@ -69,40 +86,48 @@ function CardStack() {
       handleCardTextUpdate(fullText, cardIndex);
     }
 
-    const currentBlock = makeStoryBlock(cardData.at(-1)!);
+    const lastPrompts = cardData.flatMap((d) => d.imagePrompts);
     const imagePrompts = await GPTHandle.instance.makeImagePrompts(
       history,
       currentBlock,
+      numImages,
+      lastPrompts,
     );
+    console.log("prompts", imagePrompts);
 
     const imageUrls: string[] = [];
     for (const prompt of imagePrompts) {
+      console.log("prompt", prompt);
       const url = await DalleHandle.instance.generateImage(prompt);
       imageUrls.push(url);
+
+      setCardData((data) =>
+        data.map((d, i) => {
+          if (i != cardIndex) return JSON.parse(JSON.stringify(d)) as CardData;
+
+          return {
+            title: d.title,
+            text: fullText,
+            imagePrompts: imagePrompts,
+            imageUrls: imageUrls,
+          };
+        }),
+      );
+      setIsStreaming(false);
     }
-
-    setCardData((data) =>
-      data.map((d, i) => {
-        if (i != cardIndex) return d;
-
-        return {
-          title: d.title,
-          text: fullText,
-          imagePrompts: imagePrompts,
-          imageUrls: imageUrls,
-        };
-      }),
-    );
-    setIsStreaming(false);
   }
-  function makeBlankStoryBlock(e: Event, forceGPT = false): void {
+
+  async function makeBlankStoryBlock(
+    e: React.MouseEvent<HTMLButtonElement, MouseEvent>,
+    forceGPT = false,
+  ) {
     e.preventDefault();
     setCardData([
       ...cardData,
       { text: "", title: "", imageUrls: [], imagePrompts: [] },
     ]);
     if (forceGPT) {
-      handleGPTStreaming(cardData.length - 1);
+      await handleGPTStreaming(cardData.length - 1);
     }
   }
 
