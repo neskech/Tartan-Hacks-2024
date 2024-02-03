@@ -19,21 +19,19 @@ type DisplayCardProps = {
 
 export default function DisplayCard(props: DisplayCardProps) {
   useEffect(() => {
-    props.onTextChange(props.text)
-  }, [props.text])
+    props.onTextChange(props.text);
+  }, [props.text]);
 
   return (
     <div className="border-1 relative top-[0vh] m-8 h-fit rounded-[2rem] bg-gray-50 shadow-sm">
       <div className="flex flex-row p-4">
         <div>
           <p className="text-wrap p-3">{props.text}</p>
-          <ImageRow
-            imageUrls={[
-              "https://picsum.photos/200",
-              "https://picsum.photos/200",
-              "https://picsum.photos/200",
-            ]}
-          />
+          {typeof props.imageUrls == "number" ? (
+            <LoadingImageRow numImages={props.imageUrls} />
+          ) : (
+            <ImageRow imageUrls={props.imageUrls} />
+          )}
         </div>
         <div className="ml-auto flex flex-col border-l-2 pl-4">
           <Button
