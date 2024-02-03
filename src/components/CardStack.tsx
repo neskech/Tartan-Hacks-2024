@@ -4,6 +4,7 @@ import assert from "assert";
 import GPTHandle, { StoryBlock } from "~/util/GPT";
 import DalleHandle from "~/util/DALLE";
 import { Button, Form } from "react-bootstrap";
+import { motion, AnimatePresence} from 'framer-motion';
 
 ////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////
