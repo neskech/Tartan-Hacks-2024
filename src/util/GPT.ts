@@ -2,7 +2,7 @@ import { ChatOpenAI } from "@langchain/openai";
 import { ChatPromptTemplate } from "@langchain/core/prompts";
 import { StringOutputParser } from "@langchain/core/output_parsers";
 import { env } from "~/env";
-import { IterableReadableStream } from "node_modules/@langchain/core/dist/utils/stream";
+import { type IterableReadableStream } from "node_modules/@langchain/core/dist/utils/stream";
 
 export interface StoryBlock {
   text: string;
@@ -15,7 +15,7 @@ export default class GPTHandle {
 
   private constructor() {
     this.handle = new ChatOpenAI({
-      openAIApiKey: env.OPENAI_API_KEY,
+      openAIApiKey: env.NEXT_PUBLIC_OPENAI_API_KEY,
     });
   }
 
@@ -50,7 +50,7 @@ export default class GPTHandle {
     const historyText = makeStoryBlockString(history);
 
     return await chain.stream({
-      prevChunk: historyText,
+      prevChunks: historyText,
     });
   }
 
@@ -100,7 +100,7 @@ export default class GPTHandle {
       }, "");
 
       const prompt = await chain.invoke({
-        prevChunk: historyText,
+        prevChunks: historyText,
         currChunk: currentBlockText,
         prevPrompts: lastPrompts,
       });

@@ -21,8 +21,8 @@ interface CardData {
 }
 
 const DEFAULT_CARD_DATA: CardData = {
-  title: "wdwaaws",
-  text: "dwswsadadwwwwww",
+  title: "",
+  text: "",
   imagePrompts: [],
   imageUrls: [],
 };
@@ -102,7 +102,7 @@ function CardStack() {
       <div className="w-screen px-32 ">
         <div className="border-1 my-2 h-[80vh] flex flex-col gap-3 overflow-y-auto rounded-md bg-slate-50 p-1">
         {cardData.map((data, i) => (
-          <div key={i} onClick={(_) => setCurrentCard(i)}>
+          <div key={i} onClick={(_) => {alert(i); setCurrentCard(i)}}>
             <DisplayCard
               key={i}
               text={data.text}
