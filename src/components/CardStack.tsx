@@ -4,6 +4,7 @@ import assert from "assert";
 import GPTHandle, { StoryBlock } from "~/util/GPT";
 import DalleHandle from "~/util/DALLE";
 import { Button, Form } from "react-bootstrap";
+import { motion, AnimatePresence} from 'framer-motion';
 
 ////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////
@@ -105,21 +106,28 @@ function CardStack() {
     <div className="h-[92vh] w-screen flex-row m-0">
       <div className="w-screen px-32 ">
         <div className="border-1 my-2 h-[80vh] flex flex-col gap-3 overflow-y-auto rounded-md bg-slate-50 p-1">
-        {cardData.map((data, i) => (
-          <div key={i} onClick={(_) => setCurrentCard(i)}>
-            <DisplayCard
-              key={i}
-              text={data.text}
-              title={data.title}
-              isStreaming={isStreaming}
-              imageUrls={data.imageUrls}
-              isSelected={i == currentCard}
-              onDelete={() => onCardDelete(i)}
-              onTextChange={(t) => handleCardTextUpdate(t, i)}
-              onGPTGenerate={() => handleGPTStreaming(i)}
-            />
-          </div>
-        ))}
+        <AnimatePresence>
+          {cardData.map((data, i) => (
+            <motion.div key={i} onClick={(_) => setCurrentCard(i)} 
+              initial={{ scale: 0 }}
+              animate={{ scale: 1 }}
+              exit={{ opacity: 0, height: 0, scale: 0}}  
+              transition={{duration: 0.5}}
+            >
+              <DisplayCard
+                key={i}
+                text={data.text}
+                title={data.title}
+                isStreaming={isStreaming}
+                imageUrls={data.imageUrls}
+                isSelected={i == currentCard}
+                onDelete={() => onCardDelete(i)}
+                onTextChange={(t) => handleCardTextUpdate(t, i)}
+                onGPTGenerate={() => handleGPTStreaming(i)}
+              />
+            </motion.div>
+          ))}
+        </AnimatePresence>
         </div>
         <Form className="border-1 relative top-[0vh] rounded-md m-2">
           <Form.Group
