@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { MouseEventHandler, useState } from "react";
 import DisplayCard from "./DisplayCard";
 import assert from "assert";
 import GPTHandle, { StoryBlock } from "~/util/GPT";
@@ -90,9 +90,9 @@ function CardStack() {
       }),
     );
   }
-  function makeBlankStoryBlock(e, forceGPT = false): void {
+  function makeBlankStoryBlock(e:Event, forceGPT = false): void {
     e.preventDefault()
-    setCardData([...cardData, {text:"", imagePrompts:[]}])
+    setCardData([...cardData, {text:"", title:"",imageUrls:[], imagePrompts:[]}])
     if(forceGPT){
       handleGPTStreaming(cardData.length -1)
     }
