@@ -1,7 +1,7 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import NavDropdown from "react-bootstrap/NavDropdown";
 
 //stolen from bootstrap docs
 function DarkNavbar() {
@@ -21,7 +21,9 @@ function DarkNavbar() {
               <NavDropdown.Item href="#action/3.2">
                 Toggle Music
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Toggle Images</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">
+                Toggle Images
+              </NavDropdown.Item>
               <NavDropdown.Divider />
             </NavDropdown>
           </Nav>
