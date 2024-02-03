@@ -9,6 +9,12 @@ const inter = Inter({ subsets: ["latin"] });
 
 
 export default function Home() {
+  function submitTextHandler(e:SyntheticEvent) {
+    e.preventDefault()
+    updateTexts(oldarray => [...oldarray, {title:"title", text: text}])
+    document.getElementById("typing_box").value = ""
+
+  }
 // <<<<<<< HEAD
 
 //   const a = [
@@ -23,14 +29,7 @@ export default function Home() {
   
 //   const [texts, updateTexts] = useState(a) 
 
-//   function submitTextHandler(e:SyntheticEvent) {
-//     e.preventDefault()
-//     const text = document.getElementById("typing_box")?.value
-//     updateTexts(oldarray => [...oldarray, {title:"title", text: text}])
-//     console.log(texts, document.getElementById("typing_box"), text)
-//     document.getElementById("typing_box").value = ""
 
-//   }
 //   useEffect(()=>{
 //     let children = document.getElementById("scroller").children
 //     children[children.length -1]?.scrollIntoView()
@@ -64,6 +63,7 @@ export default function Home() {
     <main className={`${inter.className} truncate bg-gray-50 text-gray-950`}>
       <DarkNavbar></DarkNavbar>
       <CardStack />
+      
     </main>
 // >>>>>>> 59170d3e8c679b6ebb8ca91c9483aaec1591b40f
   );
