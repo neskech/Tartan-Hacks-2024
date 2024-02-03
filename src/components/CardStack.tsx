@@ -22,7 +22,7 @@ interface CardData {
 
 const DEFAULT_CARD_DATA: CardData = {
   title: "",
-  text: "",
+  text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur posuere, massa sed luctus volutpat, sem dui vehicula tellus, vel mollis diam enim a enim. In hac habitasse platea dictumst. Nulla nibh risus, mollis sit amet feugiat vitae, molestie commodo sapien. Mauris eget suscipit nulla, vel cursus diam. Aliquam et leo et nisl blandit fermentum quis ullamcorper quam. Morbi condimentum sit amet odio in commodo. In hac habitasse platea dictumst. Etiam cursus euismod urna, sit amet imperdiet eros vulputate a.",
   imagePrompts: [],
   imageUrls: [],
 };
@@ -58,8 +58,8 @@ function CardStack() {
 
   async function handleGPTStreaming(cardIndex: number) {
     const history = cardData.map(makeStoryBlock);
-    if(isStreaming) return false
-    setIsStreaming(true)
+    if (isStreaming) return false;
+    setIsStreaming(true);
     const stream = await GPTHandle.instance.makeStoryBlock(history);
     let fullText = "";
     for await (const chunk of stream) {
@@ -91,20 +91,21 @@ function CardStack() {
         };
       }),
     );
-    setIsStreaming(false)
-
+    setIsStreaming(false);
   }
-  function makeBlankStoryBlock(e:Event, forceGPT = false): void {
-    e.preventDefault()
-    setCardData([...cardData, {text:"", title:"",imageUrls:[], imagePrompts:[]}])
-    if(forceGPT){
-      handleGPTStreaming(cardData.length -1)
+  function makeBlankStoryBlock(e: Event, forceGPT = false): void {
+    e.preventDefault();
+    setCardData([
+      ...cardData,
+      { text: "", title: "", imageUrls: [], imagePrompts: [] },
+    ]);
+    if (forceGPT) {
+      handleGPTStreaming(cardData.length - 1);
     }
   }
   return (
-    <div className="h-[92vh] w-screen flex-row m-0">
-      <div className="w-screen px-32 ">
-        <div className="border-1 my-2 h-[80vh] flex flex-col gap-3 overflow-y-auto rounded-md bg-slate-50 p-1">
+    <div className="h-[92vh] w-screen flex-row px-32">
+      <div className="border-1 my-2 flex h-[80vh] flex-col gap-3 overflow-y-auto rounded-md bg-slate-50 p-1">
         {cardData.map((data, i) => (
           <div key={i} onClick={(_) => setCurrentCard(i)}>
             <DisplayCard
@@ -120,21 +121,27 @@ function CardStack() {
             />
           </div>
         ))}
-        </div>
-        <Form className="border-1 relative top-[0vh] rounded-md m-2">
-          <Form.Group
-            className="m-1"
-            controlId="exampleForm.ControlTextarea1"
-          >
-            <Button onClick={(e)=>makeBlankStoryBlock(e)} className="m-2" variant="primary" type="submit">
-              Create new typing block
-            </Button>
-            <Button onClick={(e)=>makeBlankStoryBlock(e, true)} className="m-2" variant="success" type="submit">
-              Create new gpt block
-            </Button>
-          </Form.Group>
-        </Form>
       </div>
+      <Form className="border-1 relative top-[0vh] rounded-md bg-slate-100">
+        <Form.Group className="m-1" controlId="exampleForm.ControlTextarea1">
+          <Button
+            onClick={(e) => makeBlankStoryBlock(e)}
+            className="m-2"
+            variant="primary"
+            type="submit"
+          >
+            Create new typing block
+          </Button>
+          <Button
+            onClick={(e) => makeBlankStoryBlock(e, true)}
+            className="m-2"
+            variant="success"
+            type="submit"
+          >
+            Create new gpt block
+          </Button>
+        </Form.Group>
+      </Form>
     </div>
   );
 }
