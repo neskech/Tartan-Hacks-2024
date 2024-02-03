@@ -1,28 +1,11 @@
-# Create T3 App
+#Vimplify
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+Vimplify is an app aiming to solve the problem of writers block by introducing seamless generative AI features to the writing process.  
 
-## What's next? How do I make an app with this?
+## Storyblocks 📜
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+We take a Storyblocks based approach where each segment of the story is broken into a block, which can be created by GPT-3.5 or can be written fully by the human editor.  For each block, we have options to edit manually, edit with GPT, and generate images with DALLE.  This gives users the ultimate tool in creativity where any block can be instantly overcome, and where GPT and DALLE can provide inspiration for further development of the story.  
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+## Music 🎵
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
-
-## Learn More
-
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
-
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
-
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
-
-## How do I deploy this?
-
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+We also developed an automatic music player, which uses your changes to the story to provide popular relevant music from Spotify.  We did this by training a Bayes Classifier on the text of a number of popular songs.  
