@@ -44,7 +44,7 @@ export default function Home() {
       <div className="w-screen px-32 ">
         <div className="border-1 p-1 my-4 h-[32rem] overflow-y-auto rounded-md bg-slate-50">
             {
-              texts.map((boxObj) => <React.Fragment><DisplayCard title={boxObj.title} text={boxObj.text} /><hr className="m-2"></hr></React.Fragment>)
+              texts.map((boxObj, i) => <React.Fragment><DisplayCard key={i} title={boxObj.title} text={boxObj.text} /><hr className="m-2"></hr></React.Fragment>)
             }
         </div>
         <Form onSubmit={submitTextHandler} className="border-1 relative top-[0vh] rounded-md p-2 m-2">

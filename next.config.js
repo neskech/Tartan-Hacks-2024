@@ -7,7 +7,16 @@ await import("./src/env.js");
 /** @type {import("next").NextConfig} */
 const config = {
   reactStrictMode: true,
-
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'picsum.photos',
+        port: '',
+        pathname: '/200',
+      },
+    ],
+  },
   /**
    * If you are using `appDir` then you must comment the below `i18n` config out.
    *
