@@ -41,7 +41,7 @@ function CardStack() {
     assert(0 <= cardIndex && cardIndex < cardData.length);
     setCardData((data) =>
       data.map((d, i) => {
-        if (i != cardIndex) return d;
+        if (i != cardIndex) return JSON.parse(JSON.stringify(d)) as CardData;
         return {
           title: d.title,
           text: newText,
@@ -58,15 +58,15 @@ function CardStack() {
 
   async function handleGPTStreaming(cardIndex: number) {
     const history = cardData.map(makeStoryBlock);
-    if(isStreaming) return false
-    setIsStreaming(true)
+    if (isStreaming) return false;
+    setIsStreaming(true);
     const currentBlock = makeStoryBlock(cardData.at(-1)!);
 
     /* allow images to play loading animation */
     const numImages = randomRange(1, 4);
     setCardData((data) =>
       data.map((d, i) => {
-        if (i != cardIndex) return d;
+        if (i != cardIndex) return JSON.parse(JSON.stringify(d)) as CardData;
 
         return {
           title: d.title,
@@ -84,20 +84,24 @@ function CardStack() {
       handleCardTextUpdate(fullText, cardIndex);
     }
 
+    const lastPrompts = cardData.flatMap((d) => d.imagePrompts);
     const imagePrompts = await GPTHandle.instance.makeImagePrompts(
       history,
       currentBlock,
       numImages,
+      lastPrompts,
     );
+    console.log("prompts", imagePrompts);
 
     const imageUrls: string[] = [];
     for (const prompt of imagePrompts) {
+      console.log("prompt", prompt);
       const url = await DalleHandle.instance.generateImage(prompt);
       imageUrls.push(url);
 
       setCardData((data) =>
         data.map((d, i) => {
-          if (i != cardIndex) return d;
+          if (i != cardIndex) return JSON.parse(JSON.stringify(d)) as CardData;
 
           return {
             title: d.title,
@@ -107,9 +111,8 @@ function CardStack() {
           };
         }),
       );
-      setIsStreaming(false)
-
-  }
+      setIsStreaming(false);
+    }
   }
 
   async function makeBlankStoryBlock(
@@ -136,7 +139,7 @@ function CardStack() {
                 text={data.text}
                 title={data.title}
                 isStreaming={isStreaming}
-              imageUrls={data.imageUrls}
+                imageUrls={data.imageUrls}
                 isSelected={i == currentCard}
                 onDelete={() => onCardDelete(i)}
                 onTextChange={(t) => handleCardTextUpdate(t, i)}

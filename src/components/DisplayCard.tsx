@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Button, Card, CardBody } from "react-bootstrap";
 import ImageRow from "./ImageRow";
 import LoadingImageRow from "./loadingImageRow";
@@ -15,6 +15,10 @@ type DisplayCardProps = {
 };
 
 export default function DisplayCard(props: DisplayCardProps) {
+  useEffect(() => {
+    props.onTextChange(props.text)
+  }, [props.text])
+
   return (
     <Card className="relative top-[0vh] rounded-md">
       <Card.Body>
