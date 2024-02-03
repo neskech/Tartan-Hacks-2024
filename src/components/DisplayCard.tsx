@@ -52,31 +52,3 @@ export default function DisplayCard(props: DisplayCardProps) {
     </div>
   );
 }
-// <Card className="relative top-[0vh] m-8 rounded-[2rem] shadow-sm hover:brightness-95">
-//   <Card.Body>
-//     <Card.Title>{props.title}</Card.Title>
-//     <div className="flex flex-row items-center justify-center">
-//       <Button className="mr-auto" onClick={(_) => props.onDelete()}>
-//         Delete
-//       </Button>
-
-//       {props.text.length === 0 && (
-
-//       )}
-//     </div>
-//     <Card.Text
-//       className="border-1 my-2 text-pretty rounded-md p-2"
-//       contentEditable={true}
-//     >
-//       {props.text}
-//     </Card.Text>
-//     <ImageRow
-//       imageUrls={[
-//         "https://picsum.photos/200",
-//         "https://picsum.photos/200",
-//         "https://picsum.photos/200",
-//         "https://picsum.photos/200",
-//       ]}
-//     ></ImageRow>
-//   </Card.Body>
-// </Card>
