@@ -12,7 +12,16 @@ export default function Home() {
     <main className={`${inter.className} bg-gray-50 text-gray-950`}>
       <div className={styles.homebody}>
         <div className={styles.center_div}>
-          <DisplayCard />
+          <div className={styles.cards_scroll}>
+            <DisplayCard />
+            <DisplayCard />
+            <DisplayCard />
+            <DisplayCard />
+            <DisplayCard />
+            <DisplayCard />
+            <DisplayCard />
+            <DisplayCard />
+          </div>
           <Form className={styles.form_style}>
             <Form.Group
               className="mb-3"
