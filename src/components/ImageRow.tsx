@@ -6,20 +6,18 @@ export interface ImageRowProps {
 
 function ImageRow(props: ImageRowProps) {
   return (
-    <div className="flex flex-row justify-between h-full w-full p-1">
+    <div className="flex h-full w-full flex-row justify-between p-1">
       {props.imageUrls.map((url, i) => (
-        <ImageElement url={url} key={i} />
+        <Image
+          key={i}
+          className="h-full rounded-md"
+          width={100}
+          height={100}
+          src={url}
+          alt={"Generated Image"}
+        />
       ))}
     </div>
-  );
-}
-
-interface ImageProps {
-  url: string;
-}
-function ImageElement(props: ImageProps) {
-  return (
-    <Image className="rounded-md h-full" width={100} height={100} src={props.url} alt={"Generated Image"} />
   );
 }
 

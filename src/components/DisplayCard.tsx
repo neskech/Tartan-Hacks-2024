@@ -1,10 +1,12 @@
 import React from "react";
 import { Button, Card, CardBody } from "react-bootstrap";
 import ImageRow from "./ImageRow";
+import LoadingImageRow from "./loadingImageRow";
 
 type DisplayCardProps = {
   title: string;
   text: string;
+  imageUrls: string[] | number;
   isSelected: boolean;
   isStreaming: boolean;
   onTextChange: (newText: string) => void;
@@ -34,3 +36,4 @@ export default function DisplayCard(props: DisplayCardProps) {
     </Card>
   );
 }
+
