@@ -1,4 +1,4 @@
-#Vimplify
+# Vimplify
 
 Vimplify is an app aiming to solve the problem of writers block by introducing seamless generative AI features to the writing process.  
 
