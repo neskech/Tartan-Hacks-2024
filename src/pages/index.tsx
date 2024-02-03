@@ -4,12 +4,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Inter } from "next/font/google";
 
 import DisplayCard from "~/components/DisplayCard";
+import DarkNavbar from "~/components/Header";
 
 const inter = Inter({ subsets: ["latin"] });
-
+//Form stolen from bootstrap docs
 export default function Home() {
   return (
     <main className={`${inter.className} bg-gray-50 text-gray-950`}>
+      <DarkNavbar></DarkNavbar>
       <div className={styles.homebody}>
         <div className={styles.center_div}>
           <div className={styles.cards_scroll}>
