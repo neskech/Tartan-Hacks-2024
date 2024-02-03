@@ -54,6 +54,7 @@ function CardStack() {
   }
 
   function onCardDelete(cardIndex: number) {
+    console.log(cardIndex);
     setCardData((data) => data.filter((_, i) => i != cardIndex));
   }
 
@@ -95,6 +96,8 @@ function CardStack() {
     setIsStreaming(false)
 
   }
+
+
   function makeBlankStoryBlock(e:Event, forceGPT = false): void {
     e.preventDefault()
     setCardData([...cardData, {text:"", title:"",imageUrls:[], imagePrompts:[]}])
@@ -102,6 +105,8 @@ function CardStack() {
       handleGPTStreaming(cardData.length -1)
     }
   }
+
+
   return (
     <div className="h-[92vh] w-screen flex-row m-0">
       <div className="w-screen px-32 ">
@@ -111,7 +116,7 @@ function CardStack() {
             <motion.div key={i} onClick={(_) => setCurrentCard(i)} 
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
-              exit={{ opacity: 0, height: 0, scale: 0}}  
+              exit={{ opacity: 0, scale: 0}}  
               transition={{duration: 0.5}}
             >
               <DisplayCard
