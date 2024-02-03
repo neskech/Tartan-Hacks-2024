@@ -95,11 +95,12 @@ function CardStack() {
       <div className="w-screen px-32 ">
         <div className="border-1 my-2 h-[90vh] flex flex-col gap-3 overflow-y-auto rounded-md bg-slate-50 p-1">
         {cardData.map((data, i) => (
-          <div key={i} onClick={(_) => {alert(i); setCurrentCard(i)}}>
+          <div key={i} onClick={(_) => setCurrentCard(i)}>
             <DisplayCard
               key={i}
               text={data.text}
               title={data.title}
+              imageUrls={data.imageUrls}
               isSelected={i == currentCard}
               onDelete={() => onCardDelete(i)}
               onTextChange={(t) => handleCardTextUpdate(t, i)}

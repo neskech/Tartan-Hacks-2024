@@ -1,4 +1,3 @@
-
 import OpenAI from "openai";
 
 export default class DalleHandle {
@@ -7,6 +6,7 @@ export default class DalleHandle {
 
   private constructor() {
     this.handle = new OpenAI({
+      dangerouslyAllowBrowser: true,
       apiKey: process.env.NEXT_PUBLIC_OPENAI_API_KEY,
     });
   }

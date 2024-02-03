@@ -1,10 +1,12 @@
 import React from "react";
 import { Button, Card, CardBody } from "react-bootstrap";
 import ImageRow from "./ImageRow";
+import LoadingImageRow from "./loadingImageRow";
 
 type DisplayCardProps = {
   title: string;
   text: string;
+  imageUrls: string[] | number;
   isSelected: boolean;
   onTextChange: (newText: string) => void;
   onGPTGenerate: () => void;
@@ -28,8 +30,10 @@ export default function DisplayCard(props: DisplayCardProps) {
           )}
         </div>
         <Card.Text className="text-pretty">{props.text}</Card.Text>
-        <ImageRow imageUrls={["https://picsum.photos/200", "https://picsum.photos/200", "https://picsum.photos/200", "https://picsum.photos/200"]}></ImageRow>
+        { typeof props.imageUrls == 'number' ? 
+          }
       </Card.Body>
     </Card>
   );
 }
+
