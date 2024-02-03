@@ -7,19 +7,19 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-  <body className={`${inter.className}`}>
-  <div className={styles.homebody}>
-    <div className={styles.padding}></div>
-    <div className={styles.center_div}>
-    <Form>
-      <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-        <Form.Label>Example textarea</Form.Label>
-        <Form.Control as="textarea" rows={3} />
-      </Form.Group>
-    </Form>
+  <main className = {inter.className}>
+    <div className={styles.homebody}>
+      <div className={styles.padding}></div>
+      <div className={styles.center_div}>
+      <Form>
+        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+          <Form.Label>Example textarea</Form.Label>
+          <Form.Control as="textarea" rows={3} />
+        </Form.Group>
+      </Form>
+      </div>
+      <div className={styles.padding}></div>
     </div>
-    <div className={styles.padding}></div>
-  </div>
-  </body>
+  </main>
   )
 }
