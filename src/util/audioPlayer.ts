@@ -53,7 +53,7 @@ export default class AudioPlayer {
     await this.setAudio(audioBuf);
   }
 
-  stopAudio() {
+  stopAudio() { 
     if (this.currentAudio.isNone()) return;
 
     this.source.stop();

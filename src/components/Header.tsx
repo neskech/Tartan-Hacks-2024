@@ -1,12 +1,12 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import NavDropdown from "react-bootstrap/NavDropdown";
 
 //stolen from bootstrap docs
 function DarkNavbar() {
   return (
-    <Navbar variant="dark" bg="dark" expand="lg">
+    <Navbar  variant="dark" bg="dark" expand="lg">
       <Container fluid>
         <Navbar.Brand href="#home">Vimplify</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbar-dark-example" />
@@ -21,7 +21,9 @@ function DarkNavbar() {
               <NavDropdown.Item href="#action/3.2">
                 Toggle Music
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Toggle Images</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">
+                Toggle Images
+              </NavDropdown.Item>
               <NavDropdown.Divider />
             </NavDropdown>
           </Nav>

@@ -2,6 +2,7 @@ import { ChatOpenAI } from "@langchain/openai";
 import { ChatPromptTemplate } from "@langchain/core/prompts";
 import { StringOutputParser } from "@langchain/core/output_parsers";
 import { env } from "~/env";
+import { IterableReadableStream } from "node_modules/@langchain/core/dist/utils/stream";
 
 export interface StoryBlock {
   text: string;
@@ -23,7 +24,7 @@ export default class GPTHandle {
     return this.instance_;
   }
 
-  async makeStoryBlock(history: StoryBlock[]): Promise<string> {
+  async makeStoryBlock(history: StoryBlock[]): Promise<IterableReadableStream<string>> {
     const prompt = ChatPromptTemplate.fromMessages([
       [
         "system",
@@ -48,7 +49,7 @@ export default class GPTHandle {
     const chain = prompt.pipe(this.handle).pipe(parser);
     const historyText = makeStoryBlockString(history);
 
-    return await chain.invoke({
+    return await chain.stream({
       prevChunk: historyText,
     });
   }

@@ -1,18 +1,33 @@
 import React from "react";
-import { Card, CardBody } from "react-bootstrap";
+import { Button, Card, CardBody } from "react-bootstrap";
 import ImageRow from "./ImageRow";
 
 type DisplayCardProps = {
   title: string;
   text: string;
+  isSelected: boolean;
+  onTextChange: (newText: string) => void;
+  onGPTGenerate: () => void;
+  onDelete: () => void;
 };
 
-export default function DisplayCard({ title, text }: DisplayCardProps) {
+export default function DisplayCard(props: DisplayCardProps) {
   return (
-    <Card className="border-10 relative top-[0vh] rounded-md">
+    <Card className="relative top-[0vh] rounded-md">
       <Card.Body>
-        <Card.Title>{title}</Card.Title>
-        <Card.Text className="text-pretty">{text}</Card.Text>
+        <Card.Title>{props.title}</Card.Title>
+        <div className="flex flex-row items-center justify-center">
+          <Button className="mr-auto" onClick={(_) => props.onDelete()}>
+            Delete
+          </Button>
+
+          {props.text.length === 0 && (
+            <Button className="mr-auto" onClick={(_) => props.onGPTGenerate()}>
+              AI Fill
+            </Button>
+          )}
+        </div>
+        <Card.Text className="text-pretty">{props.text}</Card.Text>
         <ImageRow imageUrls={["https://picsum.photos/200", "https://picsum.photos/200", "https://picsum.photos/200", "https://picsum.photos/200"]}></ImageRow>
       </Card.Body>
     </Card>
