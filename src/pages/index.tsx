@@ -9,17 +9,15 @@ export default function Home() {
   return (
   <main className = {inter.className}>
     <div className={styles.homebody}>
-      <div className={styles.padding}></div>
-      <div className={styles.center_div}>
-      <Form>
+      <div className = {styles.center_div}>
+      <Form className={styles.form_style}>
         <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
           <Form.Label>Example textarea</Form.Label>
           <Form.Control as="textarea" rows={3} />
         </Form.Group>
       </Form>
       </div>
-      <div className={styles.padding}></div>
-    </div>
+      </div>
   </main>
   )
 }
