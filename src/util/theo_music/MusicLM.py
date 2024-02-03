@@ -59,6 +59,7 @@ class Music:
                 return 400
         
         tracks = []
+        print(response.json().items())
         for sound in response.json()['sounds']:
             tracks.append(sound["data"])
 
@@ -89,18 +90,18 @@ class Music:
             driver.get(self.url)
 
             try:
-                WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.XPATH, "//button[contains(@class, 'evTGAR')]"))).click()
+                WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.XPATH, "//button[contains(@class, 'flZxGK')]"))).click()
 
-                WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.XPATH, "//button[contains(@class, 'lgEhqE')]"))).click()
+                WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.XPATH, "//button[contains(@class, 'dBQcPK')]"))).click()
 
-                driver.switch_to.window(driver.window_handles[1])
+                # driver.switch_to.window(driver.window_handles[1])
 
                 logging.info('Logging in...')
                 WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.NAME, 'identifier'))).send_keys(f'{self.email}\n')
                 WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.NAME, 'Passwd'))).send_keys(f'{self.password}\n')
                 logging.info('Successfully logged in')
 
-                driver.switch_to.window(driver.window_handles[0])
+                # driver.switch_to.window(driver.window_handles[0])
 
             except Exception as e:
                 logging.ERROR("An error occurred while interacting with the webpage, details: " + str(e))
@@ -108,7 +109,9 @@ class Music:
 
             sleep(5)
             logging.info('Getting OAuth 2.0 token')
+
             cookies = driver.get_cookies()
+            # print(cookies)
 
         except Exception as e:
             logging.ERROR("An error occurred while fetching the token, details: " + str(e))
@@ -117,16 +120,20 @@ class Music:
         finally:
             driver.quit()
 
-        token_cookie = next((cookie['value'] for cookie in cookies if cookie['name'] == 'TOKEN'), None)
+        # for cookie in cookies:
+        #     print(cookie['name'], cookie['value'], "\n")
+        token_cookie = next((cookie['value'] for cookie in cookies if cookie['name'] == '__Secure-next-auth.session-token'), None)
 
         if token_cookie is None:
             raise Exception("Unable to obtain token")
 
-        start_sub = "ya29"
-        end_sub = "%22"
-        start_idx = token_cookie.index(start_sub)
-        end_idx = token_cookie.index(end_sub, start_idx)
-        token = token_cookie[start_idx:end_idx]
+
+        print(token_cookie)
+        # start_sub = "ya29"
+        # end_sub = "%22"
+        # start_idx = token_cookie.index(start_sub)
+        # end_idx = token_cookie.index(end_sub, start_idx)
+        token = token_cookie
 
         dotenv.set_key(dotenv_file, "TOKEN", str(token))
         os.environ["TOKEN"] = str(token)

@@ -8,10 +8,10 @@ type DisplayCardProps = {
 
 export default function DisplayCard({ title, text }: DisplayCardProps) {
   return (
-    <Card>
+    <Card className="border-10 relative top-[0vh] rounded-md">
       <Card.Body>
         <Card.Title>{title}</Card.Title>
-        <Card.Text>{text}</Card.Text>
+        <Card.Text className="text-pretty">{text}</Card.Text>
       </Card.Body>
     </Card>
   );

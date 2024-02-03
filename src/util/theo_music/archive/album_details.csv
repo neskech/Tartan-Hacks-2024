@@ -1,0 +1,1820 @@
+,id,singer_name,name,type,year
+0,5765,Taylor Swift Lyrics,Taylor Swift,album,2006
+1,6432,Taylor Swift Lyrics,Sounds Of The Season: The Taylor Swift Holiday Collection,EP,2007
+2,6995,Taylor Swift Lyrics,Fearless,album,2008
+3,10358,Taylor Swift Lyrics,Speak Now,album,2010
+4,24353,Taylor Swift Lyrics,Red,album,2012
+5,33536,Taylor Swift Lyrics,1989,album,2014
+6,49737,Taylor Swift Lyrics,Reputation,album,2017
+7,69712,Taylor Swift Lyrics,Lover,album,2019
+8,,Taylor Swift Lyrics,other songs:,other songs,Not Defined
+9,28016,Ariana Grande Lyrics,Yours Truly,album,2013
+10,30692,Ariana Grande Lyrics,Christmas Kisses,EP,2013
+11,32955,Ariana Grande Lyrics,My Everything,album,2014
+12,40574,Ariana Grande Lyrics,Christmas & Chill,EP,2015
+13,38799,Ariana Grande Lyrics,Dangerous Woman,album,2016
+14,56921,Ariana Grande Lyrics,Sweetener,album,2018
+15,64292,Ariana Grande Lyrics,"thank u, next",album,2019
+16,,Ariana Grande Lyrics,other songs:,other songs,Not Defined
+17,3061,Nelly Furtado Lyrics,Whoa Nelly!,album,2000
+18,3191,Nelly Furtado Lyrics,Folklore,album,2003
+19,5487,Nelly Furtado Lyrics,Loose,album,2006
+20,7913,Nelly Furtado Lyrics,Mi Plan,album,2009
+21,22062,Nelly Furtado Lyrics,The Spirit Indestructible,album,2012
+22,44347,Nelly Furtado Lyrics,The Ride,album,2017
+23,,Nelly Furtado Lyrics,other songs:,other songs,Not Defined
+24,33120,Shawn Mendes Lyrics,Shawn Mendes,EP,2014
+25,36491,Shawn Mendes Lyrics,Handwritten,album,2015
+26,43504,Shawn Mendes Lyrics,Illuminate,album,2016
+27,56754,Shawn Mendes Lyrics,Shawn Mendes,album,2018
+28,64386,Shawn Mendes Lyrics,The Album (Remixes),single,2018
+29,,Shawn Mendes Lyrics,other songs:,other songs,Not Defined
+30,3326,Westlife Lyrics,Westlife,album,1999
+31,3622,Westlife Lyrics,Coast To Coast,album,2000
+32,2098,Westlife Lyrics,World Of Our Own,album,2001
+33,2097,Westlife Lyrics,Unbreakable V.1: The Greatest Hits,album,2002
+34,3187,Westlife Lyrics,Turnaround,album,2003
+35,4226,Westlife Lyrics,Allow Us To Be Frank,album,2004
+36,5033,Westlife Lyrics,Face To Face,album,2005
+37,5748,Westlife Lyrics,The Love Album,album,2006
+38,6403,Westlife Lyrics,Back Home,album,2007
+39,8531,Westlife Lyrics,Where We Are,album,2009
+40,10839,Westlife Lyrics,Gravity,album,2010
+41,70392,Westlife Lyrics,Spectrum,album,2019
+42,,Westlife Lyrics,other songs:,other songs,Not Defined
+43,11077,Frank Sinatra Lyrics,The Voice Of Frank Sinatra,album,1946
+44,11079,Frank Sinatra Lyrics,Frankly Sentimental,album,1949
+45,11078,Frank Sinatra Lyrics,Songs By Sinatra,album,1950
+46,11080,Frank Sinatra Lyrics,Swing And Dance With Frank Sinatra,album,1950
+47,11081,Frank Sinatra Lyrics,Songs For Young Lovers,album,1954
+48,11082,Frank Sinatra Lyrics,Swing Easy!,album,1954
+49,11067,Frank Sinatra Lyrics,In The Wee Small Hours,album,1955
+50,11083,Frank Sinatra Lyrics,Songs For Swingin' Lovers!,album,1956
+51,11084,Frank Sinatra Lyrics,Close To You,album,1957
+52,11085,Frank Sinatra Lyrics,A Swingin' Affair!,album,1957
+53,11086,Frank Sinatra Lyrics,Where Are You?,album,1957
+54,11087,Frank Sinatra Lyrics,Come Fly With Me,album,1958
+55,11066,Frank Sinatra Lyrics,Frank Sinatra Sings For Only The Lonely,album,1958
+56,11088,Frank Sinatra Lyrics,Come Dance With Me!,album,1959
+57,27158,Frank Sinatra Lyrics,Look To Your Heart,compilation,1959
+58,11089,Frank Sinatra Lyrics,No One Cares,album,1959
+59,11090,Frank Sinatra Lyrics,Nice 'n' Easy,album,1960
+60,11091,Frank Sinatra Lyrics,Sinatra's Swingin' Session!!!,album,1961
+61,11092,Frank Sinatra Lyrics,Come Swing With Me!,album,1961
+62,11093,Frank Sinatra Lyrics,Point Of No Return,album,1962
+63,11065,Frank Sinatra Lyrics,The Complete Reprise Studio Recordings - Disc 01,compilation,1995
+64,11064,Frank Sinatra Lyrics,The Complete Reprise Studio Recordings - Disc 02,compilation,1995
+65,11063,Frank Sinatra Lyrics,The Complete Reprise Studio Recordings - Disc 03,compilation,1995
+66,11062,Frank Sinatra Lyrics,The Complete Reprise Studio Recordings - Disc 04,compilation,1995
+67,11061,Frank Sinatra Lyrics,The Complete Reprise Studio Recordings - Disc 05,compilation,1995
+68,11060,Frank Sinatra Lyrics,The Complete Reprise Studio Recordings - Disc 06,compilation,1995
+69,11059,Frank Sinatra Lyrics,The Complete Reprise Studio Recordings - Disc 07,compilation,1995
+70,11058,Frank Sinatra Lyrics,The Complete Reprise Studio Recordings - Disc 08,compilation,1995
+71,11057,Frank Sinatra Lyrics,The Complete Reprise Studio Recordings - Disc 09,compilation,1995
+72,11056,Frank Sinatra Lyrics,The Complete Reprise Studio Recordings - Disc 10,compilation,1995
+73,11055,Frank Sinatra Lyrics,The Complete Reprise Studio Recordings - Disc 11,compilation,1995
+74,11054,Frank Sinatra Lyrics,The Complete Reprise Studio Recordings - Disc 12,compilation,1995
+75,11053,Frank Sinatra Lyrics,The Complete Reprise Studio Recordings - Disc 13,compilation,1995
+76,11052,Frank Sinatra Lyrics,The Complete Reprise Studio Recordings - Disc 14,compilation,1995
+77,11051,Frank Sinatra Lyrics,The Complete Reprise Studio Recordings - Disc 15,compilation,1995
+78,11050,Frank Sinatra Lyrics,The Complete Reprise Studio Recordings - Disc 16,compilation,1995
+79,11049,Frank Sinatra Lyrics,The Complete Reprise Studio Recordings - Disc 17,compilation,1995
+80,11048,Frank Sinatra Lyrics,The Complete Reprise Studio Recordings - Disc 18,compilation,1995
+81,11047,Frank Sinatra Lyrics,The Complete Reprise Studio Recordings - Disc 19,compilation,1995
+82,11046,Frank Sinatra Lyrics,The Complete Reprise Studio Recordings - Disc 20,compilation,1995
+83,11045,Frank Sinatra Lyrics,Christmas With The Rat Pack,compilation,2002
+84,11044,Frank Sinatra Lyrics,Romance: Songs From The Heart,compilation,2007
+85,,Frank Sinatra Lyrics,other songs:,other songs,Not Defined
+86,2756,Britney Spears Lyrics,...Baby One More Time,album,1999
+87,2758,Britney Spears Lyrics,Oops! ...I Did It Again,album,2000
+88,2757,Britney Spears Lyrics,Britney,album,2001
+89,3138,Britney Spears Lyrics,In The Zone,album,2003
+90,5045,Britney Spears Lyrics,Someday (I Will Understand),EP,2005
+91,5043,Britney Spears Lyrics,B In The Mix: The Remixes,album,2005
+92,6380,Britney Spears Lyrics,Blackout,album,2007
+93,6994,Britney Spears Lyrics,Circus,album,2008
+94,13506,Britney Spears Lyrics,Femme Fatale,album,2011
+95,18850,Britney Spears Lyrics,B In The Mix: The Remixes Vol. 2,album,2011
+96,29667,Britney Spears Lyrics,Britney Jean,album,2013
+97,43810,Britney Spears Lyrics,Glory,album,2016
+98,,Britney Spears Lyrics,other songs:,other songs,Not Defined
+99,2771,Justin Timberlake Lyrics,Justified,album,2002
+100,5633,Justin Timberlake Lyrics,FutureSex / LoveSounds,album,2006
+101,25822,Justin Timberlake Lyrics,The 20/20 Experience,album,2013
+102,28020,Justin Timberlake Lyrics,The 20/20 Experience: 2 Of 2,album,2013
+103,52515,Justin Timberlake Lyrics,Man Of The Woods,album,2018
+104,,Justin Timberlake Lyrics,other songs:,other songs,Not Defined
+105,597,Eminem Lyrics,Infinite,album,1996
+106,598,Eminem Lyrics,Slim Shady EP,EP,1998
+107,599,Eminem Lyrics,Slim Shady LP,album,1999
+108,601,Eminem Lyrics,The Marshall Mathers LP,album,2000
+109,600,Eminem Lyrics,The Eminem Show,album,2002
+110,3238,Eminem Lyrics,Straight From The Lab,EP,2003
+111,4129,Eminem Lyrics,Encore,album,2004
+112,5130,Eminem Lyrics,Curtain Call: The Hits,compilation,2005
+113,5830,Eminem Lyrics,Eminem Presents The Re-Up,compilation,2006
+114,7459,Eminem Lyrics,Relapse,album,2009
+115,8565,Eminem Lyrics,Relapse: Refill,album,2009
+116,9842,Eminem Lyrics,Recovery,album,2010
+117,14630,Eminem Lyrics,Straight From The Vault,EP,2011
+118,28687,Eminem Lyrics,The Marshall Mathers LP 2,album,2013
+119,34630,Eminem Lyrics,Shady XV,compilation,2014
+120,51275,Eminem Lyrics,Revival,album,2017
+121,60787,Eminem Lyrics,Kamikaze,album,2018
+122,77767,Eminem Lyrics,Music To Be Murdered By,album,2020
+123,,Eminem Lyrics,other songs:,other songs,Not Defined
+124,19734,Linkin Park Lyrics,Xero,demo,1997
+125,1037,Linkin Park Lyrics,Hybrid Theory,EP,1999
+126,49311,Linkin Park Lyrics,Hybrid Theory 8-Track Demo,demo,1999
+127,1036,Linkin Park Lyrics,Hybrid Theory,album,2000
+128,1040,Linkin Park Lyrics,Reanimation,album,2002
+129,1038,Linkin Park Lyrics,Meteora,album,2003
+130,4235,Linkin Park Lyrics,Collision Course,EP,2004
+131,6065,Linkin Park Lyrics,Minutes To Midnight,album,2007
+132,19782,Linkin Park Lyrics,Underground 8 (MMM...COOKIES: Sweet Hamster Like Jewels From America!),EP,2008
+133,19783,Linkin Park Lyrics,Underground 9: Demos,demo,2009
+134,25615,Linkin Park Lyrics,A Decade Underground,compilation,2010
+135,10223,Linkin Park Lyrics,A Thousand Suns,album,2010
+136,19784,Linkin Park Lyrics,Underground X: Demos,demo,2010
+137,19781,Linkin Park Lyrics,Underground Eleven,demo,2011
+138,22928,Linkin Park Lyrics,Living Things,album,2012
+139,25375,Linkin Park Lyrics,LP Underground 12.0,demo,2012
+140,40499,Linkin Park Lyrics,Recharged,remix album,2013
+141,30061,Linkin Park Lyrics,LP Underground XIII,demo,2013
+142,31977,Linkin Park Lyrics,The Hunting Party,album,2014
+143,40125,Linkin Park Lyrics,LP Underground XIV,demo,2014
+144,35603,Linkin Park Lyrics,Mall,soundtrack,2014
+145,40403,Linkin Park Lyrics,LP Underground 15,demo,2015
+146,46155,Linkin Park Lyrics,Underground Sixteen,EP,2016
+147,46422,Linkin Park Lyrics,One More Light,album,2017
+148,,Linkin Park Lyrics,other songs:,other songs,Not Defined
+149,4237,John Legend Lyrics,Get Lifted,album,2004
+150,5770,John Legend Lyrics,Once Again,album,2006
+151,7012,John Legend Lyrics,Evolver,album,2008
+152,10395,John Legend Lyrics,Wake Up!,album,2010
+153,26692,John Legend Lyrics,Love In The Future,album,2013
+154,44732,John Legend Lyrics,Darkness And Light,album,2016
+155,62021,John Legend Lyrics,A Legendary Christmas,album,2018
+156,,John Legend Lyrics,other songs:,other songs,Not Defined
+157,30189,Johnny Cash Lyrics,With His Hot And Blue Guitar,album,1957
+158,30088,Johnny Cash Lyrics,The Fabulous Johnny Cash,album,1959
+159,30089,Johnny Cash Lyrics,Greatest!,album,1959
+160,30090,Johnny Cash Lyrics,Hymns By Johnny Cash,album,1959
+161,30091,Johnny Cash Lyrics,Songs Of Our Soil,album,1959
+162,30093,Johnny Cash Lyrics,Ride This Train,album,1960
+163,30094,Johnny Cash Lyrics,"Now, There Was A Song!",album,1960
+164,30095,Johnny Cash Lyrics,Now Here's Johnny Cash,album,1961
+165,30097,Johnny Cash Lyrics,Hymns From The Heart,album,1962
+166,30098,Johnny Cash Lyrics,The Sound Of Johnny Cash,album,1962
+167,30100,Johnny Cash Lyrics,"Blood, Sweat And Tears",album,1963
+168,30102,Johnny Cash Lyrics,The Christmas Spirit,album,1963
+169,30104,Johnny Cash Lyrics,Bitter Tears: Ballads Of The American Indian,album,1964
+170,30111,Johnny Cash Lyrics,Orange Blossom Special,album,1965
+171,30112,Johnny Cash Lyrics,Sings The Ballads Of The True West,album,1965
+172,30114,Johnny Cash Lyrics,Everybody Loves A Nut,album,1966
+173,30115,Johnny Cash Lyrics,Happiness Is You,album,1966
+174,30116,Johnny Cash Lyrics,Carryin' On With Johnny Cash And June Carter,album,1967
+175,30117,Johnny Cash Lyrics,From Sea To Shining Sea,album,1968
+176,30121,Johnny Cash Lyrics,The Holy Land,album,1969
+177,30123,Johnny Cash Lyrics,At San Quentin,album,1969
+178,30124,Johnny Cash Lyrics,More Of Old Golden Throat,album,1969
+179,30125,Johnny Cash Lyrics,"Hello, I'm Johnny Cash",album,1969
+180,30127,Johnny Cash Lyrics,I Walk The Line,soundtrack,1970
+181,30129,Johnny Cash Lyrics,Man In Black,album,1971
+182,30130,Johnny Cash Lyrics,America: A 200-Year Salute In Story And Song,album,1972
+183,30131,Johnny Cash Lyrics,Johnny Cash Family Christmas,album,1972
+184,30133,Johnny Cash Lyrics,PÃ¥ ÃsterÃ¥ker,album,1973
+185,30134,Johnny Cash Lyrics,Any Old Wind That Blows,album,1973
+186,30138,Johnny Cash Lyrics,Johnny Cash And His Woman,album,1973
+187,30139,Johnny Cash Lyrics,Ragged Old Flag,album,1974
+188,75923,Johnny Cash Lyrics,The Junkie And The Juicehead Minus Me,album,1974
+189,30140,Johnny Cash Lyrics,John R. Cash,album,1975
+190,30141,Johnny Cash Lyrics,Look At Them Beans,album,1975
+191,30142,Johnny Cash Lyrics,Sings Precious Memories,album,1975
+192,30143,Johnny Cash Lyrics,The Johnny Cash Children's Album,album,1975
+193,30145,Johnny Cash Lyrics,One Piece At A Time,album,1976
+194,30146,Johnny Cash Lyrics,The Last Gunfighter Ballad,album,1977
+195,30147,Johnny Cash Lyrics,The Rambler,album,1977
+196,30148,Johnny Cash Lyrics,I Would Like To See You Again,album,1978
+197,30149,Johnny Cash Lyrics,Gone Girl,album,1978
+198,30151,Johnny Cash Lyrics,Johnny & June,album,1978
+199,30152,Johnny Cash Lyrics,Silver,album,1979
+200,30153,Johnny Cash Lyrics,A Believer Sings The Truth,album,1979
+201,30154,Johnny Cash Lyrics,Rockabilly Blues,album,1980
+202,30155,Johnny Cash Lyrics,Classic Christmas,album,1980
+203,30156,Johnny Cash Lyrics,The Baron,album,1981
+204,30157,Johnny Cash Lyrics,The Survivors,album,1982
+205,30163,Johnny Cash Lyrics,The Adventures Of Johnny Cash,album,1982
+206,30167,Johnny Cash Lyrics,Johnny 99,album,1983
+207,30169,Johnny Cash Lyrics,Rainbow,album,1985
+208,30170,Johnny Cash Lyrics,Believe In Him,album,1986
+209,30171,Johnny Cash Lyrics,Heroes,album,1986
+210,30173,Johnny Cash Lyrics,Johnny Cash Is Coming To Town,album,1987
+211,30174,Johnny Cash Lyrics,Water From The Wells Of Home,album,1988
+212,30175,Johnny Cash Lyrics,Boom Chicka Boom,album,1990
+213,30177,Johnny Cash Lyrics,The Mystery Of Life,album,1991
+214,3174,Johnny Cash Lyrics,American Recordings,album,1994
+215,3176,Johnny Cash Lyrics,Unchained,album,1996
+216,3172,Johnny Cash Lyrics,American 3: Solitary Man,album,2002
+217,3173,Johnny Cash Lyrics,American IV: The Man Comes Around,album,2002
+218,5547,Johnny Cash Lyrics,American V: A Hundred Highways,album,2006
+219,9431,Johnny Cash Lyrics,American VI: Ain't No Grave,album,2010
+220,31109,Johnny Cash Lyrics,Out Among The Stars,album,2014
+221,,Johnny Cash Lyrics,other songs:,other songs,Not Defined
+222,10471,Bob Marley (Bob Marley & The Wailers) Lyrics,Catch A Fire,album,1973
+223,10472,Bob Marley (Bob Marley & The Wailers) Lyrics,Burnin',album,1973
+224,10473,Bob Marley (Bob Marley & The Wailers) Lyrics,Natty Dread,album,1974
+225,10475,Bob Marley (Bob Marley & The Wailers) Lyrics,Rastaman Vibration,album,1976
+226,10476,Bob Marley (Bob Marley & The Wailers) Lyrics,Exodus,album,1977
+227,10477,Bob Marley (Bob Marley & The Wailers) Lyrics,Kaya,album,1978
+228,10479,Bob Marley (Bob Marley & The Wailers) Lyrics,Survival,album,1979
+229,10480,Bob Marley (Bob Marley & The Wailers) Lyrics,Uprising,album,1980
+230,40438,Bob Marley (Bob Marley & The Wailers) Lyrics,Chances Are,compilation,1981
+231,10481,Bob Marley (Bob Marley & The Wailers) Lyrics,Confrontation,album,1983
+232,58803,Bob Marley (Bob Marley & The Wailers) Lyrics,There She Goes,compilation,1986
+233,10485,Bob Marley (Bob Marley & The Wailers) Lyrics,Natural Mystic: The Legend Lives On,compilation,1995
+234,,Bob Marley (Bob Marley & The Wailers) Lyrics,other songs:,other songs,Not Defined
+235,11178,John Lennon Lyrics,John Lennon / Plastic Ono Band,album,1970
+236,11177,John Lennon Lyrics,Imagine,album,1971
+237,11176,John Lennon Lyrics,Some Time In New York City,album,1972
+238,11175,John Lennon Lyrics,Mind Games,album,1973
+239,11174,John Lennon Lyrics,Walls And Bridges,album,1974
+240,11173,John Lennon Lyrics,Rock 'N' Roll,album,1975
+241,11172,John Lennon Lyrics,Shaved Fish,compilation,1975
+242,11171,John Lennon Lyrics,Double Fantasy,album,1980
+243,11179,John Lennon Lyrics,Milk And Honey,album,1984
+244,11170,John Lennon Lyrics,Live In New York City,album,1986
+245,11169,John Lennon Lyrics,Imagine: John Lennon,soundtrack,1988
+246,,John Lennon Lyrics,other songs:,other songs,Not Defined
+247,2366,Bob Dylan Lyrics,Bob Dylan,album,1962
+248,2388,Bob Dylan Lyrics,The Freewheelin' Bob Dylan,album,1963
+249,2363,Bob Dylan Lyrics,Another Side Of Bob Dylan,album,1964
+250,2389,Bob Dylan Lyrics,The Times They Are A-Changin',album,1964
+251,2367,Bob Dylan Lyrics,Bringing It All Back Home,album,1965
+252,2373,Bob Dylan Lyrics,Highway 61 Revisited,album,1965
+253,2364,Bob Dylan Lyrics,Blonde On Blonde,album,1966
+254,2375,Bob Dylan Lyrics,John Wesley Harding,album,1967
+255,2378,Bob Dylan Lyrics,Nashville Skyline,album,1969
+256,2379,Bob Dylan Lyrics,New Morning,album,1970
+257,2383,Bob Dylan Lyrics,Self Portrait,album,1970
+258,2370,Bob Dylan Lyrics,Dylan,album,1973
+259,50601,Bob Dylan Lyrics,Pat Garrett & Billy The Kid,soundtrack,1973
+260,2381,Bob Dylan Lyrics,Planet Waves,album,1974
+261,2365,Bob Dylan Lyrics,Blood On The Tracks,album,1975
+262,2387,Bob Dylan Lyrics,The Basement Tapes,album,1975
+263,2368,Bob Dylan Lyrics,Desire,album,1976
+264,2386,Bob Dylan Lyrics,Street Legal,album,1978
+265,2385,Bob Dylan Lyrics,Slow Train Coming,album,1979
+266,2382,Bob Dylan Lyrics,Saved,album,1980
+267,2384,Bob Dylan Lyrics,Shot Of Love,album,1981
+268,2374,Bob Dylan Lyrics,Infidels,album,1983
+269,2371,Bob Dylan Lyrics,Empire Burlesque,album,1985
+270,2376,Bob Dylan Lyrics,Knocked Out Loaded,album,1986
+271,2369,Bob Dylan Lyrics,Down In The Groove,album,1988
+272,2380,Bob Dylan Lyrics,Oh Mercy,album,1989
+273,2391,Bob Dylan Lyrics,Under The Red Sky,album,1990
+274,2372,Bob Dylan Lyrics,Good As I Been To You,album,1992
+275,2392,Bob Dylan Lyrics,World Gone Wrong,album,1993
+276,2390,Bob Dylan Lyrics,Time Out Of Mind,album,1997
+277,2377,Bob Dylan Lyrics,Love And Theft,album,2001
+278,5699,Bob Dylan Lyrics,Modern Times,album,2006
+279,8620,Bob Dylan Lyrics,Together Through Life,album,2009
+280,8619,Bob Dylan Lyrics,Christmas In The Heart,album,2009
+281,24468,Bob Dylan Lyrics,Tempest,album,2012
+282,35913,Bob Dylan Lyrics,Shadows In The Night,album,2015
+283,42349,Bob Dylan Lyrics,Fallen Angels,album,2016
+284,46170,Bob Dylan Lyrics,Triplicate,album,2017
+285,,Bob Dylan Lyrics,other songs:,other songs,Not Defined
+286,10925,Christina Perri Lyrics,The Ocean Way Sessions,EP,2010
+287,15670,Christina Perri Lyrics,Lovestrong,album,2011
+288,30792,Christina Perri Lyrics,A Very Merry Perri Christmas,EP,2012
+289,30197,Christina Perri Lyrics,Head Or Heart,album,2014
+290,64302,Christina Perri Lyrics,Songs For Carmella: Lullabies & Sing-A-Longs,album,2019
+291,,Christina Perri Lyrics,other songs:,other songs,Not Defined
+292,26706,Coldplay Lyrics,The Blue Room,EP,1999
+293,444,Coldplay Lyrics,Parachutes,album,2000
+294,443,Coldplay Lyrics,A Rush Of Blood To The Head,album,2002
+295,4689,Coldplay Lyrics,X&Y,album,2005
+296,6780,Coldplay Lyrics,Viva La Vida,album,2008
+297,17771,Coldplay Lyrics,Mylo Xyloto,album,2011
+298,31643,Coldplay Lyrics,Ghost Stories,album,2014
+299,39755,Coldplay Lyrics,A Head Full Of Dreams,album,2015
+300,46599,Coldplay Lyrics,Kaleidoscope,EP,2017
+301,63856,Coldplay Lyrics,Global Citizen - EP 1,EP,2018
+302,74335,Coldplay Lyrics,Everyday Life,album,2019
+303,,Coldplay Lyrics,other songs:,other songs,Not Defined
+304,16702,Ed Sheeran Lyrics,Orange Room,EP,2005
+305,16703,Ed Sheeran Lyrics,Ed Sheeran,album,2006
+306,16704,Ed Sheeran Lyrics,Want Some?,album,2007
+307,16705,Ed Sheeran Lyrics,You Need Me,EP,2009
+308,16706,Ed Sheeran Lyrics,Loose Change,EP,2010
+309,16707,Ed Sheeran Lyrics,Songs I Wrote With Amy,EP,2010
+310,25155,Ed Sheeran Lyrics,No. 5 Collaborations Project,EP,2011
+311,17318,Ed Sheeran Lyrics,+,album,2011
+312,23430,Ed Sheeran Lyrics,The Slumdon Bridge,EP,2012
+313,32205,Ed Sheeran Lyrics,X,album,2014
+314,43095,Ed Sheeran Lyrics,Ã·,album,2017
+315,69077,Ed Sheeran Lyrics,No.6 Collaborations Project,album,2019
+316,,Ed Sheeran Lyrics,other songs:,other songs,Not Defined
+317,1368,Oasis Lyrics,Definitely Maybe,album,1994
+318,1366,Oasis Lyrics,(What's The Story) Morning Glory,album,1995
+319,1367,Oasis Lyrics,Be Here Now,album,1997
+320,1371,Oasis Lyrics,The Masterplan,compilation,1998
+321,1370,Oasis Lyrics,Standing On The Shoulder Of Giants,album,2000
+322,1369,Oasis Lyrics,Heathen Chemistry,album,2002
+323,4709,Oasis Lyrics,Don't Believe The Truth,album,2005
+324,6910,Oasis Lyrics,Dig Out Your Soul,album,2008
+325,,Oasis Lyrics,other songs:,other songs,Not Defined
+326,5213,Poets Of The Fall Lyrics,Signs Of Life,album,2005
+327,5461,Poets Of The Fall Lyrics,Carnival Of Rust,album,2006
+328,6668,Poets Of The Fall Lyrics,Revolution Roulette,album,2008
+329,9551,Poets Of The Fall Lyrics,Twilight Theater,album,2010
+330,21890,Poets Of The Fall Lyrics,Temple Of Thought,album,2012
+331,34265,Poets Of The Fall Lyrics,Jealous Gods,album,2014
+332,44715,Poets Of The Fall Lyrics,Clearview,album,2016
+333,61985,Poets Of The Fall Lyrics,Ultraviolet,album,2018
+334,,Poets Of The Fall Lyrics,other songs:,other songs,Not Defined
+335,2362,Hilary Duff Lyrics,Santa Claus Lane,album,2002
+336,2971,Hilary Duff Lyrics,Metamorphosis,album,2003
+337,4000,Hilary Duff Lyrics,Hilary Duff,album,2004
+338,4783,Hilary Duff Lyrics,Most Wanted,album,2005
+339,5988,Hilary Duff Lyrics,Dignity,album,2007
+340,37714,Hilary Duff Lyrics,Breathe In. Breathe Out.,album,2015
+341,,Hilary Duff Lyrics,other songs:,other songs,Not Defined
+342,5399,Shayne Ward Lyrics,Shayne Ward,album,2006
+343,6451,Shayne Ward Lyrics,Breathless,album,2007
+344,10856,Shayne Ward Lyrics,Obsession,album,2010
+345,35638,Shayne Ward Lyrics,Closer,album,2015
+346,,Shayne Ward Lyrics,other songs:,other songs,Not Defined
+347,231,Backstreet Boys Lyrics,Backstreet Boys,album,1995
+348,232,Backstreet Boys Lyrics,Backstreet's Back,album,1997
+349,234,Backstreet Boys Lyrics,Millennium,album,1999
+350,233,Backstreet Boys Lyrics,Black & Blue,album,2000
+351,4631,Backstreet Boys Lyrics,Never Gone,album,2005
+352,6388,Backstreet Boys Lyrics,Unbreakable,album,2007
+353,7705,Backstreet Boys Lyrics,This Is Us,album,2009
+354,16852,Backstreet Boys Lyrics,NKOTBSB,compilation,2011
+355,27375,Backstreet Boys Lyrics,In A World Like This,album,2013
+356,63046,Backstreet Boys Lyrics,DNA,album,2019
+357,,Backstreet Boys Lyrics,other songs:,other songs,Not Defined
+358,30592,Dean Martin Lyrics,Dean Martin Sings,album,1953
+359,30594,Dean Martin Lyrics,Swingin' Down Yonder,album,1955
+360,30595,Dean Martin Lyrics,Pretty Baby,album,1957
+361,30596,Dean Martin Lyrics,This Is Dean Martin,album,1958
+362,30597,Dean Martin Lyrics,Sleep Warm,album,1959
+363,30613,Dean Martin Lyrics,This Time I'm Swingin'!,album,1960
+364,30616,Dean Martin Lyrics,French Style,album,1962
+365,30618,Dean Martin Lyrics,Dino: Italian Love Songs,album,1962
+366,30619,Dean Martin Lyrics,Cha Cha De Amor,album,1962
+367,30621,Dean Martin Lyrics,Dino Latino,album,1963
+368,30622,Dean Martin Lyrics,Dean Tex Martin: Country Style,album,1963
+369,30623,Dean Martin Lyrics,Dean Tex Martin: Rides Again,album,1963
+370,30624,Dean Martin Lyrics,"Hey, Brother, Pour The Wine",album,1964
+371,30625,Dean Martin Lyrics,Dream With Dean,album,1964
+372,30628,Dean Martin Lyrics,The Lush Years,album,1965
+373,30629,Dean Martin Lyrics,Dean Martin Hits Again,album,1965
+374,30630,Dean Martin Lyrics,(Remember Me) I'm The One Who Loves You,album,1965
+375,30631,Dean Martin Lyrics,Houston,album,1965
+376,30636,Dean Martin Lyrics,Dean Martin Sings Songs From The Silencers,album,1966
+377,30635,Dean Martin Lyrics,Happy In Love,album,1966
+378,30634,Dean Martin Lyrics,Relaxin',album,1966
+379,30633,Dean Martin Lyrics,The Hit Sound Of Dean Martin,album,1966
+380,30637,Dean Martin Lyrics,The Dean Martin TV Show,album,1966
+381,30639,Dean Martin Lyrics,You Can't Love 'Em All,album,1967
+382,30641,Dean Martin Lyrics,Happiness Is Dean Martin,album,1967
+383,30640,Dean Martin Lyrics,Like Never Before,album,1967
+384,30642,Dean Martin Lyrics,Welcome To My World,album,1967
+385,30643,Dean Martin Lyrics,I Can't Give You Anything But Love,album,1968
+386,30644,Dean Martin Lyrics,Gentle On My Mind,album,1968
+387,30646,Dean Martin Lyrics,I Take A Lot Of Pride In What I Am,album,1969
+388,30647,Dean Martin Lyrics,"My Woman, My Woman, My Wife",album,1970
+389,30648,Dean Martin Lyrics,For The Good Times,album,1971
+390,30649,Dean Martin Lyrics,Dino,album,1972
+391,30651,Dean Martin Lyrics,Sittin' On The Top Of The World,album,1973
+392,30653,Dean Martin Lyrics,Once In A While,album,1978
+393,30654,Dean Martin Lyrics,Nashville Sessions,album,1983
+394,14868,Dean Martin Lyrics,Christmas With The Rat Pack,album,2002
+395,,Dean Martin Lyrics,other songs:,other songs,Not Defined
+396,2882,Three Days Grace Lyrics,Three Days Grace,album,2003
+397,5472,Three Days Grace Lyrics,One-X,album,2006
+398,7710,Three Days Grace Lyrics,Life Starts Now,album,2009
+399,23982,Three Days Grace Lyrics,Transit Of Venus,album,2012
+400,37047,Three Days Grace Lyrics,Human,album,2015
+401,53280,Three Days Grace Lyrics,Outsider,album,2018
+402,,Three Days Grace Lyrics,other songs:,other songs,Not Defined
+403,72,50 Cent Lyrics,Power Of The Dollar,album,2000
+404,68,50 Cent Lyrics,50 Cent Is The Future,mixtape,2002
+405,70,50 Cent Lyrics,Guess Who's Back?,compilation,2002
+406,71,50 Cent Lyrics,"No Mercy, No Fear",mixtape,2002
+407,53985,50 Cent Lyrics,God's Plan,mixtape,2002
+408,69,50 Cent Lyrics,Get Rich Or Die Tryin',album,2003
+409,73,50 Cent Lyrics,The New Breed,EP,2003
+410,4472,50 Cent Lyrics,The Massacre,album,2005
+411,5059,50 Cent Lyrics,Get Rich Or Die Tryin',soundtrack,2005
+412,6291,50 Cent Lyrics,Curtis,album,2007
+413,7573,50 Cent Lyrics,War Angel LP,mixtape,2009
+414,9686,50 Cent Lyrics,Forever King,mixtape,2009
+415,8282,50 Cent Lyrics,Before I Self Destruct,album,2009
+416,20403,50 Cent Lyrics,The Big 10,mixtape,2011
+417,23389,50 Cent Lyrics,The Lost Tape,mixtape,2012
+418,23044,50 Cent Lyrics,5 (Murder By Numbers),album,2012
+419,31585,50 Cent Lyrics,Animal Ambition,album,2014
+420,40557,50 Cent Lyrics,The Kanan Tape,mixtape,2015
+421,24164,50 Cent Lyrics,Street King Immortal,album,2019
+422,,50 Cent Lyrics,other songs:,other songs,Not Defined
+423,1264,'N Sync Lyrics,'N Sync,album,1997
+424,1263,'N Sync Lyrics,Home For Christmas,album,1998
+425,1266,'N Sync Lyrics,The Winter Album,album,1998
+426,1265,'N Sync Lyrics,No Strings Attached,album,2000
+427,1262,'N Sync Lyrics,Celebrity,album,2001
+428,,'N Sync Lyrics,other songs:,other songs,Not Defined
+429,24404,Lana Del Rey Lyrics,Sirens,demo,2005
+430,20302,Lana Del Rey Lyrics,A.K.A. Lizzy Grant,album,2010
+431,20303,Lana Del Rey Lyrics,Born To Die,album,2012
+432,32109,Lana Del Rey Lyrics,Ultraviolence,album,2014
+433,38154,Lana Del Rey Lyrics,Honeymoon,album,2015
+434,47291,Lana Del Rey Lyrics,Lust For Life,album,2017
+435,61405,Lana Del Rey Lyrics,Norman Fucking Rockwell!,album,2019
+436,,Lana Del Rey Lyrics,other songs:,other songs,Not Defined
+437,44700,Charlie Puth Lyrics,The Otto Tunes,EP,2010
+438,38051,Charlie Puth Lyrics,Some Type Of Love,EP,2015
+439,39464,Charlie Puth Lyrics,Nine Track Mind,album,2016
+440,51600,Charlie Puth Lyrics,Voicenotes,album,2018
+441,,Charlie Puth Lyrics,other songs:,other songs,Not Defined
+442,2803,Suzanne Vega Lyrics,Suzanne Vega,album,1985
+443,2801,Suzanne Vega Lyrics,Solitude Standing,album,1987
+444,2799,Suzanne Vega Lyrics,Days Of Open Hand,album,1990
+445,2798,Suzanne Vega Lyrics,99.9F,album,1992
+446,2800,Suzanne Vega Lyrics,Nine Objects Of Desire,album,1996
+447,2802,Suzanne Vega Lyrics,Songs In Red And Gray,album,2001
+448,6226,Suzanne Vega Lyrics,Beauty & Crime,album,2007
+449,31122,Suzanne Vega Lyrics,Tales From The Realm Of The Queen Of Pentacles,album,2014
+450,44123,Suzanne Vega Lyrics,"Lover, Beloved: Songs From An Evening With Carson McCullers",album,2016
+451,,Suzanne Vega Lyrics,other songs:,other songs,Not Defined
+452,24439,Don McLean Lyrics,Tapestry,album,1970
+453,24440,Don McLean Lyrics,American Pie,album,1971
+454,24441,Don McLean Lyrics,Don McLean,album,1972
+455,24442,Don McLean Lyrics,Playin' Favorites,album,1973
+456,24443,Don McLean Lyrics,Homeless Brother,album,1974
+457,24444,Don McLean Lyrics,Prime Time,album,1977
+458,24445,Don McLean Lyrics,Chain Lightning,album,1978
+459,24446,Don McLean Lyrics,Believers,album,1981
+460,24447,Don McLean Lyrics,Love Tracks,album,1987
+461,24448,Don McLean Lyrics,For The Memories Vols I & II,album,1989
+462,24450,Don McLean Lyrics,Headroom,album,1990
+463,46695,Don McLean Lyrics,The River Of Love,album,1995
+464,53601,Don McLean Lyrics,Botanical Gardens,album,2018
+465,,Don McLean Lyrics,other songs:,other songs,Not Defined
+466,10555,Elvis Presley Lyrics,Elvis Presley,album,1956
+467,10554,Elvis Presley Lyrics,Elvis '56,album,1956
+468,10559,Elvis Presley Lyrics,Loving You,soundtrack,1957
+469,10557,Elvis Presley Lyrics,Elvis' Christmas Album,album,1957
+470,10558,Elvis Presley Lyrics,Jailhouse Rock,EP,1957
+471,10556,Elvis Presley Lyrics,Elvis' Golden Records,compilation,1958
+472,10560,Elvis Presley Lyrics,King Creole,soundtrack,1958
+473,10629,Elvis Presley Lyrics,For LP Fans Only,compilation,1959
+474,10619,Elvis Presley Lyrics,A Date With Elvis,compilation,1959
+475,10561,Elvis Presley Lyrics,"50,000,000 Elvis Fans Can't Be Wrong",album,1959
+476,10562,Elvis Presley Lyrics,Elvis Is Back!,album,1960
+477,10563,Elvis Presley Lyrics,G.I. Blues,soundtrack,1960
+478,10564,Elvis Presley Lyrics,His Hand In Mine,album,1960
+479,10587,Elvis Presley Lyrics,Something For Everybody,album,1961
+480,10565,Elvis Presley Lyrics,Blue Hawaii,soundtrack,1961
+481,10588,Elvis Presley Lyrics,Pot Luck,album,1962
+482,10591,Elvis Presley Lyrics,Girls! Girls! Girls!,soundtrack,1962
+483,10592,Elvis Presley Lyrics,It Happened At The World's Fair,soundtrack,1963
+484,10566,Elvis Presley Lyrics,Elvis' Golden Records Volume 3,compilation,1963
+485,10595,Elvis Presley Lyrics,Fun In Acapulco,soundtrack,1963
+486,10596,Elvis Presley Lyrics,Kissin' Cousins,soundtrack,1964
+487,10597,Elvis Presley Lyrics,Roustabout,soundtrack,1964
+488,10598,Elvis Presley Lyrics,Girl Happy,soundtrack,1965
+489,10620,Elvis Presley Lyrics,Elvis For Everyone,compilation,1965
+490,10599,Elvis Presley Lyrics,Harum Scarum,soundtrack,1965
+491,10602,Elvis Presley Lyrics,Frankie And Johnny,soundtrack,1966
+492,10603,Elvis Presley Lyrics,"Paradise, Hawaiian Style",soundtrack,1966
+493,10604,Elvis Presley Lyrics,Spinout,soundtrack,1966
+494,10567,Elvis Presley Lyrics,How Great Thou Art,album,1967
+495,10605,Elvis Presley Lyrics,Double Trouble,soundtrack,1967
+496,10607,Elvis Presley Lyrics,Clambake,soundtrack,1967
+497,10568,Elvis Presley Lyrics,Elvis' Gold Records Volume 4,compilation,1968
+498,10608,Elvis Presley Lyrics,Speedway,soundtrack,1968
+499,10609,Elvis Presley Lyrics,Elvis (NBC TV Special),soundtrack,1968
+500,10622,Elvis Presley Lyrics,Elvis Sings Flaming Star,compilation,1969
+501,10589,Elvis Presley Lyrics,From Elvis In Memphis,album,1969
+502,10569,Elvis Presley Lyrics,Back In Memphis,album,1969
+503,10590,Elvis Presley Lyrics,Elvis In Person At The International Hotel,album,1969
+504,10623,Elvis Presley Lyrics,Let's Be Friends,compilation,1970
+505,10611,Elvis Presley Lyrics,On Stage,album,1970
+506,10625,Elvis Presley Lyrics,Almost In Love,compilation,1970
+507,10570,Elvis Presley Lyrics,That's The Way It Is,soundtrack,1970
+508,42087,Elvis Presley Lyrics,You'll Never Walk Alone,compilation,1971
+509,10572,Elvis Presley Lyrics,"Elvis Country (I'm 10,000 Years Old)",album,1971
+510,10610,Elvis Presley Lyrics,Love Letters From Elvis,album,1971
+511,10626,Elvis Presley Lyrics,C'mon Everybody,compilation,1971
+512,10627,Elvis Presley Lyrics,I Got Lucky,compilation,1971
+513,10612,Elvis Presley Lyrics,Elvis Sings The Wonderful World Of Christmas,album,1971
+514,10613,Elvis Presley Lyrics,Elvis Now,album,1972
+515,10571,Elvis Presley Lyrics,He Touched Me,album,1972
+516,10573,Elvis Presley Lyrics,Elvis: As Recorded At Madison Square Garden,album,1972
+517,10574,Elvis Presley Lyrics,Aloha From Hawaii: Via Satellite,album,1973
+518,10614,Elvis Presley Lyrics,Elvis '73,album,1973
+519,10616,Elvis Presley Lyrics,Raised On Rock / For Ol' Times Sake,album,1973
+520,10575,Elvis Presley Lyrics,Good Times,album,1974
+521,10615,Elvis Presley Lyrics,Elvis: As Recorded Live On Stage In Memphis,album,1974
+522,10617,Elvis Presley Lyrics,Promised Land,album,1975
+523,10576,Elvis Presley Lyrics,Today,album,1975
+524,10618,Elvis Presley Lyrics,"From Elvis Presley Boulevard, Memphis, Tennessee",album,1976
+525,10579,Elvis Presley Lyrics,Moody Blue,album,1977
+526,10631,Elvis Presley Lyrics,ELV1S: 30 #1 Hits,compilation,2002
+527,10583,Elvis Presley Lyrics,ELVIIS: 2nd To None,compilation,2003
+528,,Elvis Presley Lyrics,other songs:,other songs,Not Defined
+529,44694,Cigarettes After Sex Lyrics,I.,EP,2012
+530,47816,Cigarettes After Sex Lyrics,Cigarettes After Sex,album,2017
+531,71766,Cigarettes After Sex Lyrics,Cry,album,2019
+532,,Cigarettes After Sex Lyrics,other songs:,other songs,Not Defined
+533,6777,Adele Lyrics,19,album,2008
+534,11014,Adele Lyrics,21,album,2011
+535,40029,Adele Lyrics,25,album,2015
+536,,Adele Lyrics,other songs:,other songs,Not Defined
+537,27590,Selena Gomez Lyrics,Stars Dance,album,2013
+538,36991,Selena Gomez Lyrics,For You,compilation,2014
+539,39539,Selena Gomez Lyrics,Revival,album,2015
+540,76723,Selena Gomez Lyrics,Rare,album,2020
+541,,Selena Gomez Lyrics,other songs:,other songs,Not Defined
+542,38050,Imagine Dragons Lyrics,Speak To Me,EP,2008
+543,22990,Imagine Dragons Lyrics,Imagine Dragons,EP,2009
+544,22989,Imagine Dragons Lyrics,Hell And Silence,EP,2010
+545,22988,Imagine Dragons Lyrics,It's Time,EP,2011
+546,22987,Imagine Dragons Lyrics,Continued Silence,EP,2012
+547,24122,Imagine Dragons Lyrics,Night Visions,album,2012
+548,35423,Imagine Dragons Lyrics,Smoke + Mirrors,album,2015
+549,47858,Imagine Dragons Lyrics,Evolve,album,2017
+550,61948,Imagine Dragons Lyrics,Origins,album,2018
+551,,Imagine Dragons Lyrics,other songs:,other songs,Not Defined
+552,57351,Evanescence Lyrics,Evanescence,EP,1998
+553,614,Evanescence Lyrics,Origin,demo,2000
+554,613,Evanescence Lyrics,Fallen,album,2003
+555,5641,Evanescence Lyrics,The Open Door,album,2006
+556,17416,Evanescence Lyrics,Evanescence,album,2011
+557,47745,Evanescence Lyrics,Lost Whispers,album,2016
+558,49927,Evanescence Lyrics,Synthesis,album,2017
+559,,Evanescence Lyrics,other songs:,other songs,Not Defined
+560,40018,Kane Brown Lyrics,Closer,EP,2015
+561,41983,Kane Brown Lyrics,Chapter 1,EP,2016
+562,44837,Kane Brown Lyrics,Kane Brown,album,2016
+563,61410,Kane Brown Lyrics,Experiment,album,2018
+564,,Kane Brown Lyrics,other songs:,other songs,Not Defined
+565,30180,Sam Smith Lyrics,Nirvana,EP,2013
+566,31143,Sam Smith Lyrics,In The Lonely Hour,album,2014
+567,38950,Sam Smith Lyrics,The Lost Tapes - Remixed,compilation,2015
+568,50700,Sam Smith Lyrics,The Thrill Of It All,album,2017
+569,,Sam Smith Lyrics,other songs:,other songs,Not Defined
+570,11072,Plain White T's Lyrics,Come On Over,album,2000
+571,11069,Plain White T's Lyrics,Stop,album,2002
+572,11074,Plain White T's Lyrics,All That We Needed,album,2005
+573,11071,Plain White T's Lyrics,Every Second Counts,album,2006
+574,11070,Plain White T's Lyrics,Hey There Delilah,EP,2007
+575,11073,Plain White T's Lyrics,Big Bad World,album,2008
+576,11068,Plain White T's Lyrics,Wonders Of The Younger,album,2010
+577,27019,Plain White T's Lyrics,Should've Gone To Bed,EP,2013
+578,37048,Plain White T's Lyrics,American Nights,album,2015
+579,58435,Plain White T's Lyrics,Parallel Universe,album,2018
+580,,Plain White T's Lyrics,other songs:,other songs,Not Defined
+581,351,Bon Jovi Lyrics,Bon Jovi,album,1984
+582,350,Bon Jovi Lyrics,7800 Degrees Fahrenheit,album,1985
+583,357,Bon Jovi Lyrics,Slippery When Wet,album,1986
+584,356,Bon Jovi Lyrics,New Jersey,album,1988
+585,355,Bon Jovi Lyrics,Keep The Faith,album,1992
+586,353,Bon Jovi Lyrics,Crossroad,album,1994
+587,358,Bon Jovi Lyrics,These Days,album,1995
+588,354,Bon Jovi Lyrics,Crush,album,2000
+589,352,Bon Jovi Lyrics,Bounce,album,2002
+590,19063,Bon Jovi Lyrics,"100,000,000 Bon Jovi Fans Can't Be Wrong",box set,2004
+591,4963,Bon Jovi Lyrics,Have A Nice Day,album,2005
+592,6137,Bon Jovi Lyrics,Lost Highway,album,2007
+593,8266,Bon Jovi Lyrics,The Circle,album,2009
+594,25761,Bon Jovi Lyrics,What About Now,album,2013
+595,34297,Bon Jovi Lyrics,New Jersey Deluxe Edition (Sons Of Beaches),album,2014
+596,39424,Bon Jovi Lyrics,Burning Bridges,album,2015
+597,41224,Bon Jovi Lyrics,This House Is Not For Sale,album,2016
+598,59565,Bon Jovi Lyrics,Hollywood Dreams,compilation,2018
+599,79350,Bon Jovi Lyrics,Bon Jovi 2020,album,2020
+600,,Bon Jovi Lyrics,other songs:,other songs,Not Defined
+601,10002,Bruno Mars Lyrics,It's Better If You Don't Understand,EP,2010
+602,10357,Bruno Mars Lyrics,Doo-Wops & Hooligans,album,2010
+603,24673,Bruno Mars Lyrics,Unorthodox Jukebox,album,2012
+604,44729,Bruno Mars Lyrics,24K Magic,album,2016
+605,,Bruno Mars Lyrics,other songs:,other songs,Not Defined
+606,5107,Chris Brown Lyrics,Chris Brown,album,2005
+607,6385,Chris Brown Lyrics,Exclusive,album,2007
+608,10147,Chris Brown Lyrics,Exclusive: The Mixtape The Ish U Aint Heard,mixtape,2007
+609,8534,Chris Brown Lyrics,Graffiti,album,2009
+610,9274,Chris Brown Lyrics,In My Zone (Rhythm & Streets),mixtape,2010
+611,9771,Chris Brown Lyrics,Fan Of A Fan,mixtape,2010
+612,11498,Chris Brown Lyrics,In My Zone 2,mixtape,2010
+613,13703,Chris Brown Lyrics,F.A.M.E.,album,2011
+614,17393,Chris Brown Lyrics,Boy In Detention,mixtape,2011
+615,18871,Chris Brown Lyrics,Fortune,album,2012
+616,29994,Chris Brown Lyrics,X Files,EP,2013
+617,26811,Chris Brown Lyrics,X,album,2014
+618,31571,Chris Brown Lyrics,Fan Of A Fan: The Album,album,2015
+619,40397,Chris Brown Lyrics,Before The Party,mixtape,2015
+620,40172,Chris Brown Lyrics,Royalty,album,2015
+621,42781,Chris Brown Lyrics,Before Da Trap: Nights In Tarzana,mixtape,2016
+622,44898,Chris Brown Lyrics,Attack The Block,mixtape,2016
+623,48614,Chris Brown Lyrics,Burn My Name,mixtape,2017
+624,50836,Chris Brown Lyrics,Heartbreak On A Full Moon,album,2017
+625,67512,Chris Brown Lyrics,Indigo,album,2019
+626,82490,Chris Brown Lyrics,Slime & B,mixtape,2020
+627,,Chris Brown Lyrics,other songs:,other songs,Not Defined
+628,4868,Rihanna Lyrics,Music Of The Sun,album,2005
+629,5404,Rihanna Lyrics,A Girl Like Me,album,2006
+630,6107,Rihanna Lyrics,Good Girl Gone Bad,album,2007
+631,8540,Rihanna Lyrics,Rated R,album,2009
+632,10644,Rihanna Lyrics,Loud,album,2010
+633,19032,Rihanna Lyrics,Talk That Talk,album,2011
+634,24966,Rihanna Lyrics,Unapologetic,album,2012
+635,37037,Rihanna Lyrics,Home,soundtrack,2015
+636,41154,Rihanna Lyrics,Anti,album,2016
+637,,Rihanna Lyrics,other songs:,other songs,Not Defined
+638,8444,Justin Bieber Lyrics,My World,EP,2009
+639,9518,Justin Bieber Lyrics,My World 2.0,album,2010
+640,14137,Justin Bieber Lyrics,Never Say Never - The Remixes,remix album,2011
+641,18753,Justin Bieber Lyrics,Under The Mistletoe,album,2011
+642,22721,Justin Bieber Lyrics,Believe,album,2012
+643,25942,Justin Bieber Lyrics,Believe Acoustic,remix album,2013
+644,30757,Justin Bieber Lyrics,Journals,compilation,2013
+645,39845,Justin Bieber Lyrics,Purpose,album,2015
+646,78121,Justin Bieber Lyrics,Changes,album,2020
+647,,Justin Bieber Lyrics,other songs:,other songs,Not Defined
+648,20899,Skylar Grey Lyrics,The Buried Sessions Of Skylar Grey,EP,2012
+649,17002,Skylar Grey Lyrics,Don't Look Down,album,2013
+650,44242,Skylar Grey Lyrics,Natural Causes,album,2016
+651,73981,Skylar Grey Lyrics,Angel With Tattoos,EP,2019
+652,,Skylar Grey Lyrics,other songs:,other songs,Not Defined
+653,48864,Logic Lyrics,Logic: The Mixtape,mixtape,2009
+654,25792,Logic Lyrics,"Young, Broke And Infamous",mixtape,2010
+655,25794,Logic Lyrics,Young Sinatra,mixtape,2011
+656,25793,Logic Lyrics,Young Sinatra: Undeniable,mixtape,2012
+657,27314,Logic Lyrics,Welcome To Forever,mixtape,2013
+658,34449,Logic Lyrics,Under Pressure,album,2014
+659,40279,Logic Lyrics,The Incredible True Story,album,2015
+660,43343,Logic Lyrics,Bobby Tarantino,mixtape,2016
+661,47310,Logic Lyrics,Everybody,album,2017
+662,55065,Logic Lyrics,Bobby Tarantino II,mixtape,2018
+663,61012,Logic Lyrics,Young Sinatra IV,album,2018
+664,66946,Logic Lyrics,Supermarket,soundtrack,2019
+665,68540,Logic Lyrics,Confessions Of A Dangerous Mind,album,2019
+666,,Logic Lyrics,other songs:,other songs,Not Defined
+667,1122,Maroon 5 Lyrics,Songs About Jane,album,2002
+668,6086,Maroon 5 Lyrics,It Won't Be Soon Before Long,album,2007
+669,10103,Maroon 5 Lyrics,Hands All Over,album,2010
+670,22927,Maroon 5 Lyrics,Overexposed,album,2012
+671,32860,Maroon 5 Lyrics,V,album,2014
+672,50678,Maroon 5 Lyrics,Red Pill Blues,album,2017
+673,,Maroon 5 Lyrics,other songs:,other songs,Not Defined
+674,1467,Pink Floyd Lyrics,The Piper At The Gates Of Dawn,album,1967
+675,1458,Pink Floyd Lyrics,A Saucerful Of Secrets,album,1968
+676,1465,Pink Floyd Lyrics,More,soundtrack,1969
+677,1471,Pink Floyd Lyrics,Ummagumma,album,1969
+678,1460,Pink Floyd Lyrics,Atom Heart Mother,album,1970
+679,1468,Pink Floyd Lyrics,Relics,compilation,1971
+680,1463,Pink Floyd Lyrics,Meddle,album,1971
+681,1466,Pink Floyd Lyrics,Obscured By Clouds,album,1972
+682,1461,Pink Floyd Lyrics,The Dark Side Of The Moon,album,1973
+683,1472,Pink Floyd Lyrics,Wish You Were Here,album,1975
+684,1459,Pink Floyd Lyrics,Animals,album,1977
+685,1470,Pink Floyd Lyrics,The Wall,album,1979
+686,1469,Pink Floyd Lyrics,The Final Cut,album,1983
+687,1473,Pink Floyd Lyrics,Works,compilation,1983
+688,1464,Pink Floyd Lyrics,A Momentary Lapse Of Reason,album,1987
+689,1462,Pink Floyd Lyrics,The Division Bell,album,1994
+690,33843,Pink Floyd Lyrics,The Endless River,album,2014
+691,45315,Pink Floyd Lyrics,1965: Their First Recordings,EP,2015
+692,,Pink Floyd Lyrics,other songs:,other songs,Not Defined
+693,1750,Snoop Dogg Lyrics,Doggystyle,album,1993
+694,1754,Snoop Dogg Lyrics,Tha Doggfather,album,1996
+695,1756,Snoop Dogg Lyrics,"The Game Is To Be Sold, Not To Be Told",album,1998
+696,1752,Snoop Dogg Lyrics,No Limit Top Dogg,album,1999
+697,1755,Snoop Dogg Lyrics,Tha Last Meal,album,2000
+698,1751,Snoop Dogg Lyrics,Duces 'N Trayz - The Old Fashioned Way,album,2001
+699,1753,Snoop Dogg Lyrics,Paid Tha Cost To Be Da Boss,album,2002
+700,4300,Snoop Dogg Lyrics,R & G (Rhythm & Gangsta): The Masterpiece,album,2004
+701,5821,Snoop Dogg Lyrics,Tha Blue Carpet Treatment,album,2006
+702,6604,Snoop Dogg Lyrics,Ego Trippin',album,2008
+703,38335,Snoop Dogg Lyrics,Death Row: The Lost Sessions Vol. 1,compilation,2009
+704,8628,Snoop Dogg Lyrics,Malice N Wonderland,album,2009
+705,9634,Snoop Dogg Lyrics,More Malice,album,2010
+706,12133,Snoop Dogg Lyrics,Doggumentary,album,2011
+707,20188,Snoop Dogg Lyrics,Mac & Devin Go To High School,soundtrack,2011
+708,23926,Snoop Dogg Lyrics,Reincarnated,album,2013
+709,38472,Snoop Dogg Lyrics,That's My Work 2,mixtape,2013
+710,30296,Snoop Dogg Lyrics,7 Days Of Funk,album,2013
+711,38473,Snoop Dogg Lyrics,That's My Work 3,mixtape,2014
+712,35937,Snoop Dogg Lyrics,Bush,album,2015
+713,43107,Snoop Dogg Lyrics,COOLAID,album,2016
+714,47669,Snoop Dogg Lyrics,Neva Left,album,2017
+715,50947,Snoop Dogg Lyrics,Make America Crip Again,EP,2017
+716,54038,Snoop Dogg Lyrics,220,EP,2018
+717,53595,Snoop Dogg Lyrics,Bible Of Love,album,2018
+718,71329,Snoop Dogg Lyrics,I Wanna Thank Me,album,2019
+719,,Snoop Dogg Lyrics,other songs:,other songs,Not Defined
+720,4524,James Blunt Lyrics,Back To Bedlam,album,2004
+721,6318,James Blunt Lyrics,All The Lost Souls,album,2007
+722,10519,James Blunt Lyrics,Some Kind Of Trouble,album,2010
+723,28033,James Blunt Lyrics,Moon Landing,album,2013
+724,46006,James Blunt Lyrics,The Afterlove,album,2017
+725,71844,James Blunt Lyrics,Once Upon A Mind,album,2019
+726,,James Blunt Lyrics,other songs:,other songs,Not Defined
+727,46532,Meghan Trainor Lyrics,Meghan Trainor,album,2009
+728,43337,Meghan Trainor Lyrics,I'll Sing With You,album,2011
+729,43336,Meghan Trainor Lyrics,Only 17,album,2011
+730,33854,Meghan Trainor Lyrics,Title,EP,2014
+731,34885,Meghan Trainor Lyrics,Title,album,2015
+732,41698,Meghan Trainor Lyrics,Thank You,album,2016
+733,65663,Meghan Trainor Lyrics,The Love Train,EP,2019
+734,58598,Meghan Trainor Lyrics,Treat Myself,album,2020
+735,,Meghan Trainor Lyrics,other songs:,other songs,Not Defined
+736,24437,Twenty One Pilots Lyrics,Twenty One Pilots,album,2009
+737,24435,Twenty One Pilots Lyrics,Regional At Best,album,2011
+738,24436,Twenty One Pilots Lyrics,Vessel,album,2013
+739,37344,Twenty One Pilots Lyrics,Blurryface,album,2015
+740,59468,Twenty One Pilots Lyrics,Trench,album,2018
+741,,Twenty One Pilots Lyrics,other songs:,other songs,Not Defined
+742,34020,Papa Roach Lyrics,Potatoes For Christmas,EP,1994
+743,8511,Papa Roach Lyrics,Old Friends From Young Years,album,1997
+744,33988,Papa Roach Lyrics,5 Tracks Deep,EP,1998
+745,1420,Papa Roach Lyrics,Infest,album,2000
+746,1421,Papa Roach Lyrics,Lovehatetragedy,album,2002
+747,3958,Papa Roach Lyrics,Getting Away With Murder,album,2004
+748,5657,Papa Roach Lyrics,The Paramour Sessions,album,2006
+749,7334,Papa Roach Lyrics,Metamorphosis,album,2009
+750,10175,Papa Roach Lyrics,Time For Annihilation,album,2010
+751,24268,Papa Roach Lyrics,The Connection,album,2012
+752,34598,Papa Roach Lyrics,F.E.A.R. (Face Everything And Rise),album,2015
+753,47316,Papa Roach Lyrics,Crooked Teeth,album,2017
+754,63285,Papa Roach Lyrics,Who Do You Trust?,album,2019
+755,,Papa Roach Lyrics,other songs:,other songs,Not Defined
+756,17192,Katy Perry Lyrics,Katy Hudson,album,2001
+757,47776,Katy Perry Lyrics,(A) Katy Perry,album,2005
+758,6789,Katy Perry Lyrics,One Of The Boys,album,2008
+759,10042,Katy Perry Lyrics,Teenage Dream,album,2010
+760,28128,Katy Perry Lyrics,Prism,album,2013
+761,47998,Katy Perry Lyrics,Witness,album,2017
+762,,Katy Perry Lyrics,other songs:,other songs,Not Defined
+763,3200,M2M Lyrics,Shades Of Purple,album,2000
+764,1088,M2M Lyrics,The Big Room,album,2002
+765,,M2M Lyrics,other songs:,other songs,Not Defined
+766,6791,Miley Cyrus Lyrics,Breakout,album,2008
+767,7380,Miley Cyrus Lyrics,Hannah Montana: The Movie,soundtrack,2009
+768,7683,Miley Cyrus Lyrics,The Time Of Our Lives,EP,2009
+769,9834,Miley Cyrus Lyrics,Can't Be Tamed,album,2010
+770,28686,Miley Cyrus Lyrics,Bangerz,album,2013
+771,39531,Miley Cyrus Lyrics,Miley Cyrus And Her Dead Petz,album,2015
+772,49533,Miley Cyrus Lyrics,Younger Now,album,2017
+773,69142,Miley Cyrus Lyrics,SHE IS COMING,EP,2019
+774,,Miley Cyrus Lyrics,other songs:,other songs,Not Defined
+775,28058,Cher Lyrics,All I Really Want To Do,album,1965
+776,28060,Cher Lyrics,The Sonny Side Of ChÃ©r,album,1966
+777,28061,Cher Lyrics,ChÃ©r,album,1966
+778,28078,Cher Lyrics,"With Love, ChÃ©r",album,1967
+779,28062,Cher Lyrics,Backstage,album,1968
+780,28063,Cher Lyrics,3614 Jackson Highway,album,1969
+781,28064,Cher Lyrics,"Gypsys, Tramps & Thieves",album,1971
+782,28065,Cher Lyrics,Foxy Lady,album,1972
+783,28066,Cher Lyrics,Bittersweet White Light,album,1973
+784,28067,Cher Lyrics,Half-Breed,album,1973
+785,28068,Cher Lyrics,Dark Lady,album,1974
+786,28069,Cher Lyrics,Stars,album,1975
+787,28070,Cher Lyrics,I'd Rather Believe In You,album,1976
+788,28071,Cher Lyrics,Cherished,album,1977
+789,28072,Cher Lyrics,Two The Hard Way,album,1977
+790,28074,Cher Lyrics,Prisoner,album,1979
+791,28073,Cher Lyrics,Take Me Home,album,1979
+792,28076,Cher Lyrics,Black Rose,album,1980
+793,28075,Cher Lyrics,I Paralyze,album,1982
+794,8925,Cher Lyrics,Cher,album,1987
+795,8922,Cher Lyrics,Heart Of Stone,album,1989
+796,8919,Cher Lyrics,Love Hurts,album,1991
+797,8920,Cher Lyrics,It's A Man's World,album,1995
+798,8918,Cher Lyrics,Believe,album,1998
+799,28077,Cher Lyrics,Not.com.mercial,album,2000
+800,425,Cher Lyrics,Living Proof,album,2001
+801,28080,Cher Lyrics,Closer To The Truth,album,2013
+802,60458,Cher Lyrics,Dancing Queen,album,2018
+803,,Cher Lyrics,other songs:,other songs,Not Defined
+804,3317,Christina Aguilera Lyrics,Christina Aguilera,album,1999
+805,3356,Christina Aguilera Lyrics,Mi Reflejo,album,2000
+806,2157,Christina Aguilera Lyrics,My Kind Of Christmas,album,2000
+807,2156,Christina Aguilera Lyrics,Just Be Free,album,2001
+808,2158,Christina Aguilera Lyrics,Stripped,album,2002
+809,5573,Christina Aguilera Lyrics,Back To Basics,album,2006
+810,9682,Christina Aguilera Lyrics,Bionic,album,2010
+811,10834,Christina Aguilera Lyrics,Burlesque,soundtrack,2010
+812,24965,Christina Aguilera Lyrics,Lotus,album,2012
+813,56977,Christina Aguilera Lyrics,Liberation,album,2018
+814,,Christina Aguilera Lyrics,other songs:,other songs,Not Defined
+815,3869,Akon Lyrics,Trouble,album,2004
+816,5795,Akon Lyrics,Konvicted,album,2006
+817,7124,Akon Lyrics,Freedom,album,2008
+818,17249,Akon Lyrics,Konkrete,mixtape,2011
+819,24873,Akon Lyrics,Konkrete Jungle,mixtape,2012
+820,73307,Akon Lyrics,El Negreeto,album,2019
+821,74275,Akon Lyrics,Akonda,album,2019
+822,,Akon Lyrics,other songs:,other songs,Not Defined
+823,34030,James Bay Lyrics,The Dark Of The Morning,EP,2013
+824,34029,James Bay Lyrics,Let It Go,EP,2014
+825,35264,James Bay Lyrics,Hold Back The River,EP,2014
+826,36158,James Bay Lyrics,Chaos And The Calm,album,2015
+827,55023,James Bay Lyrics,Electric Light,album,2018
+828,68507,James Bay Lyrics,Oh My Messy Mind,EP,2019
+829,,James Bay Lyrics,other songs:,other songs,Not Defined
+830,10973,Red Hot Chili Peppers Lyrics,The Red Hot Chili Peppers,album,1984
+831,10972,Red Hot Chili Peppers Lyrics,Freaky Styley,album,1985
+832,10971,Red Hot Chili Peppers Lyrics,The Uplift Mofo Party Plan,album,1987
+833,10969,Red Hot Chili Peppers Lyrics,Mother's Milk,album,1989
+834,10968,Red Hot Chili Peppers Lyrics,Blood Sugar Sex Magik,album,1991
+835,10966,Red Hot Chili Peppers Lyrics,One Hot Minute,album,1995
+836,10964,Red Hot Chili Peppers Lyrics,Californication,album,1999
+837,10963,Red Hot Chili Peppers Lyrics,By The Way,album,2002
+838,10961,Red Hot Chili Peppers Lyrics,Stadium Arcadium,album,2006
+839,17014,Red Hot Chili Peppers Lyrics,I'm With You,album,2011
+840,25583,Red Hot Chili Peppers Lyrics,I'm With You Sessions,compilation,2013
+841,42798,Red Hot Chili Peppers Lyrics,The Getaway,album,2016
+842,,Red Hot Chili Peppers Lyrics,other songs:,other songs,Not Defined
+843,2588,Avril Lavigne Lyrics,Let Go,album,2002
+844,3566,Avril Lavigne Lyrics,Under My Skin,album,2004
+845,6017,Avril Lavigne Lyrics,The Best Damn Thing,album,2007
+846,11984,Avril Lavigne Lyrics,Goodbye Lullaby,album,2011
+847,28031,Avril Lavigne Lyrics,Avril Lavigne,album,2013
+848,61887,Avril Lavigne Lyrics,Head Above Water,album,2019
+849,,Avril Lavigne Lyrics,other songs:,other songs,Not Defined
+850,8597,Adam Lambert Lyrics,Take One,demo,2009
+851,8596,Adam Lambert Lyrics,For Your Entertainment,album,2009
+852,19825,Adam Lambert Lyrics,Trespassing,album,2012
+853,37528,Adam Lambert Lyrics,The Original High,album,2015
+854,71957,Adam Lambert Lyrics,Velvet,album,2020
+855,,Adam Lambert Lyrics,other songs:,other songs,Not Defined
+856,11111,Air Supply Lyrics,Air Supply,album,1976
+857,11109,Air Supply Lyrics,The Whole Thing Started,album,1977
+858,11110,Air Supply Lyrics,Love And Other Bruises,album,1977
+859,11108,Air Supply Lyrics,Life Support,album,1979
+860,11107,Air Supply Lyrics,Lost In Love,album,1980
+861,11106,Air Supply Lyrics,The One That You Love,album,1981
+862,11105,Air Supply Lyrics,Now And Forever,album,1982
+863,11104,Air Supply Lyrics,Air Supply,album,1985
+864,11103,Air Supply Lyrics,Hearts In Motion,album,1986
+865,11102,Air Supply Lyrics,The Christmas Album,album,1987
+866,11101,Air Supply Lyrics,The Earth Is...,album,1991
+867,11100,Air Supply Lyrics,The Vanishing Race,album,1993
+868,11099,Air Supply Lyrics,News From Nowhere,album,1995
+869,11098,Air Supply Lyrics,The Book Of Love,album,1997
+870,11097,Air Supply Lyrics,Yours Truly,album,2001
+871,11096,Air Supply Lyrics,Across The Concrete Sky,album,2003
+872,11113,Air Supply Lyrics,Mumbo Jumbo,album,2010
+873,,Air Supply Lyrics,other songs:,other songs,Not Defined
+874,2877,Beyonce (BeyoncÃ©) Lyrics,Dangerously In Love,album,2003
+875,5273,Beyonce (BeyoncÃ©) Lyrics,The Fighting Temptations,soundtrack,2003
+876,5636,Beyonce (BeyoncÃ©) Lyrics,B'day,album,2006
+877,6011,Beyonce (BeyoncÃ©) Lyrics,B'day Deluxe Edition,album,2007
+878,6985,Beyonce (BeyoncÃ©) Lyrics,I Am... Sasha Fierce (Deluxe Edition),album,2008
+879,8533,Beyonce (BeyoncÃ©) Lyrics,I Am... Sasha Fierce - The Bonus Tracks,EP,2009
+880,16759,Beyonce (BeyoncÃ©) Lyrics,4,album,2011
+881,30509,Beyonce (BeyoncÃ©) Lyrics,BeyoncÃ©,album,2013
+882,42658,Beyonce (BeyoncÃ©) Lyrics,Lemonade,album,2016
+883,58482,Beyonce (BeyoncÃ©) Lyrics,Everything Is Love,album,2018
+884,67672,Beyonce (BeyoncÃ©) Lyrics,HOMECOMING: THE LIVE ALBUM,live album,2019
+885,70849,Beyonce (BeyoncÃ©) Lyrics,The Lion King: The Gift,soundtrack,2019
+886,,Beyonce (BeyoncÃ©) Lyrics,other songs:,other songs,Not Defined
+887,38111,Bebe Rexha Lyrics,I Don't Wanna Grow Up,EP,2015
+888,44892,Bebe Rexha Lyrics,All Your Fault: Pt 1,EP,2017
+889,49393,Bebe Rexha Lyrics,All Your Fault: Pt 2,EP,2017
+890,56108,Bebe Rexha Lyrics,Expectations,album,2018
+891,,Bebe Rexha Lyrics,other songs:,other songs,Not Defined
+892,31396,Arctic Monkeys Lyrics,Beneath The Boardwalk,demo,2004
+893,5231,Arctic Monkeys Lyrics,"Whatever People Say I Am, That's What I'm Not",album,2006
+894,5617,Arctic Monkeys Lyrics,Who The Fuck Are Arctic Monkeys?,EP,2006
+895,6037,Arctic Monkeys Lyrics,Leave Before The Lights Come On,single,2006
+896,6025,Arctic Monkeys Lyrics,Favourite Worst Nightmare,album,2007
+897,7637,Arctic Monkeys Lyrics,Humbug,album,2009
+898,16302,Arctic Monkeys Lyrics,Suck It And See,album,2011
+899,27842,Arctic Monkeys Lyrics,AM,album,2013
+900,56033,Arctic Monkeys Lyrics,Tranquility Base Hotel + Casino,album,2018
+901,,Arctic Monkeys Lyrics,other songs:,other songs,Not Defined
+902,1738,Smash Mouth Lyrics,Fush Yu Mang,album,1997
+903,1737,Smash Mouth Lyrics,Astro Lounge,album,1999
+904,1739,Smash Mouth Lyrics,Smash Mouth,album,2001
+905,4870,Smash Mouth Lyrics,Get The Picture?,album,2003
+906,64203,Smash Mouth Lyrics,The Gift Of Rock,album,2005
+907,5816,Smash Mouth Lyrics,Summer Girl,album,2006
+908,25163,Smash Mouth Lyrics,Magic,album,2012
+909,,Smash Mouth Lyrics,other songs:,other songs,Not Defined
+910,7501,Carly Rae Jepsen Lyrics,Tug Of War,album,2008
+911,20661,Carly Rae Jepsen Lyrics,Curiosity,EP,2012
+912,24533,Carly Rae Jepsen Lyrics,Kiss,album,2012
+913,38626,Carly Rae Jepsen Lyrics,Emotion,album,2015
+914,41964,Carly Rae Jepsen Lyrics,Emotion Remixed +,remix album,2016
+915,44169,Carly Rae Jepsen Lyrics,Emotion: Side B,EP,2016
+916,67712,Carly Rae Jepsen Lyrics,Dedicated,album,2019
+917,83168,Carly Rae Jepsen Lyrics,Dedicated Side B,album,2020
+918,,Carly Rae Jepsen Lyrics,other songs:,other songs,Not Defined
+919,1097,Madonna Lyrics,Madonna,album,1983
+920,1100,Madonna Lyrics,Like A Virgin,album,1984
+921,1105,Madonna Lyrics,True Blue,album,1986
+922,1106,Madonna Lyrics,Who's That Girl,soundtrack,1987
+923,1099,Madonna Lyrics,Like A Prayer,album,1989
+924,1098,Madonna Lyrics,I'm Breathless,album,1990
+925,1094,Madonna Lyrics,Erotica,album,1992
+926,1093,Madonna Lyrics,Bedtime Stories,album,1994
+927,1104,Madonna Lyrics,Something To Remember,album,1995
+928,1095,Madonna Lyrics,Evita,soundtrack,1996
+929,1102,Madonna Lyrics,Pre-Madonna,demo,1997
+930,1103,Madonna Lyrics,Ray Of Light,album,1998
+931,1101,Madonna Lyrics,Music,album,2000
+932,1092,Madonna Lyrics,American Life,album,2003
+933,3215,Madonna Lyrics,Remixed & Revisited,EP,2003
+934,5057,Madonna Lyrics,Confessions On A Dance Floor,album,2005
+935,6680,Madonna Lyrics,Hard Candy,album,2008
+936,21632,Madonna Lyrics,MDNA,album,2012
+937,35613,Madonna Lyrics,Rebel Heart,album,2015
+938,67705,Madonna Lyrics,Madame X,album,2019
+939,,Madonna Lyrics,other songs:,other songs,Not Defined
+940,7873,Celine Dion Lyrics,La Voix Du Bon Dieu,album,1981
+941,7870,Celine Dion Lyrics,Celine Dion Chante Noel,album,1981
+942,7876,Celine Dion Lyrics,Tellement J'Ai D'Amuor Pour Toi,album,1982
+943,7874,Celine Dion Lyrics,Les Chemins De Ma Maison,album,1983
+944,7872,Celine Dion Lyrics,Du Soleil Au Coeur,album,1983
+945,7871,Celine Dion Lyrics,Chantes Et Contes De Noel,album,1983
+946,7875,Celine Dion Lyrics,Melanie,album,1984
+947,7869,Celine Dion Lyrics,C'est Pour Toi,album,1985
+948,7868,Celine Dion Lyrics,Les Chansons En Or,album,1986
+949,2352,Celine Dion Lyrics,Incognito,album,1987
+950,2357,Celine Dion Lyrics,The Best Of / Vivre,album,1988
+951,2360,Celine Dion Lyrics,Unison,album,1990
+952,2348,Celine Dion Lyrics,Dion Chante Plamondon,album,1991
+953,2346,Celine Dion Lyrics,Celine Dion,album,1992
+954,2358,Celine Dion Lyrics,The Colour Of My Love,album,1993
+955,2347,Celine Dion Lyrics,D'eux / The French Album,album,1995
+956,2350,Celine Dion Lyrics,Gold,album,1995
+957,2351,Celine Dion Lyrics,"Gold, Vol. 2",album,1995
+958,2349,Celine Dion Lyrics,Falling Into You,album,1996
+959,2353,Celine Dion Lyrics,Let's Talk About Love,album,1997
+960,2356,Celine Dion Lyrics,S'il Suffisait D'aimer,album,1998
+961,2359,Celine Dion Lyrics,These Are Special Times,album,1998
+962,2344,Celine Dion Lyrics,All The Way... A Decade Of Song,compilation,1999
+963,2345,Celine Dion Lyrics,Au Coeur Du Stade,album,1999
+964,2354,Celine Dion Lyrics,A New Day Has Come,album,2002
+965,4707,Celine Dion Lyrics,1 Fille & 4 Types,album,2003
+966,2355,Celine Dion Lyrics,One Heart,album,2003
+967,4041,Celine Dion Lyrics,Miracle,album,2004
+968,6114,Celine Dion Lyrics,D'Elles,album,2007
+969,6433,Celine Dion Lyrics,Taking Chances,album,2007
+970,25056,Celine Dion Lyrics,Sans Attendre,album,2012
+971,24970,Celine Dion Lyrics,Loved Me Back To Life,album,2013
+972,43801,Celine Dion Lyrics,Encore Un Soir,album,2016
+973,72579,Celine Dion Lyrics,Courage,album,2019
+974,,Celine Dion Lyrics,other songs:,other songs,Not Defined
+975,43168,Sia Lyrics,OnlySee,album,1997
+976,5327,Sia Lyrics,Healing Is Difficult,album,2002
+977,5321,Sia Lyrics,Colour The Small One,album,2006
+978,6496,Sia Lyrics,Some People Have Real Problems,album,2008
+979,9847,Sia Lyrics,We Are Born,album,2010
+980,71033,Sia Lyrics,Ice Cream,album,2011
+981,32630,Sia Lyrics,1000 Forms Of Fear,album,2014
+982,39727,Sia Lyrics,This Is Acting,album,2016
+983,50880,Sia Lyrics,Everyday Is Christmas,album,2017
+984,,Sia Lyrics,other songs:,other songs,Not Defined
+985,23873,Phillip Phillips Lyrics,Phillip Phillips: Journey To The Finale,album,2012
+986,25117,Phillip Phillips Lyrics,The World From The Side Of The Moon,album,2012
+987,32387,Phillip Phillips Lyrics,Behind The Light,album,2014
+988,51218,Phillip Phillips Lyrics,Collateral,album,2018
+989,,Phillip Phillips Lyrics,other songs:,other songs,Not Defined
+990,26860,Kodaline Lyrics,In A Perfect World,album,2013
+991,35327,Kodaline Lyrics,Coming Up For Air,album,2015
+992,50844,Kodaline Lyrics,I Wouldn't Be,EP,2017
+993,58402,Kodaline Lyrics,Politics Of Living,album,2018
+994,83951,Kodaline Lyrics,One Day At A Time,album,2020
+995,,Kodaline Lyrics,other songs:,other songs,Not Defined
+996,338,Blue Lyrics,All Rise,album,2001
+997,339,Blue Lyrics,One Love,album,2002
+998,3119,Blue Lyrics,Guilty,album,2003
+999,4319,Blue Lyrics,Best Of Blue,compilation,2004
+1000,25988,Blue Lyrics,Roulette,album,2013
+1001,36938,Blue Lyrics,Colours,album,2015
+1002,,Blue Lyrics,other songs:,other songs,Not Defined
+1003,2099,Wham! Lyrics,Fantastic,album,1983
+1004,2100,Wham! Lyrics,Make It Big,album,1984
+1005,2101,Wham! Lyrics,Music From The Edge Of Heaven,album,1986
+1006,47982,Chord Overstreet Lyrics,Tree House Tapes,EP,2017
+1007,,Chord Overstreet Lyrics,other songs:,other songs,Not Defined
+1008,12059,Chicago Lyrics,The Chicago Transit Authority,album,1969
+1009,12058,Chicago Lyrics,Chicago (Chicago II),album,1970
+1010,12057,Chicago Lyrics,Chicago III,album,1971
+1011,12056,Chicago Lyrics,Chicago V,album,1972
+1012,12055,Chicago Lyrics,Chicago VI,album,1973
+1013,12054,Chicago Lyrics,Chicago VII,album,1974
+1014,12053,Chicago Lyrics,Chicago VIII,album,1974
+1015,12052,Chicago Lyrics,Chicago X,album,1976
+1016,12051,Chicago Lyrics,Chicago XI,album,1977
+1017,12050,Chicago Lyrics,Hot Streets,album,1978
+1018,12049,Chicago Lyrics,Chicago 13,album,1979
+1019,12048,Chicago Lyrics,Chicago XIV,album,1980
+1020,12047,Chicago Lyrics,Chicago 16,album,1982
+1021,12046,Chicago Lyrics,Chicago 17,album,1983
+1022,12045,Chicago Lyrics,Chicago 18,album,1986
+1023,12044,Chicago Lyrics,Chicago 19,album,1988
+1024,12043,Chicago Lyrics,Twenty 1,album,1991
+1025,12042,Chicago Lyrics,Night & Day: Big Band,album,1995
+1026,12041,Chicago Lyrics,Chicago XXV: The Christmas Album,album,1998
+1027,12039,Chicago Lyrics,Chicago XXX,album,2006
+1028,12038,Chicago Lyrics,Chicago XXXII: Stone Of Sisyphus,album,2008
+1029,17959,Chicago Lyrics,Chicago XXXIII: O Christmas Three,album,2011
+1030,32966,Chicago Lyrics,Now - Chicago XXXVI,album,2014
+1031,72424,Chicago Lyrics,Chicago Christmas,album,2019
+1032,,Chicago Lyrics,other songs:,other songs,Not Defined
+1033,44712,Lady Gaga Lyrics,Red And Blue,EP,2006
+1034,6891,Lady Gaga Lyrics,The Fame,album,2008
+1035,8467,Lady Gaga Lyrics,The Fame Monster,EP,2009
+1036,12877,Lady Gaga Lyrics,Born This Way,album,2011
+1037,19894,Lady Gaga Lyrics,A Very Gaga Holiday,EP,2011
+1038,24893,Lady Gaga Lyrics,Artpop,album,2013
+1039,31134,Lady Gaga Lyrics,Cheek To Cheek,album,2014
+1040,44490,Lady Gaga Lyrics,Joanne,album,2016
+1041,61815,Lady Gaga Lyrics,A Star Is Born,soundtrack,2018
+1042,82703,Lady Gaga Lyrics,Chromatica,album,2020
+1043,,Lady Gaga Lyrics,other songs:,other songs,Not Defined
+1044,8148,Michael Learns To Rock (MLTR) Lyrics,Michael Learns To Rock,album,1991
+1045,8147,Michael Learns To Rock (MLTR) Lyrics,Colours,album,1993
+1046,8150,Michael Learns To Rock (MLTR) Lyrics,Played On Pepper,album,1995
+1047,8149,Michael Learns To Rock (MLTR) Lyrics,Nothing To Lose,album,1997
+1048,3411,Michael Learns To Rock (MLTR) Lyrics,Blue Night,album,2000
+1049,3408,Michael Learns To Rock (MLTR) Lyrics,Michael Learns To Rock,album,2004
+1050,7587,Michael Learns To Rock (MLTR) Lyrics,Eternity,album,2008
+1051,24931,Michael Learns To Rock (MLTR) Lyrics,Scandinavia,album,2012
+1052,42857,Michael Learns To Rock (MLTR) Lyrics,With Love,EP,2016
+1053,55565,Michael Learns To Rock (MLTR) Lyrics,STILL,album,2018
+1054,,Michael Learns To Rock (MLTR) Lyrics,other songs:,other songs,Not Defined
+1055,5041,Stevie Wonder Lyrics,Tribute To Uncle Ray,album,1962
+1056,33633,Stevie Wonder Lyrics,With A Song In My Heart,album,1963
+1057,33634,Stevie Wonder Lyrics,Stevie At The Beach,album,1964
+1058,2816,Stevie Wonder Lyrics,Down To Earth,album,1966
+1059,2832,Stevie Wonder Lyrics,Uptight (Everything's Alright),album,1966
+1060,5040,Stevie Wonder Lyrics,I Was Made To Love Her,album,1967
+1061,2826,Stevie Wonder Lyrics,Someday At Christmas,album,1967
+1062,2817,Stevie Wonder Lyrics,For Once In My Life,album,1968
+1063,2823,Stevie Wonder Lyrics,My Cherie Amour,album,1969
+1064,2825,Stevie Wonder Lyrics,"Signed, Sealed And Delivered",album,1970
+1065,2833,Stevie Wonder Lyrics,Where I'm Coming From,album,1971
+1066,2822,Stevie Wonder Lyrics,Music Of My Mind,album,1972
+1067,2830,Stevie Wonder Lyrics,Talking Book,album,1972
+1068,2820,Stevie Wonder Lyrics,Innervisions,album,1973
+1069,2818,Stevie Wonder Lyrics,Fulfillingness' First Finale,album,1974
+1070,2827,Stevie Wonder Lyrics,Songs In The Key Of Life,album,1976
+1071,2828,Stevie Wonder Lyrics,Stevie Wonder's Journey Through The Secret Life Of Plants,album,1979
+1072,2819,Stevie Wonder Lyrics,Hotter Than July,album,1980
+1073,2831,Stevie Wonder Lyrics,The Woman In Red,soundtrack,1984
+1074,5039,Stevie Wonder Lyrics,In Square Circle,album,1985
+1075,2814,Stevie Wonder Lyrics,Characters,album,1987
+1076,2821,Stevie Wonder Lyrics,Jungle Fever,album,1991
+1077,2815,Stevie Wonder Lyrics,Conversation Peace,album,1995
+1078,2824,Stevie Wonder Lyrics,Natural Wonder,live album,1995
+1079,5038,Stevie Wonder Lyrics,A Time To Love,album,2005
+1080,,Stevie Wonder Lyrics,other songs:,other songs,Not Defined
+1081,11560,Bee Gees Lyrics,Monday's Rain,album,1966
+1082,11559,Bee Gees Lyrics,Bee Gees' 1st,album,1967
+1083,11558,Bee Gees Lyrics,Horizontal,album,1968
+1084,11557,Bee Gees Lyrics,Idea,album,1968
+1085,11555,Bee Gees Lyrics,Odessa,album,1969
+1086,11553,Bee Gees Lyrics,Cucumber Castle,album,1970
+1087,11552,Bee Gees Lyrics,2 Years On,album,1970
+1088,11551,Bee Gees Lyrics,Trafalgar,album,1971
+1089,11550,Bee Gees Lyrics,To Whom It May Concern,album,1972
+1090,11548,Bee Gees Lyrics,Life In A Tin Can,album,1973
+1091,11547,Bee Gees Lyrics,Mr. Natural,album,1974
+1092,11546,Bee Gees Lyrics,Main Course,album,1975
+1093,11545,Bee Gees Lyrics,Children Of The World,album,1976
+1094,11563,Bee Gees Lyrics,Saturday Night Fever,soundtrack,1977
+1095,11542,Bee Gees Lyrics,Spirits Having Flown,album,1979
+1096,11541,Bee Gees Lyrics,Living Eyes,album,1981
+1097,11540,Bee Gees Lyrics,Staying Alive,soundtrack,1983
+1098,11539,Bee Gees Lyrics,E.S.P.,album,1987
+1099,11538,Bee Gees Lyrics,One,album,1989
+1100,11536,Bee Gees Lyrics,High Civilization,album,1991
+1101,11535,Bee Gees Lyrics,Size Isn't Everything,album,1993
+1102,11534,Bee Gees Lyrics,Still Waters,album,1997
+1103,267,Bee Gees Lyrics,This Is Where I Came In,album,2001
+1104,29518,Bee Gees Lyrics,Mythology,box set,2010
+1105,,Bee Gees Lyrics,other songs:,other songs,Not Defined
+1106,3369,George Michael Lyrics,Faith,album,1987
+1107,3370,George Michael Lyrics,Listen Without Prejudice,album,1990
+1108,3371,George Michael Lyrics,Five Live,EP,1992
+1109,3372,George Michael Lyrics,Older,album,1996
+1110,3373,George Michael Lyrics,Ladies And Gentlemen CD1 - For The Heart,compilation,1998
+1111,3374,George Michael Lyrics,Ladies And Gentlemen CD2 - For The Feet,compilation,1998
+1112,3375,George Michael Lyrics,Songs From The Last Century,album,1999
+1113,3477,George Michael Lyrics,Patience,album,2004
+1114,,George Michael Lyrics,other songs:,other songs,Not Defined
+1115,135,A-ha Lyrics,Hunting High And Low,album,1985
+1116,139,A-ha Lyrics,Scoundrel Days,album,1986
+1117,140,A-ha Lyrics,Stay On This Roads,album,1988
+1118,134,A-ha Lyrics,"East Of The Sun, West Of The Moon",album,1990
+1119,137,A-ha Lyrics,Memorial Beach,album,1993
+1120,138,A-ha Lyrics,"Minor Earth, Major Sky",album,2000
+1121,136,A-ha Lyrics,Lifelines,album,2002
+1122,5088,A-ha Lyrics,Analogue,album,2005
+1123,8663,A-ha Lyrics,Foot Of The Mountain,album,2009
+1124,37562,A-ha Lyrics,Cast In Steel,album,2015
+1125,,A-ha Lyrics,other songs:,other songs,Not Defined
+1126,7561,Michael Jackson Lyrics,Got To Be There,album,1972
+1127,7559,Michael Jackson Lyrics,Ben,album,1972
+1128,7562,Michael Jackson Lyrics,Music & Me,album,1973
+1129,7560,Michael Jackson Lyrics,"Forever, Michael",album,1975
+1130,2513,Michael Jackson Lyrics,Off The Wall,album,1979
+1131,2514,Michael Jackson Lyrics,Thriller,album,1982
+1132,42214,Michael Jackson Lyrics,Farewell My Summer Love,compilation,1984
+1133,2508,Michael Jackson Lyrics,Bad,album,1987
+1134,2510,Michael Jackson Lyrics,Dangerous,album,1991
+1135,2511,Michael Jackson Lyrics,"HIStory - Past, Present And Future - Book 1",album,1995
+1136,2509,Michael Jackson Lyrics,Blood On The Dance Floor - HIStory In The Mix,album,1997
+1137,2512,Michael Jackson Lyrics,Invincible,album,2001
+1138,14184,Michael Jackson Lyrics,The Ultimate Collection,album,2004
+1139,10923,Michael Jackson Lyrics,Michael,album,2010
+1140,70991,Michael Jackson Lyrics,Immortal,soundtrack,2011
+1141,24829,Michael Jackson Lyrics,Bad 25,album,2012
+1142,32033,Michael Jackson Lyrics,Xscape,compilation,2014
+1143,,Michael Jackson Lyrics,other songs:,other songs,Not Defined
+1144,45945,Ben E. King Lyrics,The Very Best Of Ben E. King,compilation,1998
+1145,82591,Ben E. King Lyrics,Gettin' To Me: Northern Soul Sides,EP,2020
+1146,,Ben E. King Lyrics,other songs:,other songs,Not Defined
+1147,2144,Bryan Adams Lyrics,Bryan Adams,album,1980
+1148,2152,Bryan Adams Lyrics,"You Want It, You Got It",album,1981
+1149,2145,Bryan Adams Lyrics,Cuts Like A Knife,album,1983
+1150,2148,Bryan Adams Lyrics,Reckless,album,1984
+1151,2146,Bryan Adams Lyrics,Into The Fire,album,1987
+1152,2151,Bryan Adams Lyrics,Waking Up The Neighbours,album,1991
+1153,2143,Bryan Adams Lyrics,18 Til I Die,album,1996
+1154,2147,Bryan Adams Lyrics,On A Day Like Today,album,1998
+1155,2149,Bryan Adams Lyrics,Spirit: Stallion Of The Cimarron,soundtrack,2002
+1156,4040,Bryan Adams Lyrics,Room Service,album,2004
+1157,6616,Bryan Adams Lyrics,11,album,2008
+1158,33775,Bryan Adams Lyrics,Tracks Of My Years,album,2014
+1159,39848,Bryan Adams Lyrics,Get Up!,album,2015
+1160,65049,Bryan Adams Lyrics,Shine A Light,album,2019
+1161,75361,Bryan Adams Lyrics,Christmas,EP,2019
+1162,,Bryan Adams Lyrics,other songs:,other songs,Not Defined
+1163,8276,Queen Lyrics,Queen,album,1973
+1164,8275,Queen Lyrics,Queen II,album,1974
+1165,8277,Queen Lyrics,Sheer Heart Attack,album,1974
+1166,8269,Queen Lyrics,A Night At The Opera,album,1975
+1167,8267,Queen Lyrics,A Day At The Races,album,1976
+1168,8274,Queen Lyrics,News Of The World,album,1977
+1169,8272,Queen Lyrics,Jazz,album,1978
+1170,8278,Queen Lyrics,The Game,album,1980
+1171,8270,Queen Lyrics,Hot Space,album,1982
+1172,8280,Queen Lyrics,The Works,album,1984
+1173,8268,Queen Lyrics,A Kind Of Magic,album,1986
+1174,8279,Queen Lyrics,The Miracle,album,1989
+1175,8271,Queen Lyrics,Innuendo,album,1991
+1176,8273,Queen Lyrics,Made In Heaven,album,1995
+1177,7122,Queen Lyrics,The Cosmos Rocks,album,2008
+1178,,Queen Lyrics,other songs:,other songs,Not Defined
+1179,11677,Richard Marx Lyrics,Richard Marx,album,1987
+1180,11676,Richard Marx Lyrics,Repeat Offender,album,1989
+1181,11675,Richard Marx Lyrics,Rush Street,album,1991
+1182,11674,Richard Marx Lyrics,Paid Vacation,album,1994
+1183,11673,Richard Marx Lyrics,Flesh And Bone,album,1997
+1184,11672,Richard Marx Lyrics,Days In Avalon,album,2000
+1185,11671,Richard Marx Lyrics,My Own Best Enemy,album,2004
+1186,11679,Richard Marx Lyrics,Emotional Remains,album,2008
+1187,11680,Richard Marx Lyrics,Sundown,album,2008
+1188,19564,Richard Marx Lyrics,Stories To Tell,compilation,2010
+1189,19471,Richard Marx Lyrics,The Christmas EP,EP,2011
+1190,25013,Richard Marx Lyrics,Christmas Spirit,album,2012
+1191,32816,Richard Marx Lyrics,Beautiful Goodbye,album,2014
+1192,73826,Richard Marx Lyrics,Limitless,album,2020
+1193,,Richard Marx Lyrics,other songs:,other songs,Not Defined
+1194,3537,Thousand Foot Krutch Lyrics,Set It Off,album,2001
+1195,3536,Thousand Foot Krutch Lyrics,Phenomenon,album,2003
+1196,4797,Thousand Foot Krutch Lyrics,The Art Of Breaking,album,2005
+1197,6310,Thousand Foot Krutch Lyrics,The Flame In All Of Us,album,2007
+1198,7686,Thousand Foot Krutch Lyrics,Welcome To The Masquerade,album,2009
+1199,19416,Thousand Foot Krutch Lyrics,The End Is Where We Begin,album,2012
+1200,32988,Thousand Foot Krutch Lyrics,Oxygen: Inhale,album,2014
+1201,40527,Thousand Foot Krutch Lyrics,Exhale,album,2016
+1202,,Thousand Foot Krutch Lyrics,other songs:,other songs,Not Defined
+1203,7819,Coolio Lyrics,It Takes A Thief,album,1994
+1204,7818,Coolio Lyrics,Gangsta's Paradise,album,1995
+1205,7820,Coolio Lyrics,My Soul,album,1997
+1206,9000,Coolio Lyrics,El Cool Magnifico,album,2002
+1207,35296,Coolio Lyrics,The Return Of The Gangsta,album,2006
+1208,35295,Coolio Lyrics,From The Bottom 2 The Top,album,2009
+1209,,Coolio Lyrics,other songs:,other songs,Not Defined
+1210,6415,OneRepublic Lyrics,Dreaming Out Loud,album,2007
+1211,8636,OneRepublic Lyrics,Waking Up,album,2009
+1212,25578,OneRepublic Lyrics,Native,album,2013
+1213,44300,OneRepublic Lyrics,Oh My My,album,2016
+1214,80167,OneRepublic Lyrics,Human,album,2020
+1215,,OneRepublic Lyrics,other songs:,other songs,Not Defined
+1216,31920,Nancy Sinatra Lyrics,Boots,album,1966
+1217,31921,Nancy Sinatra Lyrics,How Does That Grab You?,album,1966
+1218,31922,Nancy Sinatra Lyrics,Nancy In London,album,1966
+1219,31923,Nancy Sinatra Lyrics,"Country, My Way",album,1967
+1220,31924,Nancy Sinatra Lyrics,Sugar,album,1967
+1221,31925,Nancy Sinatra Lyrics,Movin' With Nancy,soundtrack,1968
+1222,31927,Nancy Sinatra Lyrics,Nancy & Lee,album,1968
+1223,31926,Nancy Sinatra Lyrics,Nancy,album,1969
+1224,31928,Nancy Sinatra Lyrics,Nancy & Lee Again,album,1972
+1225,39812,Nancy Sinatra Lyrics,Woman,album,1973
+1226,31929,Nancy Sinatra Lyrics,One More Time,album,1995
+1227,31930,Nancy Sinatra Lyrics,How Does It Feel,album,1999
+1228,31931,Nancy Sinatra Lyrics,California Girl,album,2002
+1229,31932,Nancy Sinatra Lyrics,Nancy Sinatra,album,2004
+1230,31934,Nancy Sinatra Lyrics,Shifting Gears,album,2013
+1231,,Nancy Sinatra Lyrics,other songs:,other songs,Not Defined
+1232,11005,The Beatles Lyrics,Please Please Me,album,1963
+1233,11004,The Beatles Lyrics,With The Beatles,album,1963
+1234,11003,The Beatles Lyrics,A Hard Day's Night,album,1964
+1235,11002,The Beatles Lyrics,Beatles For Sale,album,1964
+1236,11001,The Beatles Lyrics,Help!,album,1965
+1237,11000,The Beatles Lyrics,Rubber Soul,album,1965
+1238,10999,The Beatles Lyrics,Revolver,album,1966
+1239,10998,The Beatles Lyrics,Sgt. Pepper's Lonely Hearts Club Band,album,1967
+1240,10997,The Beatles Lyrics,Magical Mystery Tour,album,1967
+1241,10996,The Beatles Lyrics,The Beatles (The White Album),album,1968
+1242,10995,The Beatles Lyrics,Yellow Submarine,album,1969
+1243,10994,The Beatles Lyrics,Abbey Road,album,1969
+1244,10993,The Beatles Lyrics,Let It Be,album,1970
+1245,10992,The Beatles Lyrics,Past Masters. Volume One,album,1988
+1246,10991,The Beatles Lyrics,Past Masters. Volume Two,compilation,1988
+1247,10990,The Beatles Lyrics,Live At The BBC. Disk 1,compilation,1994
+1248,10989,The Beatles Lyrics,Live At The BBC. Disk 2,compilation,1994
+1249,10988,The Beatles Lyrics,Anthology 1,compilation,1995
+1250,10987,The Beatles Lyrics,Anthology 2,compilation,1996
+1251,10986,The Beatles Lyrics,Anthology 3,compilation,1996
+1252,,The Beatles Lyrics,other songs:,other songs,Not Defined
+1253,28295,Freddie Mercury Lyrics,Mr. Bad Guy,album,1985
+1254,28296,Freddie Mercury Lyrics,Barcelona,album,1988
+1255,,Freddie Mercury Lyrics,other songs:,other songs,Not Defined
+1256,1317,Nickelback Lyrics,Curb,album,1996
+1257,1319,Nickelback Lyrics,The State,album,2000
+1258,1318,Nickelback Lyrics,Silver Side Up,album,2001
+1259,3013,Nickelback Lyrics,The Long Road,album,2003
+1260,4916,Nickelback Lyrics,All The Right Reasons,album,2005
+1261,6998,Nickelback Lyrics,Dark Horse,album,2008
+1262,18606,Nickelback Lyrics,Here And Now,album,2011
+1263,33844,Nickelback Lyrics,No Fixed Address,album,2014
+1264,46157,Nickelback Lyrics,Feed The Machine,album,2017
+1265,,Nickelback Lyrics,other songs:,other songs,Not Defined
+1266,5429,Gnarls Barkley Lyrics,St. Elsewhere,album,2006
+1267,6634,Gnarls Barkley Lyrics,The Odd Couple,album,2008
+1268,,Gnarls Barkley Lyrics,other songs:,other songs,Not Defined
+1269,1719,Simple Plan Lyrics,"No Pads, No Helmets... Just Balls",album,2002
+1270,3968,Simple Plan Lyrics,Still Not Getting Any...,album,2004
+1271,6544,Simple Plan Lyrics,Simple Plan,album,2008
+1272,16781,Simple Plan Lyrics,Get Your Heart On!,album,2011
+1273,30113,Simple Plan Lyrics,Get Your Heart On - The Second Coming!,EP,2013
+1274,41453,Simple Plan Lyrics,Taking One For The Team,album,2016
+1275,,Simple Plan Lyrics,other songs:,other songs,Not Defined
+1276,26051,5 Seconds Of Summer (5SOS) Lyrics,Unplugged,EP,2012
+1277,26052,5 Seconds Of Summer (5SOS) Lyrics,Somewhere New,EP,2012
+1278,31642,5 Seconds Of Summer (5SOS) Lyrics,She Looks So Perfect,EP,2014
+1279,32861,5 Seconds Of Summer (5SOS) Lyrics,Don't Stop,EP,2014
+1280,32590,5 Seconds Of Summer (5SOS) Lyrics,5 Seconds Of Summer,album,2014
+1281,34444,5 Seconds Of Summer (5SOS) Lyrics,Amnesia,EP,2014
+1282,39515,5 Seconds Of Summer (5SOS) Lyrics,She's Kinda Hot,EP,2015
+1283,39413,5 Seconds Of Summer (5SOS) Lyrics,Sounds Good Feels Good,album,2015
+1284,56107,5 Seconds Of Summer (5SOS) Lyrics,Youngblood,album,2018
+1285,78617,5 Seconds Of Summer (5SOS) Lyrics,CALM,album,2020
+1286,,5 Seconds Of Summer (5SOS) Lyrics,other songs:,other songs,Not Defined
+1287,45015,A Boogie Wit Da Hoodie Lyrics,Artist,mixtape,2016
+1288,45018,A Boogie Wit Da Hoodie Lyrics,Highbridge The Label: The Takeover Vol. 1,mixtape,2016
+1289,45017,A Boogie Wit Da Hoodie Lyrics,TBA,EP,2016
+1290,50068,A Boogie Wit Da Hoodie Lyrics,The Bigger Artist,album,2017
+1291,57662,A Boogie Wit Da Hoodie Lyrics,International Artist,EP,2018
+1292,64125,A Boogie Wit Da Hoodie Lyrics,Hoodie SZN,album,2018
+1293,79078,A Boogie Wit Da Hoodie Lyrics,Artist 2.0,album,2020
+1294,,A Boogie Wit Da Hoodie Lyrics,other songs:,other songs,Not Defined
+1295,54456,6ix9ine (Tekashi69) Lyrics,DAY69,mixtape,2018
+1296,63363,6ix9ine (Tekashi69) Lyrics,DUMMY BOY,album,2018
+1297,,6ix9ine (Tekashi69) Lyrics,other songs:,other songs,Not Defined
+1298,2485,Enrique Iglesias Lyrics,Enrique Iglesias,album,1995
+1299,2488,Enrique Iglesias Lyrics,Vivir,album,1997
+1300,2483,Enrique Iglesias Lyrics,Cosas Del Amor,album,1998
+1301,2484,Enrique Iglesias Lyrics,Enrique,album,1999
+1302,2486,Enrique Iglesias Lyrics,Escape,album,2001
+1303,2487,Enrique Iglesias Lyrics,QuizÃ¡s,album,2002
+1304,3180,Enrique Iglesias Lyrics,Seven,album,2003
+1305,6141,Enrique Iglesias Lyrics,Insomniac,album,2007
+1306,9909,Enrique Iglesias Lyrics,Euphoria,album,2010
+1307,31542,Enrique Iglesias Lyrics,Sex + Love,album,2014
+1308,,Enrique Iglesias Lyrics,other songs:,other songs,Not Defined
+1309,40347,The Chainsmokers Lyrics,Bouquet,EP,2015
+1310,44840,The Chainsmokers Lyrics,Collage,EP,2016
+1311,46505,The Chainsmokers Lyrics,Memories...Do Not Open,album,2017
+1312,56469,The Chainsmokers Lyrics,Sick Boy,album,2018
+1313,76302,The Chainsmokers Lyrics,World War Joy,album,2019
+1314,,The Chainsmokers Lyrics,other songs:,other songs,Not Defined
+1315,3606,Josh Turner Lyrics,Long Black Train,album,2003
+1316,5202,Josh Turner Lyrics,Your Man,album,2006
+1317,6746,Josh Turner Lyrics,Everything Is Fine,album,2007
+1318,9222,Josh Turner Lyrics,Haywire,album,2010
+1319,22886,Josh Turner Lyrics,Punching Bag,album,2012
+1320,46448,Josh Turner Lyrics,Deep South,album,2017
+1321,61763,Josh Turner Lyrics,I Serve A Savior,album,2018
+1322,,Josh Turner Lyrics,other songs:,other songs,Not Defined
+1323,1073,Lonestar Lyrics,Lonestar,album,1995
+1324,1069,Lonestar Lyrics,Crazy Nights,album,1997
+1325,1072,Lonestar Lyrics,Lonely Grill,album,1999
+1326,1074,Lonestar Lyrics,This Christmas Time,album,2000
+1327,1070,Lonestar Lyrics,I'm Already There,album,2001
+1328,3710,Lonestar Lyrics,Let's Be Us Again,album,2004
+1329,5754,Lonestar Lyrics,Coming Home,album,2005
+1330,5755,Lonestar Lyrics,Mountains,album,2006
+1331,9662,Lonestar Lyrics,Party Heard Around The World,album,2010
+1332,26882,Lonestar Lyrics,Life As We Know It,album,2013
+1333,,Lonestar Lyrics,other songs:,other songs,Not Defined
+1334,26229,Perry Como Lyrics,So Smooth,album,1955
+1335,26230,Perry Como Lyrics,I Believe,album,1956
+1336,26231,Perry Como Lyrics,Dream Along With Me,album,1957
+1337,26232,Perry Como Lyrics,We Get Letters,album,1957
+1338,26233,Perry Como Lyrics,Saturday Night With Mr. C.,album,1958
+1339,26234,Perry Como Lyrics,When You Come To The End Of The Day,album,1958
+1340,26235,Perry Como Lyrics,Como Swings,album,1959
+1341,26236,Perry Como Lyrics,Season's Greetings From Perry Como,album,1959
+1342,26237,Perry Como Lyrics,For The Young At Heart,album,1961
+1343,26238,Perry Como Lyrics,"Sing To Me, Mr. C.",album,1961
+1344,26239,Perry Como Lyrics,By Request,album,1962
+1345,26240,Perry Como Lyrics,The Songs I Love,album,1963
+1346,26241,Perry Como Lyrics,The Scene Changes,album,1965
+1347,26243,Perry Como Lyrics,In Italy,album,1966
+1348,26242,Perry Como Lyrics,Lightly Latin,album,1966
+1349,26244,Perry Como Lyrics,It's Impossible,album,1970
+1350,42111,Perry Como Lyrics,And I Love You So,album,1973
+1351,42112,Perry Como Lyrics,Perry Como,album,1980
+1352,42110,Perry Como Lyrics,Today,album,1987
+1353,42113,Perry Como Lyrics,20 Greatest Hits,compilation,1994
+1354,26247,Perry Como Lyrics,Incomparable,album,1997
+1355,,Perry Como Lyrics,other songs:,other songs,Not Defined
+1356,10407,Eric Clapton Lyrics,Eric Clapton,album,1970
+1357,10409,Eric Clapton Lyrics,461 Ocean Boulevard,album,1974
+1358,10410,Eric Clapton Lyrics,There's One In Every Crowd,album,1975
+1359,10412,Eric Clapton Lyrics,No Reason To Cry,album,1976
+1360,10413,Eric Clapton Lyrics,Slowhand,album,1977
+1361,10414,Eric Clapton Lyrics,Backless,album,1978
+1362,10415,Eric Clapton Lyrics,Another Ticket,album,1981
+1363,10416,Eric Clapton Lyrics,Money And Cigarettes,album,1983
+1364,10417,Eric Clapton Lyrics,Behind The Sun,album,1985
+1365,10419,Eric Clapton Lyrics,August,album,1986
+1366,10420,Eric Clapton Lyrics,Crossroads,compilation,1988
+1367,10421,Eric Clapton Lyrics,Journeyman,album,1989
+1368,10422,Eric Clapton Lyrics,Unplugged,album,1992
+1369,10423,Eric Clapton Lyrics,From The Cradle,album,1994
+1370,10425,Eric Clapton Lyrics,Pilgrim,album,1998
+1371,10426,Eric Clapton Lyrics,Riding With The King,album,2000
+1372,10427,Eric Clapton Lyrics,Reptile,album,2001
+1373,10429,Eric Clapton Lyrics,Me And Mr. Johnson,album,2004
+1374,10430,Eric Clapton Lyrics,Back Home,album,2005
+1375,10431,Eric Clapton Lyrics,The Road To Escondido,album,2006
+1376,10434,Eric Clapton Lyrics,Clapton,album,2010
+1377,26472,Eric Clapton Lyrics,Old Sock,album,2013
+1378,33263,Eric Clapton Lyrics,The Breeze: An Appreciation Of JJ Cale,album,2014
+1379,42350,Eric Clapton Lyrics,I Still Do,album,2016
+1380,60585,Eric Clapton Lyrics,Happy Xmas,album,2018
+1381,,Eric Clapton Lyrics,other songs:,other songs,Not Defined
+1382,5070,Kenny Chesney Lyrics,In My Wildest Dreams,album,1995
+1383,2282,Kenny Chesney Lyrics,All I Need To Know,album,1995
+1384,5071,Kenny Chesney Lyrics,Me And You,album,1996
+1385,2284,Kenny Chesney Lyrics,I Will Stand,album,1997
+1386,2283,Kenny Chesney Lyrics,Everywhere We Go,album,1999
+1387,2285,Kenny Chesney Lyrics,"No Shoes, No Shirt, No Problems",album,2002
+1388,42294,Kenny Chesney Lyrics,All I Want For Christmas Is A Real Good Tan,album,2003
+1389,3357,Kenny Chesney Lyrics,When The Sun Goes Down,album,2004
+1390,4361,Kenny Chesney Lyrics,Be As You Are: Songs From An Old Blue Chair,album,2005
+1391,5072,Kenny Chesney Lyrics,The Road And The Radio,album,2005
+1392,6299,Kenny Chesney Lyrics,Just Who I Am: Poets & Pirates,album,2007
+1393,7004,Kenny Chesney Lyrics,Lucky Old Sun,album,2008
+1394,10303,Kenny Chesney Lyrics,Hemingway's Whiskey,album,2010
+1395,23237,Kenny Chesney Lyrics,Welcome To The Fishbowl,album,2012
+1396,26107,Kenny Chesney Lyrics,Life On A Rock,album,2013
+1397,33750,Kenny Chesney Lyrics,The Big Revival,album,2014
+1398,43772,Kenny Chesney Lyrics,Cosmic Hallelujah,album,2016
+1399,58969,Kenny Chesney Lyrics,Songs For The Saints,album,2018
+1400,81393,Kenny Chesney Lyrics,Here And Now,album,2020
+1401,,Kenny Chesney Lyrics,other songs:,other songs,Not Defined
+1402,2261,Mariah Carey Lyrics,Mariah Carey,album,1990
+1403,2259,Mariah Carey Lyrics,Emotions,album,1991
+1404,2264,Mariah Carey Lyrics,Music Box,album,1993
+1405,2262,Mariah Carey Lyrics,Merry Christmas,album,1994
+1406,2258,Mariah Carey Lyrics,Daydream,album,1995
+1407,2256,Mariah Carey Lyrics,Butterfly,album,1997
+1408,2265,Mariah Carey Lyrics,#1's,album,1998
+1409,2266,Mariah Carey Lyrics,Rainbow,album,1999
+1410,2260,Mariah Carey Lyrics,Glitter,album,2001
+1411,2257,Mariah Carey Lyrics,Charmbracelet,album,2002
+1412,4495,Mariah Carey Lyrics,The Emancipation Of Mimi,album,2005
+1413,6645,Mariah Carey Lyrics,E=MCÂ²,album,2008
+1414,7713,Mariah Carey Lyrics,Memoirs Of An Imperfect Angel,album,2009
+1415,10669,Mariah Carey Lyrics,Merry Christmas II You,album,2010
+1416,27813,Mariah Carey Lyrics,Me. I Am Mariah... The Elusive Chanteuse,album,2014
+1417,62231,Mariah Carey Lyrics,Caution,album,2018
+1418,,Mariah Carey Lyrics,other songs:,other songs,Not Defined
+1419,24518,Bella Thorne Lyrics,Shake It Up: Made In Japan,EP,2012
+1420,26451,Bella Thorne Lyrics,Shake It Up: I <3 Dance,soundtrack,2013
+1421,32565,Bella Thorne Lyrics,Jersey,EP,2014
+1422,,Bella Thorne Lyrics,other songs:,other songs,Not Defined
+1423,2230,Toni Braxton Lyrics,Toni Braxton,album,1993
+1424,2228,Toni Braxton Lyrics,Secrets,album,1996
+1425,2229,Toni Braxton Lyrics,The Heat,album,2000
+1426,2227,Toni Braxton Lyrics,More Than A Woman,album,2002
+1427,5063,Toni Braxton Lyrics,Libra,album,2005
+1428,9530,Toni Braxton Lyrics,Pulse,album,2010
+1429,28683,Toni Braxton Lyrics,"Love, Marriage, Divorce",album,2014
+1430,52768,Toni Braxton Lyrics,Coping (Remixes),EP,2017
+1431,52769,Toni Braxton Lyrics,Sex & Cigarettes,album,2018
+1432,,Toni Braxton Lyrics,other songs:,other songs,Not Defined
+1433,19453,Paul Anka Lyrics,Rock Swings,album,2005
+1434,19452,Paul Anka Lyrics,"Classic Songs, My Way",album,2007
+1435,,Paul Anka Lyrics,other songs:,other songs,Not Defined
+1436,18216,The Proclaimers Lyrics,This Is The Story,album,1987
+1437,18217,The Proclaimers Lyrics,Sunshine On Leith,album,1988
+1438,18219,The Proclaimers Lyrics,Hit The Highway,album,1994
+1439,18220,The Proclaimers Lyrics,Persevere,album,2001
+1440,18221,The Proclaimers Lyrics,Born Innocent,album,2003
+1441,18222,The Proclaimers Lyrics,Finest,compilation,2003
+1442,18223,The Proclaimers Lyrics,Restless Soul,album,2005
+1443,18224,The Proclaimers Lyrics,Life With You,album,2007
+1444,18225,The Proclaimers Lyrics,Notes & Rhymes,album,2009
+1445,34128,The Proclaimers Lyrics,Like Comedy,album,2012
+1446,38296,The Proclaimers Lyrics,Let's Hear It For The Dogs,album,2015
+1447,58736,The Proclaimers Lyrics,Angry Cyclist,album,2018
+1448,,The Proclaimers Lyrics,other songs:,other songs,Not Defined
+1449,55973,Bazzi Lyrics,Cosmic,album,2018
+1450,71189,Bazzi Lyrics,Soul Searching,album,2019
+1451,,Bazzi Lyrics,other songs:,other songs,Not Defined
+1452,30273,MAGIC! Lyrics,Don't Kill The Magic,album,2014
+1453,43253,MAGIC! Lyrics,Primary Colours,album,2016
+1454,60795,MAGIC! Lyrics,Expectations,album,2018
+1455,,MAGIC! Lyrics,other songs:,other songs,Not Defined
+1456,6846,Chamillionaire Lyrics,Mixtape Messiah,mixtape,2004
+1457,5119,Chamillionaire Lyrics,The Sound Of Revenge,album,2005
+1458,7178,Chamillionaire Lyrics,Man On Fire,mixtape,2006
+1459,6847,Chamillionaire Lyrics,Mixtape Messiah 2,mixtape,2006
+1460,6848,Chamillionaire Lyrics,Mixtape Messiah 3,mixtape,2007
+1461,6313,Chamillionaire Lyrics,Ultimate Victory,album,2007
+1462,6849,Chamillionaire Lyrics,Mixtape Messiah 4,mixtape,2008
+1463,7644,Chamillionaire Lyrics,Mixtape Messiah 5,mixtape,2008
+1464,8263,Chamillionaire Lyrics,Mixtape Messiah 6,mixtape,2009
+1465,7688,Chamillionaire Lyrics,Mixtape Messiah 7,mixtape,2009
+1466,16416,Chamillionaire Lyrics,Major Pain 1.5,mixtape,2011
+1467,23232,Chamillionaire Lyrics,Ammunition,EP,2012
+1468,26699,Chamillionaire Lyrics,Elevate,EP,2013
+1469,27929,Chamillionaire Lyrics,Reignfall,EP,2013
+1470,,Chamillionaire Lyrics,other songs:,other songs,Not Defined
+1471,33340,Hozier Lyrics,Hozier,album,2014
+1472,61044,Hozier Lyrics,Nina Cried Power,EP,2018
+1473,64995,Hozier Lyrics,"Wasteland, Baby!",album,2019
+1474,,Hozier Lyrics,other songs:,other songs,Not Defined
+1475,49353,Alan Walker Lyrics,Faded (Remixes),EP,2016
+1476,64186,Alan Walker Lyrics,Different World,album,2018
+1477,,Alan Walker Lyrics,other songs:,other songs,Not Defined
+1478,34284,Lil Dicky Lyrics,So Hard,mixtape,2013
+1479,38324,Lil Dicky Lyrics,Hump Days,mixtape,2014
+1480,35591,Lil Dicky Lyrics,Professional Rapper,album,2015
+1481,50358,Lil Dicky Lyrics,I'm Brain,EP,2017
+1482,,Lil Dicky Lyrics,other songs:,other songs,Not Defined
+1483,32658,Melanie Martinez Lyrics,Dollhouse,EP,2014
+1484,38621,Melanie Martinez Lyrics,Cry Baby,album,2015
+1485,71917,Melanie Martinez Lyrics,K-12,album,2019
+1486,,Melanie Martinez Lyrics,other songs:,other songs,Not Defined
+1487,16913,The Weeknd Lyrics,House Of Balloons,mixtape,2011
+1488,17667,The Weeknd Lyrics,Thursday,mixtape,2011
+1489,19168,The Weeknd Lyrics,Echoes Of Silence,mixtape,2011
+1490,27335,The Weeknd Lyrics,Kiss Land,album,2013
+1491,38469,The Weeknd Lyrics,Beauty Behind The Madness,album,2015
+1492,44590,The Weeknd Lyrics,Starboy,album,2016
+1493,55900,The Weeknd Lyrics,"My Dear Melancholy,",EP,2018
+1494,79298,The Weeknd Lyrics,After Hours,album,2020
+1495,,The Weeknd Lyrics,other songs:,other songs,Not Defined
+1496,40005,Doja Cat Lyrics,Purrr!,EP,2014
+1497,55911,Doja Cat Lyrics,Amala,album,2018
+1498,74891,Doja Cat Lyrics,Hot Pink,album,2019
+1499,,Doja Cat Lyrics,other songs:,other songs,Not Defined
+1500,72955,DaBaby (Baby Jesus) Lyrics,So Disrespectful,mixtape,2015
+1501,72954,DaBaby (Baby Jesus) Lyrics,NonFiction,mixtape,2015
+1502,68977,DaBaby (Baby Jesus) Lyrics,God's Work Resurrected,mixtape,2016
+1503,72948,DaBaby (Baby Jesus) Lyrics,Baby Talk,mixtape,2017
+1504,72949,DaBaby (Baby Jesus) Lyrics,Baby Talk 2,mixtape,2017
+1505,72952,DaBaby (Baby Jesus) Lyrics,Billion Dollar Baby,mixtape,2017
+1506,69315,DaBaby (Baby Jesus) Lyrics,Baby Talk 3,mixtape,2017
+1507,65168,DaBaby (Baby Jesus) Lyrics,Back On My Baby Jesus Sh!t,mixtape,2017
+1508,72951,DaBaby (Baby Jesus) Lyrics,Baby Talk 4,mixtape,2017
+1509,65174,DaBaby (Baby Jesus) Lyrics,Baby Talk 5,mixtape,2018
+1510,65177,DaBaby (Baby Jesus) Lyrics,Blank Blank,mixtape,2018
+1511,66237,DaBaby (Baby Jesus) Lyrics,Baby On Baby,mixtape,2019
+1512,72940,DaBaby (Baby Jesus) Lyrics,KIRK,album,2019
+1513,81715,DaBaby (Baby Jesus) Lyrics,BLAME IT ON BABY,album,2020
+1514,,DaBaby (Baby Jesus) Lyrics,other songs:,other songs,Not Defined
+1515,66906,Megan Thee Stallion Lyrics,Make It Hot,EP,2017
+1516,66905,Megan Thee Stallion Lyrics,Tina Snow,EP,2018
+1517,68841,Megan Thee Stallion Lyrics,Fever,mixtape,2019
+1518,79932,Megan Thee Stallion Lyrics,Suga,album,2020
+1519,,Megan Thee Stallion Lyrics,other songs:,other songs,Not Defined
+1520,73049,SAINt JHN Lyrics,The St. John Portfolio,mixtape,2011
+1521,55908,SAINt JHN Lyrics,Collection One,album,2018
+1522,71594,SAINt JHN Lyrics,Ghetto Lenny's Love Songs,album,2019
+1523,,SAINt JHN Lyrics,other songs:,other songs,Not Defined
+1524,41762,Dua Lipa Lyrics,Dua Lipa,album,2017
+1525,52032,Dua Lipa Lyrics,Live Acoustic,EP,2017
+1526,78338,Dua Lipa Lyrics,Future Nostalgia,album,2020
+1527,,Dua Lipa Lyrics,other songs:,other songs,Not Defined
+1528,42881,Post Malone Lyrics,August 26,mixtape,2016
+1529,44329,Post Malone Lyrics,Stoney,album,2016
+1530,56027,Post Malone Lyrics,Beerbongs & Bentleys,album,2018
+1531,72013,Post Malone Lyrics,Hollywood's Bleeding,album,2019
+1532,,Post Malone Lyrics,other songs:,other songs,Not Defined
+1533,62835,Roddy Ricch Lyrics,Feed Tha Streets,mixtape,2017
+1534,62838,Roddy Ricch Lyrics,Feed The Streets II,mixtape,2018
+1535,76351,Roddy Ricch Lyrics,Please Excuse Me For Being Antisocial,album,2019
+1536,,Roddy Ricch Lyrics,other songs:,other songs,Not Defined
+1537,59940,Lil Mosey Lyrics,NorthsBest Mixtape,mixtape,2017
+1538,62311,Lil Mosey Lyrics,Northsbest,album,2018
+1539,74850,Lil Mosey Lyrics,Certified Hitmaker,album,2019
+1540,,Lil Mosey Lyrics,other songs:,other songs,Not Defined
+1541,65215,Future Lyrics,Kno Mercy,mixtape,2010
+1542,72960,Future Lyrics,Dirty Sprite,mixtape,2011
+1543,25859,Future Lyrics,True Story,mixtape,2011
+1544,25860,Future Lyrics,Streetz Calling,mixtape,2011
+1545,22312,Future Lyrics,Astronaut Status,mixtape,2012
+1546,22952,Future Lyrics,Pluto,album,2012
+1547,25849,Future Lyrics,F.B.G. The Movie,mixtape,2013
+1548,28172,Future Lyrics,Honest,album,2014
+1549,34545,Future Lyrics,Monster,mixtape,2014
+1550,35979,Future Lyrics,Beast Mode,mixtape,2015
+1551,37425,Future Lyrics,56 Nights,mixtape,2015
+1552,39129,Future Lyrics,DS2 (Dirty Sprite 2),album,2015
+1553,39649,Future Lyrics,What A Time To Be Alive,mixtape,2015
+1554,41001,Future Lyrics,Purple Reign,mixtape,2016
+1555,41457,Future Lyrics,EVOL,album,2016
+1556,45034,Future Lyrics,Free Bricks 2 (Zone 6 Edition),mixtape,2016
+1557,46400,Future Lyrics,Future,album,2017
+1558,46520,Future Lyrics,HNDRXX,album,2017
+1559,50944,Future Lyrics,SUPER SLIMEY,mixtape,2017
+1560,58223,Future Lyrics,SUPERFLY,soundtrack,2018
+1561,59280,Future Lyrics,BEASTMODE 2,mixtape,2018
+1562,62329,Future Lyrics,Future & Juice WRLD Present... WRLD ON DRUGS,mixtape,2018
+1563,64699,Future Lyrics,Future Hndrxx Presents: The WIZRD,album,2019
+1564,69485,Future Lyrics,SAVE ME,EP,2019
+1565,82818,Future Lyrics,High Off Life,album,2020
+1566,,Future Lyrics,other songs:,other songs,Not Defined
+1567,8813,Drake Lyrics,Room For Improvement,mixtape,2006
+1568,7990,Drake Lyrics,Comeback Season,mixtape,2007
+1569,7389,Drake Lyrics,So Far Gone,mixtape,2009
+1570,8814,Drake Lyrics,So Far Gone,EP,2009
+1571,9773,Drake Lyrics,Thank Me Later,album,2010
+1572,10122,Drake Lyrics,Young Sweet Jones,mixtape,2010
+1573,17004,Drake Lyrics,Take Care,album,2011
+1574,26475,Drake Lyrics,Nothing Was The Same,album,2013
+1575,36891,Drake Lyrics,If You're Reading This It's Too Late,mixtape,2015
+1576,39648,Drake Lyrics,What A Time To Be Alive,mixtape,2015
+1577,34498,Drake Lyrics,Views,album,2016
+1578,44868,Drake Lyrics,More Life,compilation,2017
+1579,53097,Drake Lyrics,Scary Hours,EP,2018
+1580,57646,Drake Lyrics,Scorpion,album,2018
+1581,71066,Drake Lyrics,Care Package,compilation,2019
+1582,82353,Drake Lyrics,Dark Lane Demo Tapes,mixtape,2020
+1583,,Drake Lyrics,other songs:,other songs,Not Defined
+1584,69962,Lil Nas X Lyrics,7,EP,2019
+1585,,Lil Nas X Lyrics,other songs:,other songs,Not Defined
+1586,44945,Maggie Rogers Lyrics,Now That The Light Is Fading,EP,2017
+1587,62112,Maggie Rogers Lyrics,Heard It In A Past Life,album,2019
+1588,,Maggie Rogers Lyrics,other songs:,other songs,Not Defined
+1589,34731,Halsey Lyrics,Room 93,EP,2014
+1590,37314,Halsey Lyrics,Badlands,album,2015
+1591,44337,Halsey Lyrics,Complementary Colors,EP,2016
+1592,47395,Halsey Lyrics,Hopeless Fountain Kingdom,album,2017
+1593,72354,Halsey Lyrics,Manic,album,2020
+1594,,Halsey Lyrics,other songs:,other songs,Not Defined
+1595,76511,Yola Lyrics,Orphan Offering,EP,2016
+1596,76510,Yola Lyrics,Walk Through Fire,album,2019
+1597,11183,Mac Miller Lyrics,The Jukebox: Prelude To Class Clown,mixtape,2009
+1598,11184,Mac Miller Lyrics,The High Life,mixtape,2009
+1599,11185,Mac Miller Lyrics,K.I.D.S.,mixtape,2010
+1600,14757,Mac Miller Lyrics,Best Day Ever,mixtape,2011
+1601,15748,Mac Miller Lyrics,On And On And Beyond,EP,2011
+1602,19028,Mac Miller Lyrics,"I Love Life, Thank You",mixtape,2011
+1603,17397,Mac Miller Lyrics,Blue Slide Park,album,2011
+1604,22756,Mac Miller Lyrics,Macadelic,mixtape,2012
+1605,25983,Mac Miller Lyrics,Watching Movies With The Sound Off,album,2013
+1606,30014,Mac Miller Lyrics,Delusional Thomas,mixtape,2013
+1607,32546,Mac Miller Lyrics,Faces,mixtape,2014
+1608,39366,Mac Miller Lyrics,GO:OD AM,album,2015
+1609,43738,Mac Miller Lyrics,The Divine Feminine,album,2016
+1610,59562,Mac Miller Lyrics,Swimming,album,2018
+1611,77566,Mac Miller Lyrics,Circles,album,2020
+1612,,Mac Miller Lyrics,other songs:,other songs,Not Defined
+1613,36166,Ricky Nelson Lyrics,Ricky,album,1957
+1614,36167,Ricky Nelson Lyrics,Ricky Nelson,album,1958
+1615,36168,Ricky Nelson Lyrics,Ricky Sings Again,album,1959
+1616,36170,Ricky Nelson Lyrics,Ricky Sings Spirituals,EP,1959
+1617,36169,Ricky Nelson Lyrics,Songs By Ricky,album,1959
+1618,36171,Ricky Nelson Lyrics,More Songs By Ricky,album,1960
+1619,36172,Ricky Nelson Lyrics,Rick Is 21,album,1961
+1620,36173,Ricky Nelson Lyrics,Album Seven By Rick,album,1962
+1621,36174,Ricky Nelson Lyrics,For Your Sweet Love,album,1963
+1622,36175,Ricky Nelson Lyrics,Rick Nelson Sings For You,album,1963
+1623,36177,Ricky Nelson Lyrics,Spotlight On Rick,album,1964
+1624,36176,Ricky Nelson Lyrics,The Very Thought Of You,album,1964
+1625,36178,Ricky Nelson Lyrics,Best Always,album,1965
+1626,36179,Ricky Nelson Lyrics,Love And Kisses,album,1965
+1627,36180,Ricky Nelson Lyrics,Bright Lights & Country Music,album,1966
+1628,36181,Ricky Nelson Lyrics,On The Flip Side: The Original Cast Album,soundtrack,1966
+1629,36182,Ricky Nelson Lyrics,Another Side Of Rick Nelson,album,1967
+1630,36183,Ricky Nelson Lyrics,Country Fever,album,1967
+1631,36184,Ricky Nelson Lyrics,Perspective,album,1968
+1632,36185,Ricky Nelson Lyrics,Rick Nelson In Concert,live album,1970
+1633,36186,Ricky Nelson Lyrics,Rick Sings Nelson,album,1970
+1634,36187,Ricky Nelson Lyrics,Rudy The Fifth,album,1971
+1635,36188,Ricky Nelson Lyrics,Garden Party,album,1972
+1636,36189,Ricky Nelson Lyrics,Windfall,album,1974
+1637,36190,Ricky Nelson Lyrics,Intakes,album,1977
+1638,36191,Ricky Nelson Lyrics,Return To Vienna,album,1978
+1639,36192,Ricky Nelson Lyrics,Playing To Win,album,1981
+1640,36194,Ricky Nelson Lyrics,The Memphis Sessions,album,1986
+1641,,Ricky Nelson Lyrics,other songs:,other songs,Not Defined
+1642,2850,Pink (P!nk) Lyrics,Can't Take Me Home,album,2000
+1643,1456,Pink (P!nk) Lyrics,Missundaztood,album,2001
+1644,3146,Pink (P!nk) Lyrics,Try This,album,2003
+1645,5350,Pink (P!nk) Lyrics,I'm Not Dead,album,2006
+1646,6923,Pink (P!nk) Lyrics,Funhouse,album,2008
+1647,24274,Pink (P!nk) Lyrics,The Truth About Love,album,2012
+1648,49466,Pink (P!nk) Lyrics,Beautiful Trauma,album,2017
+1649,66032,Pink (P!nk) Lyrics,Hurts 2B Human,album,2019
+1650,,Pink (P!nk) Lyrics,other songs:,other songs,Not Defined
+1651,2474,Whitney Houston Lyrics,Whitney Houston,album,1985
+1652,2473,Whitney Houston Lyrics,Whitney,album,1987
+1653,2468,Whitney Houston Lyrics,I'm Your Baby Tonight,album,1990
+1654,2471,Whitney Houston Lyrics,The Bodyguard,soundtrack,1992
+1655,2472,Whitney Houston Lyrics,The Preacher's Wife,soundtrack,1996
+1656,2470,Whitney Houston Lyrics,My Love Is Your Love,album,1998
+1657,2469,Whitney Houston Lyrics,Just Whitney,album,2002
+1658,3205,Whitney Houston Lyrics,One Wish: The Holiday Album,compilation,2003
+1659,7724,Whitney Houston Lyrics,I Look To You,album,2009
+1660,,Whitney Houston Lyrics,other songs:,other songs,Not Defined
+1661,31732,Aretha Franklin Lyrics,Aretha (With The Ray Bryant Combo),album,1961
+1662,31733,Aretha Franklin Lyrics,The Electrifying Aretha Franklin,album,1962
+1663,42040,Aretha Franklin Lyrics,Laughing On The Outside,album,1963
+1664,31734,Aretha Franklin Lyrics,Runnin' Out Of Fools,album,1964
+1665,60979,Aretha Franklin Lyrics,Soul Sister,album,1966
+1666,31735,Aretha Franklin Lyrics,Aretha Arrives,album,1967
+1667,31736,Aretha Franklin Lyrics,I Never Loved A Man The Way I Love You,album,1967
+1668,31743,Aretha Franklin Lyrics,Aretha Now,album,1968
+1669,31744,Aretha Franklin Lyrics,Lady Soul,album,1968
+1670,31745,Aretha Franklin Lyrics,Soul '69,album,1969
+1671,31746,Aretha Franklin Lyrics,Spirit In The Dark,album,1970
+1672,31747,Aretha Franklin Lyrics,Sweet Bitter Love,album,1970
+1673,31748,Aretha Franklin Lyrics,This Girl's In Love With You,album,1970
+1674,31750,Aretha Franklin Lyrics,"Young, Gifted And Black",album,1971
+1675,31751,Aretha Franklin Lyrics,Amazing Grace,live album,1972
+1676,31752,Aretha Franklin Lyrics,Hey Now Hey (The Other Side Of The Sky),album,1973
+1677,31755,Aretha Franklin Lyrics,Let Me In Your Life,album,1974
+1678,60927,Aretha Franklin Lyrics,With Everything I Feel In Me,album,1974
+1679,60926,Aretha Franklin Lyrics,You,album,1975
+1680,31758,Aretha Franklin Lyrics,Sparkle,soundtrack,1976
+1681,60909,Aretha Franklin Lyrics,Sweet Passion,album,1977
+1682,31759,Aretha Franklin Lyrics,Almighty Fire,album,1978
+1683,31760,Aretha Franklin Lyrics,La Diva,album,1979
+1684,31761,Aretha Franklin Lyrics,Aretha,album,1980
+1685,31762,Aretha Franklin Lyrics,Aretha Sings The Blues,compilation,1980
+1686,31763,Aretha Franklin Lyrics,Love All The Hurt Away,album,1981
+1687,31765,Aretha Franklin Lyrics,Jump To It,album,1982
+1688,31766,Aretha Franklin Lyrics,Get It Right,album,1983
+1689,31767,Aretha Franklin Lyrics,Who's Zoomin' Who?,album,1985
+1690,31769,Aretha Franklin Lyrics,Aretha,album,1986
+1691,31770,Aretha Franklin Lyrics,Through The Storm,album,1989
+1692,31771,Aretha Franklin Lyrics,What You See Is What You Sweat,album,1991
+1693,31773,Aretha Franklin Lyrics,A Rose Is Still A Rose,album,1998
+1694,31774,Aretha Franklin Lyrics,So Damn Happy,album,2003
+1695,31777,Aretha Franklin Lyrics,"This Christmas, Aretha",album,2008
+1696,31778,Aretha Franklin Lyrics,Aretha: A Woman Falling Out Of Love,album,2011
+1697,,Aretha Franklin Lyrics,other songs:,other songs,Not Defined
+1698,2527,Elton John Lyrics,Empty Sky,album,1969
+1699,2526,Elton John Lyrics,Elton John,album,1970
+1700,2545,Elton John Lyrics,Tumbleweed Connection,album,1970
+1701,82582,Elton John Lyrics,Friends,soundtrack,1971
+1702,2534,Elton John Lyrics,Madman Across The Water,album,1971
+1703,2529,Elton John Lyrics,Honky Chateau,album,1972
+1704,2524,Elton John Lyrics,Don't Shoot Me (I'm Only The Piano Player),album,1973
+1705,2528,Elton John Lyrics,Goodbye Yellow Brick Road,album,1973
+1706,2523,Elton John Lyrics,Caribou,album,1974
+1707,2522,Elton John Lyrics,Captain Fantastic And The Brown Dirt Cowboy,album,1975
+1708,2538,Elton John Lyrics,Rock Of The Westies,album,1975
+1709,2520,Elton John Lyrics,Blue Moves,album,1976
+1710,2519,Elton John Lyrics,A Single Man,album,1978
+1711,2546,Elton John Lyrics,Victim Of Love,album,1979
+1712,2518,Elton John Lyrics,21 At 33,album,1980
+1713,2542,Elton John Lyrics,The Fox,album,1981
+1714,2531,Elton John Lyrics,Jump Up!,album,1982
+1715,2544,Elton John Lyrics,Too Low For Zero,album,1983
+1716,2521,Elton John Lyrics,Breaking Hearts,album,1984
+1717,2530,Elton John Lyrics,Ice On Fire,album,1985
+1718,2532,Elton John Lyrics,Leather Jackets,album,1986
+1719,2537,Elton John Lyrics,Reg Strikes Back,album,1988
+1720,2539,Elton John Lyrics,Sleeping With The Past,album,1989
+1721,2543,Elton John Lyrics,The One,album,1992
+1722,2525,Elton John Lyrics,Duets,album,1993
+1723,2536,Elton John Lyrics,Reg Dwight's Piano Goes Pop,album,1994
+1724,2533,Elton John Lyrics,Made In England,album,1995
+1725,2541,Elton John Lyrics,The Big Picture,album,1997
+1726,2535,Elton John Lyrics,One Night Only,live album,2000
+1727,43245,Elton John Lyrics,The Road To El Dorado,soundtrack,2000
+1728,2540,Elton John Lyrics,Songs From The West Coast,album,2001
+1729,4132,Elton John Lyrics,Peachtree Road,album,2004
+1730,5638,Elton John Lyrics,The Captain And The Kid,album,2006
+1731,10624,Elton John Lyrics,The Union,album,2010
+1732,23444,Elton John Lyrics,The Diving Board,album,2013
+1733,40244,Elton John Lyrics,Wonderful Crazy Night,album,2016
+1734,,Elton John Lyrics,other songs:,other songs,Not Defined
+1735,29505,Prince Lyrics,For You,album,1978
+1736,8244,Prince Lyrics,Prince,album,1979
+1737,8238,Prince Lyrics,Dirty Mind,album,1980
+1738,8235,Prince Lyrics,Controversy,album,1981
+1739,8229,Prince Lyrics,1999,album,1982
+1740,8245,Prince Lyrics,Purple Rain,soundtrack,1984
+1741,8230,Prince Lyrics,Around The World In A Day,album,1985
+1742,8243,Prince Lyrics,Parade,soundtrack,1986
+1743,8247,Prince Lyrics,Sign O' The Times,album,1987
+1744,8242,Prince Lyrics,Lovesexy,album,1988
+1745,8231,Prince Lyrics,Batman,soundtrack,1989
+1746,8241,Prince Lyrics,Graffiti Bridge,soundtrack,1990
+1747,8237,Prince Lyrics,Diamonds And Pearls,album,1991
+1748,8248,Prince Lyrics,Symbol,album,1992
+1749,8232,Prince Lyrics,Black Album,album,1994
+1750,8234,Prince Lyrics,Come,album,1994
+1751,8249,Prince Lyrics,The Gold Experience,album,1995
+1752,72319,Prince Lyrics,The VERSACE Experience (Prelude 2 Gold),promo tape,1995
+1753,8233,Prince Lyrics,Chaos And Disorder,album,1996
+1754,8239,Prince Lyrics,Emancipation,album,1996
+1755,8236,Prince Lyrics,Crystal Ball,compilation,1998
+1756,8251,Prince Lyrics,The Truth,album,1998
+1757,29514,Prince Lyrics,Rave Un2 The Joy Fantastic,album,1999
+1758,29513,Prince Lyrics,The Vault... Old Friends 4 Sale,album,1999
+1759,29512,Prince Lyrics,The Rainbow Children,album,2001
+1760,29510,Prince Lyrics,One Nite Alone,album,2002
+1761,3550,Prince Lyrics,Musicology,album,2004
+1762,65588,Prince Lyrics,"The Slaughterhouse (Trax From The NPG Music Club, Volume 2)",album,2004
+1763,5373,Prince Lyrics,3121,album,2006
+1764,6214,Prince Lyrics,Planet Earth,album,2007
+1765,7399,Prince Lyrics,Lotusflow3r,album,2009
+1766,7400,Prince Lyrics,Mplsound,album,2009
+1767,10035,Prince Lyrics,20Ten,album,2010
+1768,33765,Prince Lyrics,Art Official Age,album,2014
+1769,34566,Prince Lyrics,PLECTRUMELECTRUM,album,2014
+1770,39596,Prince Lyrics,Hit N Run,album,2015
+1771,40571,Prince Lyrics,Hit N Run Phase Two,album,2015
+1772,47620,Prince Lyrics,Deliverance,EP,2017
+1773,68005,Prince Lyrics,Originals,album,2019
+1774,,Prince Lyrics,other songs:,other songs,Not Defined
+1775,2917,Switchfoot Lyrics,Legend Of Chin,album,1997
+1776,2918,Switchfoot Lyrics,New Way To Be Human,album,1999
+1777,2916,Switchfoot Lyrics,Learning To Breathe,album,2000
+1778,2883,Switchfoot Lyrics,The Beautiful Letdown,album,2003
+1779,4886,Switchfoot Lyrics,Nothing Is Sound,album,2005
+1780,5877,Switchfoot Lyrics,Oh!,EP,2006
+1781,5838,Switchfoot Lyrics,Oh! Gravity.,album,2006
+1782,8293,Switchfoot Lyrics,Hello Hurricane,album,2009
+1783,32285,Switchfoot Lyrics,Eastern Hymns For Western Shores,EP,2010
+1784,17326,Switchfoot Lyrics,Vice Verses,album,2011
+1785,30977,Switchfoot Lyrics,Fading West,album,2014
+1786,34222,Switchfoot Lyrics,The Edge Of The Earth,EP,2014
+1787,42947,Switchfoot Lyrics,Where The Light Shines Through,album,2016
+1788,62350,Switchfoot Lyrics,Native Tongue,album,2019
+1789,83490,Switchfoot Lyrics,Covers,EP,2020
+1790,,Switchfoot Lyrics,other songs:,other songs,Not Defined
+1791,61475,Noah Cyrus Lyrics,Good Cry,EP,2018
+1792,82890,Noah Cyrus Lyrics,THE END OF EVERYTHING,EP,2020
+1793,,Noah Cyrus Lyrics,other songs:,other songs,Not Defined
+1794,2308,Phil Collins Lyrics,Face Value,album,1981
+1795,2309,Phil Collins Lyrics,"Hello, I Must Be Going!",album,1982
+1796,2311,Phil Collins Lyrics,No Jacket Required,album,1985
+1797,2305,Phil Collins Lyrics,...But Seriously,album,1989
+1798,2306,Phil Collins Lyrics,Both Sides,album,1993
+1799,2307,Phil Collins Lyrics,Dance Into The Light,album,1996
+1800,2312,Phil Collins Lyrics,Testify,album,2002
+1801,52616,Phil Collins Lyrics,Brother Bear,soundtrack,2003
+1802,10324,Phil Collins Lyrics,Going Back,album,2010
+1803,68798,Phil Collins Lyrics,Other Sides,compilation,2019
+1804,,Phil Collins Lyrics,other songs:,other songs,Not Defined
+1805,5572,Pharrell Williams Lyrics,In My Mind,album,2006
+1806,31554,Pharrell Williams Lyrics,G I R L,album,2014
+1807,,Pharrell Williams Lyrics,other songs:,other songs,Not Defined
+1808,11606,Jason Mraz Lyrics,The E Minor EP In F,EP,2002
+1809,2692,Jason Mraz Lyrics,Waiting For My Rocket To Come,album,2002
+1810,4534,Jason Mraz Lyrics,Tonight Not Again / Live At The Eagles Ballroom,live album,2004
+1811,4794,Jason Mraz Lyrics,Mr. A-Z,album,2005
+1812,6715,Jason Mraz Lyrics,"We Sing, We Dance, We Steal Things",album,2008
+1813,10518,Jason Mraz Lyrics,Life Is Good,EP,2010
+1814,22624,Jason Mraz Lyrics,Love Is A Four Letter Word,album,2012
+1815,32642,Jason Mraz Lyrics,Yes!,album,2014
+1816,58384,Jason Mraz Lyrics,Know.,album,2018
+1817,81696,Jason Mraz Lyrics,Look For The Good,album,2020
+1818,,Jason Mraz Lyrics,other songs:,other songs,Not Defined
