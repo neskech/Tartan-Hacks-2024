@@ -3,6 +3,7 @@ import DisplayCard from "./DisplayCard";
 import assert from "assert";
 import GPTHandle, { StoryBlock } from "~/util/GPT";
 import DalleHandle from "~/util/DALLE";
+import { Button, Form } from "react-bootstrap";
 
 ////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////
@@ -89,11 +90,17 @@ function CardStack() {
       }),
     );
   }
-
+  function makeBlankStoryBlock(e, forceGPT = false): void {
+    e.preventDefault()
+    setCardData([...cardData, {text:"", imagePrompts:[]}])
+    if(forceGPT){
+      handleGPTStreaming(cardData.length -1)
+    }
+  }
   return (
     <div className="h-[92vh] w-screen flex-row m-0">
       <div className="w-screen px-32 ">
-        <div className="border-1 my-2 h-[90vh] flex flex-col gap-3 overflow-y-auto rounded-md bg-slate-50 p-1">
+        <div className="border-1 my-2 h-[80vh] flex flex-col gap-3 overflow-y-auto rounded-md bg-slate-50 p-1">
         {cardData.map((data, i) => (
           <div key={i} onClick={(_) => setCurrentCard(i)}>
             <DisplayCard
@@ -108,6 +115,19 @@ function CardStack() {
           </div>
         ))}
         </div>
+        <Form className="border-1 relative top-[0vh] rounded-md m-2">
+          <Form.Group
+            className="m-1"
+            controlId="exampleForm.ControlTextarea1"
+          >
+            <Button onClick={(e)=>makeBlankStoryBlock(e)} className="m-2" variant="primary" type="submit">
+              Create new typing block
+            </Button>
+            <Button onClick={(e)=>makeBlankStoryBlock(e, true)} className="m-2" variant="success" type="submit">
+              Create new gpt block
+            </Button>
+          </Form.Group>
+        </Form>
       </div>
     </div>
   );
