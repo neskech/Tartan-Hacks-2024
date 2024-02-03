@@ -28,6 +28,7 @@ const DEFAULT_CARD_DATA: CardData = {
 };
 
 function CardStack() {
+  const [isStreaming, setIsStreaming] = useState(false);
   const [currentCard, setCurrentCard] = useState(0);
   const [cardData, setCardData] = useState<CardData[]>([
     DEFAULT_CARD_DATA,
@@ -57,8 +58,9 @@ function CardStack() {
 
   async function handleGPTStreaming(cardIndex: number) {
     const history = cardData.map(makeStoryBlock);
+    if(isStreaming) return false
+    setIsStreaming(true)
     const stream = await GPTHandle.instance.makeStoryBlock(history);
-
     let fullText = "";
     for await (const chunk of stream) {
       fullText += chunk;
@@ -89,6 +91,8 @@ function CardStack() {
         };
       }),
     );
+    setIsStreaming(false)
+
   }
   function makeBlankStoryBlock(e:Event, forceGPT = false): void {
     e.preventDefault()
@@ -102,11 +106,12 @@ function CardStack() {
       <div className="w-screen px-32 ">
         <div className="border-1 my-2 h-[80vh] flex flex-col gap-3 overflow-y-auto rounded-md bg-slate-50 p-1">
         {cardData.map((data, i) => (
-          <div key={i} onClick={(_) => {alert(i); setCurrentCard(i)}}>
+          <div key={i} onClick={(_) => {setCurrentCard(i)}}>
             <DisplayCard
               key={i}
               text={data.text}
               title={data.title}
+              isStreaming={isStreaming}
               isSelected={i == currentCard}
               onDelete={() => onCardDelete(i)}
               onTextChange={(t) => handleCardTextUpdate(t, i)}

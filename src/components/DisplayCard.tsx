@@ -6,6 +6,7 @@ type DisplayCardProps = {
   title: string;
   text: string;
   isSelected: boolean;
+  isStreaming: boolean;
   onTextChange: (newText: string) => void;
   onGPTGenerate: () => void;
   onDelete: () => void;
@@ -22,12 +23,12 @@ export default function DisplayCard(props: DisplayCardProps) {
           </Button>
 
           {props.text.length === 0 && (
-            <Button className="mr-auto" onClick={(_) => props.onGPTGenerate()}>
+            <Button className="mr-auto" disabled={props.isStreaming} onClick={(_) => props.onGPTGenerate()}>
               AI Fill
             </Button>
           )}
         </div>
-        <Card.Text className="text-pretty">{props.text}</Card.Text>
+        <Card.Text className="text-pretty" contentEditable={true}>{props.text}</Card.Text>
         <ImageRow imageUrls={["https://picsum.photos/200", "https://picsum.photos/200", "https://picsum.photos/200", "https://picsum.photos/200"]}></ImageRow>
       </Card.Body>
     </Card>
