@@ -15,7 +15,7 @@ export default class AudioPlayer {
   private constructor() {
     this.audioContext = new AudioContext();
     this.source = this.audioContext.createBufferSource();
-    this.source.connect(this.audioContext.destination)
+    this.source.connect(this.audioContext.destination);
     this.currentAudio = None();
   }
 
@@ -24,8 +24,8 @@ export default class AudioPlayer {
     return this.instance_;
   }
 
-  private setAudio(audioBuffer: AudioBuffer) {
-    this.stopAudio();
+  private async setAudio(audioBuffer: AudioBuffer) {
+    await this.stopAudioAsync();
 
     const callback: AudioCallback = function () {
       this.start();
@@ -50,7 +50,7 @@ export default class AudioPlayer {
 
     const buffer = await response.arrayBuffer();
     const audioBuf = await this.audioContext.decodeAudioData(buffer);
-    this.setAudio(audioBuf);
+    await this.setAudio(audioBuf);
   }
 
   stopAudio() {
@@ -64,4 +64,28 @@ export default class AudioPlayer {
 
     this.currentAudio = None();
   }
+
+  async stopAudioAsync() {
+    if (this.currentAudio.isNone()) return;
+
+    const callback = this.currentAudio.unwrap().callback;
+    this.source.removeEventListener("ended", callback);
+
+    await untilAudioEnd(this.source)
+
+    this.source.stop();
+    this.source.buffer = null;
+    this.currentAudio = None();
+  }
+}
+
+function untilAudioEnd(source: AudioBufferSourceNode): Promise<void> {
+  return new Promise((res) => {
+    const callback = () => {
+      source.removeEventListener("ended", callback);
+      res();
+    };
+
+    source.addEventListener("ended", callback);
+  });
 }
