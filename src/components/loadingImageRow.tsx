@@ -6,7 +6,7 @@ export interface LoadingImageRowProps {
 
 function LoadingImageRow(props: LoadingImageRowProps) {
   return (
-    <div className="flex h-full w-full flex-row justify-center gap-6 p-1">
+    <div className="flex flex-row">
       {new Array(props.numImages).fill(0).map((_, i) => (
         <div
           key={i}

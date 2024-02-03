@@ -4,6 +4,7 @@ import assert from "assert";
 import GPTHandle, { StoryBlock, randomRange } from "~/util/GPT";
 import DalleHandle from "~/util/DALLE";
 import { Button, Form } from "react-bootstrap";
+import { motion, AnimatePresence } from "framer-motion";
 
 ////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////
@@ -22,7 +23,7 @@ interface CardData {
 
 const DEFAULT_CARD_DATA: CardData = {
   title: "",
-  text: "",
+  text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur posuere, massa sed luctus volutpat, sem dui vehicula tellus, vel mollis diam enim a enim. In hac habitasse platea dictumst. Nulla nibh risus, mollis sit amet feugiat vitae, molestie commodo sapien. Mauris eget suscipit nulla, vel cursus diam. Aliquam et leo et nisl blandit fermentum quis ullamcorper quam. Morbi condimentum sit amet odio in commodo. In hac habitasse platea dictumst. Etiam cursus euismod urna, sit amet imperdiet eros vulputate a.",
   imagePrompts: [],
   imageUrls: [],
 };
@@ -129,46 +130,44 @@ function CardStack() {
     }
   }
   return (
-    <div className="m-0 h-[92vh] w-screen flex-row">
-      <div className="w-screen px-32 ">
-        <div className="border-1 my-2 flex h-[80vh] flex-col gap-3 overflow-y-auto rounded-md bg-slate-50 p-1">
-          {cardData.map((data, i) => (
-            <div key={i} onClick={(_) => setCurrentCard(i)}>
-              <DisplayCard
-                key={i}
-                text={data.text}
-                title={data.title}
-                isStreaming={isStreaming}
-                imageUrls={data.imageUrls}
-                isSelected={i == currentCard}
-                onDelete={() => onCardDelete(i)}
-                onTextChange={(t) => handleCardTextUpdate(t, i)}
-                onGPTGenerate={() => handleGPTStreaming(i)}
-              />
-            </div>
-          ))}
-        </div>
-        <Form className="border-1 relative top-[0vh] m-2 rounded-md">
-          <Form.Group className="m-1" controlId="exampleForm.ControlTextarea1">
-            <Button
-              onClick={(e) => makeBlankStoryBlock(e)}
-              className="m-2"
-              variant="primary"
-              type="submit"
-            >
-              Create new typing block
-            </Button>
-            <Button
-              onClick={(e) => makeBlankStoryBlock(e, true)}
-              className="m-2"
-              variant="success"
-              type="submit"
-            >
-              Create new gpt block
-            </Button>
-          </Form.Group>
-        </Form>
+    <div className="h-[92vh] w-screen flex-row px-32">
+      <div className="border-1 my-2 flex h-[80vh] flex-col gap-3 overflow-y-auto rounded-md bg-slate-50 p-1">
+        {cardData.map((data, i) => (
+          <div key={i} onClick={(_) => setCurrentCard(i)}>
+            <DisplayCard
+              key={i}
+              text={data.text}
+              title={data.title}
+              isStreaming={isStreaming}
+              imageUrls={data.imageUrls}
+              isSelected={i == currentCard}
+              onDelete={() => onCardDelete(i)}
+              onTextChange={(t) => handleCardTextUpdate(t, i)}
+              onGPTGenerate={() => handleGPTStreaming(i)}
+            />
+          </div>
+        ))}
       </div>
+      <Form className="border-1 relative top-[0vh] rounded-md bg-slate-100">
+        <Form.Group className="m-1" controlId="exampleForm.ControlTextarea1">
+          <Button
+            onClick={(e) => makeBlankStoryBlock(e)}
+            className="m-2"
+            variant="primary"
+            type="submit"
+          >
+            Create new typing block
+          </Button>
+          <Button
+            onClick={(e) => makeBlankStoryBlock(e, true)}
+            className="m-2"
+            variant="success"
+            type="submit"
+          >
+            Create new gpt block
+          </Button>
+        </Form.Group>
+      </Form>
     </div>
   );
 }
