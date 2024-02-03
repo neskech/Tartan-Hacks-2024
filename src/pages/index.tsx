@@ -5,7 +5,7 @@ import { Inter } from "next/font/google";
 
 import DisplayCard from "~/components/DisplayCard";
 import DarkNavbar from "~/components/Header";
-import React, { ElementRef, Ref, SyntheticEvent, useState } from "react";
+import React, { ElementRef, Ref, SyntheticEvent, useEffect, useLayoutEffect, useState } from "react";
 import { Button } from "react-bootstrap";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -27,22 +27,24 @@ export default function Home() {
   
   const [texts, updateTexts] = useState(a) 
 
-  const textareaRef:ElementRef<typeof Form> = React.createRef();
-
   function submitTextHandler(e:SyntheticEvent) {
     e.preventDefault()
-    const text = document.getElementById("typing_box").value
+    const text = document.getElementById("typing_box")?.value
     updateTexts(oldarray => [...oldarray, {title:"title", text: text}])
     console.log(texts, document.getElementById("typing_box"), text)
     document.getElementById("typing_box").value = ""
-  }
 
+  }
+  useEffect(()=>{
+    let children = document.getElementById("scroller").children
+    children[children.length -1]?.scrollIntoView()
+  })
   return (
     <main className={`${inter.className} bg-gray-50 text-gray-950 truncate`}>
     <DarkNavbar></DarkNavbar>
     <div className="w-screen h-[90vh] flex-row">
       <div className="w-screen px-32 ">
-        <div className="border-1 p-1 my-4 h-[32rem] overflow-y-auto rounded-md bg-slate-50">
+        <div id="scroller" className="border-1 p-1 my-4 h-[32rem] justify-end overflow-y-auto rounded-md bg-slate-50">
             {
               texts.map((boxObj, i) => <React.Fragment><DisplayCard key={i} title={boxObj.title} text={boxObj.text} /><hr className="m-2"></hr></React.Fragment>)
             }
