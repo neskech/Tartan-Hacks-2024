@@ -8,7 +8,7 @@ type DisplayCardProps = {
 
 export default function DisplayCard({ title, text }: DisplayCardProps) {
   return (
-    <Card>
+    <Card className="m-4">
       <Card.Body>
         <Card.Title>{title}</Card.Title>
         <Card.Text>{text}</Card.Text>

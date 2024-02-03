@@ -16,9 +16,9 @@ export default function Home() {
   return (
     <main className={`${inter.className} bg-gray-50 text-gray-950`}>
       <DarkNavbar></DarkNavbar>
-      <div className={styles.homebody}>
-        <div className={styles.center_div}>
-          <div className={styles.cards_scroll}>
+      <div className="w-screen flex-row">
+        <div className="w-screen px-32 ">
+          <div className="border-1 my-4 h-[32rem] overflow-y-auto rounded-md bg-slate-50">
             <DisplayCard title={sampleTitle} text={sampleText} />
             <DisplayCard title={sampleTitle} text={sampleText} />
             <DisplayCard title={sampleTitle} text={sampleText} />
@@ -30,12 +30,12 @@ export default function Home() {
             <DisplayCard title={sampleTitle} text={sampleText} />
             <DisplayCard title={sampleTitle} text={sampleText} />
           </div>
-          <Form className={styles.form_style}>
+          <Form className="border-1 relative top-[0vh] rounded-md p-4">
             <Form.Group
               className="mb-3"
               controlId="exampleForm.ControlTextarea1"
             >
-              <Form.Label>Example textarea</Form.Label>
+              <Form.Label>Enter text here</Form.Label>
               <Form.Control as="textarea" rows={3} />
             </Form.Group>
           </Form>
