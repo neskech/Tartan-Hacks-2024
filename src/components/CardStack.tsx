@@ -148,26 +148,6 @@ function CardStack() {
           </Form.Group>
         </Form>
       </div>
-      <Form className="border-1 relative top-[0vh] rounded-md bg-slate-100">
-        <Form.Group className="m-1" controlId="exampleForm.ControlTextarea1">
-          <Button
-            onClick={(e) => makeBlankStoryBlock(e)}
-            className="m-2"
-            variant="primary"
-            type="submit"
-          >
-            Create new typing block
-          </Button>
-          <Button
-            onClick={(e) => makeBlankStoryBlock(e, true)}
-            className="m-2"
-            variant="success"
-            type="submit"
-          >
-            Create new gpt block
-          </Button>
-        </Form.Group>
-      </Form>
     </div>
   );
 }
