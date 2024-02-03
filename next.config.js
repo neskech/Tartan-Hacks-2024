@@ -8,6 +8,9 @@ await import("./src/env.js");
 const config = {
   reactStrictMode: true,
   images: {
+    domains: [
+      'oaidalleapiprodscus.blob.core.windows.net',
+    ],
     remotePatterns: [
       {
         protocol: 'https',

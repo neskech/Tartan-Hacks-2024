@@ -9,12 +9,12 @@ const inter = Inter({ subsets: ["latin"] });
 
 
 export default function Home() {
-  function submitTextHandler(e:SyntheticEvent) {
-    e.preventDefault()
-    updateTexts(oldarray => [...oldarray, {title:"title", text: text}])
-    document.getElementById("typing_box").value = ""
+  // function submitTextHandler(e:SyntheticEvent) {
+  //   e.preventDefault()
+  //   updateTexts(oldarray => [...oldarray, {title:"title", text: text}])
+  //   document.getElementById("typing_box").value = ""
 
-  }
+  // }
 // <<<<<<< HEAD
 
 //   const a = [

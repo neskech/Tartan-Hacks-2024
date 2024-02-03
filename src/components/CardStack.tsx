@@ -1,7 +1,7 @@
 import { MouseEventHandler, useState } from "react";
 import DisplayCard from "./DisplayCard";
 import assert from "assert";
-import GPTHandle, { StoryBlock } from "~/util/GPT";
+import GPTHandle, { StoryBlock, randomRange } from "~/util/GPT";
 import DalleHandle from "~/util/DALLE";
 import { Button, Form } from "react-bootstrap";
 
@@ -17,7 +17,7 @@ interface CardData {
   title: string;
   text: string;
   imagePrompts: string[];
-  imageUrls: string[];
+  imageUrls: string[] | number;
 }
 
 const DEFAULT_CARD_DATA: CardData = {
@@ -57,6 +57,23 @@ function CardStack() {
 
   async function handleGPTStreaming(cardIndex: number) {
     const history = cardData.map(makeStoryBlock);
+    const currentBlock = makeStoryBlock(cardData.at(-1)!);
+
+    /* allow images to play loading animation */
+    const numImages = randomRange(0, 4);
+    setCardData((data) =>
+      data.map((d, i) => {
+        if (i != cardIndex) return d;
+
+        return {
+          title: d.title,
+          text: d.text,
+          imagePrompts: d.imagePrompts,
+          imageUrls: numImages,
+        };
+      }),
+    );
+
     const stream = await GPTHandle.instance.makeStoryBlock(history);
 
     let fullText = "";
@@ -65,66 +82,80 @@ function CardStack() {
       handleCardTextUpdate(fullText, cardIndex);
     }
 
-    const currentBlock = makeStoryBlock(cardData.at(-1)!);
     const imagePrompts = await GPTHandle.instance.makeImagePrompts(
       history,
       currentBlock,
+      numImages,
     );
 
     const imageUrls: string[] = [];
     for (const prompt of imagePrompts) {
       const url = await DalleHandle.instance.generateImage(prompt);
       imageUrls.push(url);
+
+      setCardData((data) =>
+        data.map((d, i) => {
+          if (i != cardIndex) return d;
+
+          return {
+            title: d.title,
+            text: fullText,
+            imagePrompts: imagePrompts,
+            imageUrls: imageUrls,
+          };
+        }),
+      );
     }
-
-    setCardData((data) =>
-      data.map((d, i) => {
-        if (i != cardIndex) return d;
-
-        return {
-          title: d.title,
-          text: fullText,
-          imagePrompts: imagePrompts,
-          imageUrls: imageUrls,
-        };
-      }),
-    );
   }
-  function makeBlankStoryBlock(e:Event, forceGPT = false): void {
-    e.preventDefault()
-    setCardData([...cardData, {text:"", title:"",imageUrls:[], imagePrompts:[]}])
-    if(forceGPT){
-      handleGPTStreaming(cardData.length -1)
+
+  async function makeBlankStoryBlock(
+    e: React.MouseEvent<HTMLButtonElement, MouseEvent>,
+    forceGPT = false,
+  ) {
+    e.preventDefault();
+    setCardData([
+      ...cardData,
+      { text: "", title: "", imageUrls: [], imagePrompts: [] },
+    ]);
+    if (forceGPT) {
+      await handleGPTStreaming(cardData.length - 1);
     }
   }
   return (
-    <div className="h-[92vh] w-screen flex-row m-0">
+    <div className="m-0 h-[92vh] w-screen flex-row">
       <div className="w-screen px-32 ">
-        <div className="border-1 my-2 h-[80vh] flex flex-col gap-3 overflow-y-auto rounded-md bg-slate-50 p-1">
-        {cardData.map((data, i) => (
-          <div key={i} onClick={(_) => setCurrentCard(i)}>
-            <DisplayCard
-              key={i}
-              text={data.text}
-              title={data.title}
-              imageUrls={data.imageUrls}
-              isSelected={i == currentCard}
-              onDelete={() => onCardDelete(i)}
-              onTextChange={(t) => handleCardTextUpdate(t, i)}
-              onGPTGenerate={() => handleGPTStreaming(i)}
-            />
-          </div>
-        ))}
+        <div className="border-1 my-2 flex h-[80vh] flex-col gap-3 overflow-y-auto rounded-md bg-slate-50 p-1">
+          {cardData.map((data, i) => (
+            <div key={i} onClick={(_) => setCurrentCard(i)}>
+              <DisplayCard
+                key={i}
+                text={data.text}
+                title={data.title}
+                imageUrls={data.imageUrls}
+                isSelected={i == currentCard}
+                onDelete={() => onCardDelete(i)}
+                onTextChange={(t) => handleCardTextUpdate(t, i)}
+                onGPTGenerate={() => handleGPTStreaming(i)}
+              />
+            </div>
+          ))}
         </div>
-        <Form className="border-1 relative top-[0vh] rounded-md m-2">
-          <Form.Group
-            className="m-1"
-            controlId="exampleForm.ControlTextarea1"
-          >
-            <Button onClick={(e)=>makeBlankStoryBlock(e)} className="m-2" variant="primary" type="submit">
+        <Form className="border-1 relative top-[0vh] m-2 rounded-md">
+          <Form.Group className="m-1" controlId="exampleForm.ControlTextarea1">
+            <Button
+              onClick={(e) => makeBlankStoryBlock(e)}
+              className="m-2"
+              variant="primary"
+              type="submit"
+            >
               Create new typing block
             </Button>
-            <Button onClick={(e)=>makeBlankStoryBlock(e, true)} className="m-2" variant="success" type="submit">
+            <Button
+              onClick={(e) => makeBlankStoryBlock(e, true)}
+              className="m-2"
+              variant="success"
+              type="submit"
+            >
               Create new gpt block
             </Button>
           </Form.Group>

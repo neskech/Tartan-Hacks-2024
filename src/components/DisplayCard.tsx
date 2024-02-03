@@ -30,10 +30,12 @@ export default function DisplayCard(props: DisplayCardProps) {
           )}
         </div>
         <Card.Text className="text-pretty">{props.text}</Card.Text>
-        { typeof props.imageUrls == 'number' ? 
-          }
+        {typeof props.imageUrls == "number" ? (
+          <LoadingImageRow numImages={props.imageUrls} />
+        ) : (
+          <ImageRow imageUrls={props.imageUrls} />
+        )}
       </Card.Body>
     </Card>
   );
 }
-
