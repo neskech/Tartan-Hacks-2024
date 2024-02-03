@@ -8,6 +8,7 @@ type DisplayCardProps = {
   text: string;
   imageUrls: string[] | number;
   isSelected: boolean;
+  isStreaming: boolean;
   onTextChange: (newText: string) => void;
   onGPTGenerate: () => void;
   onDelete: () => void;
@@ -24,12 +25,12 @@ export default function DisplayCard(props: DisplayCardProps) {
           </Button>
 
           {props.text.length === 0 && (
-            <Button className="mr-auto" onClick={(_) => props.onGPTGenerate()}>
+            <Button className="mr-auto" disabled={props.isStreaming} onClick={(_) => props.onGPTGenerate()}>
               AI Fill
             </Button>
           )}
         </div>
-        <Card.Text className="text-pretty">{props.text}</Card.Text>
+        <Card.Text className="text-pretty" contentEditable={true}>{props.text}</Card.Text>
         {typeof props.imageUrls == "number" ? (
           <LoadingImageRow numImages={props.imageUrls} />
         ) : (

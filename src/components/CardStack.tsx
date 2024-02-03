@@ -28,6 +28,7 @@ const DEFAULT_CARD_DATA: CardData = {
 };
 
 function CardStack() {
+  const [isStreaming, setIsStreaming] = useState(false);
   const [currentCard, setCurrentCard] = useState(0);
   const [cardData, setCardData] = useState<CardData[]>([
     DEFAULT_CARD_DATA,
@@ -57,10 +58,12 @@ function CardStack() {
 
   async function handleGPTStreaming(cardIndex: number) {
     const history = cardData.map(makeStoryBlock);
+    if(isStreaming) return false
+    setIsStreaming(true)
     const currentBlock = makeStoryBlock(cardData.at(-1)!);
 
     /* allow images to play loading animation */
-    const numImages = randomRange(0, 4);
+    const numImages = randomRange(1, 4);
     setCardData((data) =>
       data.map((d, i) => {
         if (i != cardIndex) return d;
@@ -75,7 +78,6 @@ function CardStack() {
     );
 
     const stream = await GPTHandle.instance.makeStoryBlock(history);
-
     let fullText = "";
     for await (const chunk of stream) {
       fullText += chunk;
@@ -105,7 +107,9 @@ function CardStack() {
           };
         }),
       );
-    }
+      setIsStreaming(false)
+
+  }
   }
 
   async function makeBlankStoryBlock(
@@ -131,7 +135,8 @@ function CardStack() {
                 key={i}
                 text={data.text}
                 title={data.title}
-                imageUrls={data.imageUrls}
+                isStreaming={isStreaming}
+              imageUrls={data.imageUrls}
                 isSelected={i == currentCard}
                 onDelete={() => onCardDelete(i)}
                 onTextChange={(t) => handleCardTextUpdate(t, i)}
