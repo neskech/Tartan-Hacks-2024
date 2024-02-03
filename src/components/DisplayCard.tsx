@@ -1,15 +1,17 @@
 import React from "react";
 import { Card, CardBody } from "react-bootstrap";
 
-export default function DisplayCard() {
+type DisplayCardProps = {
+  title: string;
+  text: string;
+};
+
+export default function DisplayCard({ title, text }: DisplayCardProps) {
   return (
-    <Card className="">
+    <Card>
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
+        <Card.Title>{title}</Card.Title>
+        <Card.Text>{text}</Card.Text>
       </Card.Body>
     </Card>
   );
