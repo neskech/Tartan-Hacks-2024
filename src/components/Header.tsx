@@ -6,7 +6,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 //stolen from bootstrap docs
 function DarkNavbar() {
   return (
-    <Navbar variant="dark" bg="dark" expand="lg">
+    <Navbar  variant="dark" bg="dark" expand="lg">
       <Container fluid>
         <Navbar.Brand href="#home">Vimplify</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbar-dark-example" />

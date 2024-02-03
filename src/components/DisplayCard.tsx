@@ -13,7 +13,7 @@ type DisplayCardProps = {
 
 export default function DisplayCard(props: DisplayCardProps) {
   return (
-    <Card className="border-10 relative top-[0vh] rounded-md">
+    <Card className="relative top-[0vh] rounded-md">
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <div className="flex flex-row items-center justify-center">

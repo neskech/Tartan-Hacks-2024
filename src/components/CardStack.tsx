@@ -91,9 +91,9 @@ function CardStack() {
   }
 
   return (
-    <div className="h-[90vh] w-screen flex-row">
+    <div className="h-[92vh] w-screen flex-row m-0">
       <div className="w-screen px-32 ">
-        <div className="border-1 my-4 h-[32rem] flex flex-col gap-3 rounded-md bg-slate-50 p-1"></div>
+        <div className="border-1 my-2 h-[90vh] flex flex-col gap-3 overflow-y-auto rounded-md bg-slate-50 p-1">
         {cardData.map((data, i) => (
           <div key={i} onClick={(_) => {alert(i); setCurrentCard(i)}}>
             <DisplayCard
@@ -107,6 +107,7 @@ function CardStack() {
             />
           </div>
         ))}
+        </div>
       </div>
     </div>
   );
