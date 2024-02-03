@@ -7,6 +7,10 @@ import DisplayCard from "~/components/DisplayCard";
 import DarkNavbar from "~/components/Header";
 
 const inter = Inter({ subsets: ["latin"] });
+
+const sampleText = "Sample text for the card";
+const sampleTitle = "Sample Title";
+
 //Form stolen from bootstrap docs
 export default function Home() {
   return (
@@ -15,14 +19,16 @@ export default function Home() {
       <div className={styles.homebody}>
         <div className={styles.center_div}>
           <div className={styles.cards_scroll}>
-            <DisplayCard />
-            <DisplayCard />
-            <DisplayCard />
-            <DisplayCard />
-            <DisplayCard />
-            <DisplayCard />
-            <DisplayCard />
-            <DisplayCard />
+            <DisplayCard title={sampleTitle} text={sampleText} />
+            <DisplayCard title={sampleTitle} text={sampleText} />
+            <DisplayCard title={sampleTitle} text={sampleText} />
+            <DisplayCard title={sampleTitle} text={sampleText} />
+            <DisplayCard title={sampleTitle} text={sampleText} />
+            <DisplayCard title={sampleTitle} text={sampleText} />
+            <DisplayCard title={sampleTitle} text={sampleText} />
+            <DisplayCard title={sampleTitle} text={sampleText} />
+            <DisplayCard title={sampleTitle} text={sampleText} />
+            <DisplayCard title={sampleTitle} text={sampleText} />
           </div>
           <Form className={styles.form_style}>
             <Form.Group
