@@ -2,12 +2,14 @@
     width: 100vw;
     padding-left: 12vw;
     padding-right: 12vw;
-    height:100vh;
+    height:92vh;
 }
-
+.main_style{
+    overflow-y: hidden;
+}
 div.homebody{
     width:100vw;
-    height:100vh;
+    height:92vh;
     flex-direction:row;
 }
 .form_style{
